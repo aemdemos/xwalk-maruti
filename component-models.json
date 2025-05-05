@@ -216,6 +216,25 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "titleType",
+        "value": "h2",
+        "hidden": true
+      }
+    ]
+  },
+  {
     "id": "accordion-item",
     "fields": [
       {
