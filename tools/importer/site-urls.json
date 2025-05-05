@@ -1,0 +1,86 @@
+{
+  "originUrl": "https://www.marutisuzukicommercial.com",
+  "lastCrawled": "https://www.marutisuzukicommercial.com/",
+  "urls": [
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=18849337654_ao&amp;utm_term=eeco%20tour%20v%207%20seater%20on%20road%20price&amp;utm_content=m&amp;gad_source=1",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/privacy",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=21347710284_ao&amp;utm_term=suzuki%20commercial%20vehicle&amp;utm_content=m&amp;gad_source=1",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/terms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=17391460214_ao&amp;utm_term=maruti%20suzuki%20tour%20h3&amp;utm_content=m&amp;gad_source=1",
+      "source": "CRAWL"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {}
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.marutisuzukicommercial.com/components/vehicle-range",
+      "status": "404 Not Found"
+    }
+  ]
+}
