@@ -214,5 +214,28 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "summary",
+        "label": "Accordion Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Accordion Content",
+        "valueType": "string"
+      },
+      {
+        "component": "boolean",
+        "name": "accordionOpen",
+        "label": "Set as Open Panel",
+        "valueType": "boolean"
+      }
+    ]
   }
 ]
