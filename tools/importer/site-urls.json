@@ -1,0 +1,69 @@
+{
+  "originUrl": "https://www.marutisuzukicommercial.com",
+  "lastCrawled": "https://www.marutisuzukicommercial.com/",
+  "urls": [
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/privacy",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/terms",
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "source": "SITEMAPS"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "SITEMAPS",
+    "logger": {}
+  },
+  "extractionErrors": []
+}
