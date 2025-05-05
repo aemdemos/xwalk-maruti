@@ -1,0 +1,1226 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/privacy",
+          "urlHash": "0331be89b1b6bee66752e223e121eb892044de7b",
+          "uuid": "0331be89-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/terms",
+          "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
+          "uuid": "93a77dcb-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/privacy",
+          "urlHash": "0331be89b1b6bee66752e223e121eb892044de7b",
+          "uuid": "0331be89-02-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-10-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-13-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-07-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/terms",
+          "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
+          "uuid": "93a77dcb-02-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-21-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-09-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-10-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Accordion",
+      "cluster": 1,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/privacy",
+          "urlHash": "0331be89b1b6bee66752e223e121eb892044de7b",
+          "uuid": "0331be89-01-1c14ff94910f953f4c4d1498eb5d4f9b522981d6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-11-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-11-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-04-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-04-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-04-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 3,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-06-7b9b8e5950bc41094bcd30d65c069478cf9602a1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-07-a81aaeae01edff4331ac45f52e9e0b5ce7be6597",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-06-7b9b8e5950bc41094bcd30d65c069478cf9602a1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-07-a81aaeae01edff4331ac45f52e9e0b5ce7be6597",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-07-a81aaeae01edff4331ac45f52e9e0b5ce7be6597",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-06-7b9b8e5950bc41094bcd30d65c069478cf9602a1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 4,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/privacy",
+          "urlHash": "0331be89b1b6bee66752e223e121eb892044de7b",
+          "uuid": "0331be89-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/terms",
+          "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
+          "uuid": "93a77dcb-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/terms",
+          "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
+          "uuid": "93a77dcb-01-1c14ff94910f953f4c4d1498eb5d4f9b522981d6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-10-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-08-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-11-4207a4d0463bfbe567a291be19584dd1220e50fc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-10-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-10-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-10-4207a4d0463bfbe567a291be19584dd1220e50fc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-10-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-08-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 7,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-11-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-09-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-12-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-11-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-09-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-03-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-17-5a206992060c7d4ab23865ac17db680aab462cfa",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Table (striped & bordered)",
+      "cluster": 11,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-08-b2dd013bcc3cc433978ced51fb259b671d74237f",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 12,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-15-88b4bbdf6aacdf2377d6d21b7e592a1433bd8009",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 13,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-05-b34560811f7972406fee92f0f170febf1a22c001",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-05-b34560811f7972406fee92f0f170febf1a22c001",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/privacy",
+          "urlHash": "0331be89b1b6bee66752e223e121eb892044de7b",
+          "uuid": "0331be89-02-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-10-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-13-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-07-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/terms",
+          "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
+          "uuid": "93a77dcb-02-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-21-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-12-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-09-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-10-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 15,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-05-ba718f6d4be12389100eba62ef149b10d065e4ae",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 16,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-07-43779df1380350c1e45a1be77310a9e75c2743e0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-12-e988c840c0cb12c086abb2a3fd1cb74262752b05",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 18,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-05-3fddefa31b4ff9551cbc5e111ce59a482943f3ba",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 19,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-05-b18c2ac41a858a3982e49fba01dc8d94d21c07fe",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 20,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-04-20514009188ef1fa01910a4b850f4037891164b7",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 22,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/rewards-program",
+          "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+          "uuid": "e8496c47-06-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 23,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/about-us",
+          "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+          "uuid": "4467ef05-03-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 24,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-09-ffa282119f752079ecb5e25446de6a1864437b04",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 25,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-11-9757a31ec787ecfb16202b10ad0c898562315f61",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 26,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-10-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 27,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-11-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 28,
+      "instances": [
+        {
+          "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+          "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+          "uuid": "0322ae1f-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+          "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+          "uuid": "0c21a6f7-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry",
+          "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+          "uuid": "3cef6277-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+          "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+          "uuid": "7f091480-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+          "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+          "uuid": "8cbd62d6-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+          "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+          "uuid": "ce40de2d-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+          "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+          "uuid": "d0c17715-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+          "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+          "uuid": "ec00c062-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-04-cab317baa4717dbe37585cd881296e8b5f41be43",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-05-432b66c5cc65500f5b5d1b9be32a791c8dde853f",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-07-112c050d4e98542d90583b1c309bf027a09122f7",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-08-5dd40b08a13ef60e45881318797a29d496745edc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
+      "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
+      "uuid": "0322ae1f-09-ffa282119f752079ecb5e25446de6a1864437b04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+      "uuid": "0c21a6f7-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+      "uuid": "0c21a6f7-04-cab317baa4717dbe37585cd881296e8b5f41be43",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+      "uuid": "0c21a6f7-06-5dd40b08a13ef60e45881318797a29d496745edc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
+      "urlHash": "0c21a6f70a13d7fcdf61e59d82ab2510e23e7dab",
+      "uuid": "0c21a6f7-07-ffa282119f752079ecb5e25446de6a1864437b04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+      "uuid": "3cef6277-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+      "uuid": "3cef6277-05-4a1649da59567b04adbef8a0b178a5931fc3a73c",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+      "uuid": "3cef6277-06-1802b1ada401a39933eb43f55108fb5ead2f21cf",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+      "uuid": "3cef6277-08-65d66dc1c1f3004ba5c9ba48f69926d13bc27879",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry",
+      "urlHash": "3cef627773767ba0a33bf910285f58da11dab01a",
+      "uuid": "3cef6277-09-d44ac929d60412ef2038cf3fbe5cfd6b678e8d04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+      "uuid": "4467ef05-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+      "uuid": "4467ef05-02-c1931b33eda47e61ff8dca396c2c5afed6a61ed0",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+      "uuid": "4467ef05-04-764deff5da11c1e63c49829d6eef5b2e52084cea",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/about-us",
+      "urlHash": "4467ef058e3e7bba8441738350c1a0b5906a1e77",
+      "uuid": "4467ef05-06-96fb128b4cfde232aeb9b1f1a6b2f607791aa2eb",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-04-cab317baa4717dbe37585cd881296e8b5f41be43",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-05-432b66c5cc65500f5b5d1b9be32a791c8dde853f",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-07-112c050d4e98542d90583b1c309bf027a09122f7",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-08-5dd40b08a13ef60e45881318797a29d496745edc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
+      "urlHash": "7f091480b9c60632ae60a605e5a3125df05b1dde",
+      "uuid": "7f091480-09-ffa282119f752079ecb5e25446de6a1864437b04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+      "uuid": "8cbd62d6-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+      "uuid": "8cbd62d6-05-4a1649da59567b04adbef8a0b178a5931fc3a73c",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+      "uuid": "8cbd62d6-06-1802b1ada401a39933eb43f55108fb5ead2f21cf",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+      "uuid": "8cbd62d6-08-65d66dc1c1f3004ba5c9ba48f69926d13bc27879",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
+      "urlHash": "8cbd62d6e968c34607f8174708a29611f30eb7be",
+      "uuid": "8cbd62d6-09-d44ac929d60412ef2038cf3fbe5cfd6b678e8d04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-02-bdfad4d7c73eb7f21c4b098d24caa213e2b7eb92",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-03-9dba13f0b6ba78761c35545c1aa0e8df7004a9fa",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/ul[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-06-5c7e161dd06a2054bd85ad5bad11c3ddf78b8509",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-08-281fb0e65ed490ad0170ec45f93e2afbb50ec2fc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[3]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-10-14442eddb0f7be2b51040bb0e53701421b525811",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-13-7089d3acc3daa8baed9e98f67dfe8c3f0bd1c15d",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/h5[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-14-3fc1d5cb7866b262214d54f044938e93d19bfd57",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-16-764deff5da11c1e63c49829d6eef5b2e52084cea",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-18-92ef221ebac2e1520d7ddb2a2e0477aade5d9830",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/label[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-19-3fddefa31b4ff9551cbc5e111ce59a482943f3ba",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/",
+      "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+      "uuid": "99001b4a-20-3899aebbddf22d13a9ef7c5133c8324ae48b95ef",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[7]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+      "uuid": "ce40de2d-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+      "uuid": "ce40de2d-05-4a1649da59567b04adbef8a0b178a5931fc3a73c",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+      "uuid": "ce40de2d-06-1802b1ada401a39933eb43f55108fb5ead2f21cf",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+      "uuid": "ce40de2d-08-65d66dc1c1f3004ba5c9ba48f69926d13bc27879",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
+      "urlHash": "ce40de2dd487d0361e0d287a970f9106e21ea4ed",
+      "uuid": "ce40de2d-09-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-04-cab317baa4717dbe37585cd881296e8b5f41be43",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-05-432b66c5cc65500f5b5d1b9be32a791c8dde853f",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-07-112c050d4e98542d90583b1c309bf027a09122f7",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-08-5dd40b08a13ef60e45881318797a29d496745edc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
+      "urlHash": "d0c17715a287f722f984572612c4d5d496f5cd50",
+      "uuid": "d0c17715-09-ffa282119f752079ecb5e25446de6a1864437b04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+      "uuid": "e8496c47-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+      "uuid": "e8496c47-02-c1931b33eda47e61ff8dca396c2c5afed6a61ed0",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+      "uuid": "e8496c47-04-11ac1eaabf99155d610df7413c5b9d4e341110bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/rewards-program",
+      "urlHash": "e8496c4733c42be8693c49cc80e4a39eb3c666df",
+      "uuid": "e8496c47-07-adbf7793bd6a9f4b67deb7ad10d9af4d22ebc9e9",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+      "uuid": "ec00c062-03-32c4069ca209396cea2bd60ce4289e72d400e1bd",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+      "uuid": "ec00c062-04-cab317baa4717dbe37585cd881296e8b5f41be43",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+      "uuid": "ec00c062-06-5dd40b08a13ef60e45881318797a29d496745edc",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
+      "urlHash": "ec00c0628cea299b75fd445ad29c500eaafcc8cd",
+      "uuid": "ec00c062-07-ffa282119f752079ecb5e25446de6a1864437b04",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+    }
+  ]
+}
