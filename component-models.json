@@ -256,5 +256,57 @@
         "valueType": "boolean"
       }
     ]
+  },
+  {
+    "id": "table",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "valueType": "string[]"
+      },
+      {
+        "component": "text",
+        "name": "header_col1",
+        "label": "Header Column 1 (e.g., SR.No)",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "header_col2",
+        "label": "Header Column 2 (e.g., OFFER)",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "header_col3",
+        "label": "Header Column 3 (e.g., VALUE)",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "table-row",
+    "fields": [
+      {
+        "component": "text",
+        "name": "column1text",
+        "label": "Column 1",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "column2text",
+        "label": "Column 2",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "column3text",
+        "label": "Column 3",
+        "valueType": "string"
+      }
+    ]
   }
 ]

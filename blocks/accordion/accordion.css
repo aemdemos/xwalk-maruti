@@ -3,7 +3,7 @@
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   overflow: hidden;
 }
 
@@ -32,11 +32,11 @@
   min-height: 56px;
 }
 
-.accordion details[open] summary,
 .accordion details summary:focus,
 .accordion details summary:hover {
   background-color: #fff;
 }
+
 
 .accordion details summary::-webkit-details-marker {
   display: none;
@@ -75,6 +75,38 @@
 }
 
 .accordion details[open] .accordion-item-body {
-  border-top: 1px solid #f0f0f0;
-  background-color: #fff;
+  border-top: none;
+  background: #fff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.privacy-policy-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 40px 0 32px 0;
+  letter-spacing: 1px;
+}
+
+.accordion details[open] {
+  margin-bottom: 24px;
+}
+
+.accordion details:last-of-type {
+  margin-bottom: 0;
+}
+
+.accordion details[open] summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+}
+
+.accordion details[open] .accordion-item-body {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: #fff;
+  margin-top: 0;
+  padding-top: 0;
 }
