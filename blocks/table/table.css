@@ -1,19 +1,56 @@
 .table.block {
-    width: 100%;
+    max-width: 900px;
+    margin: 2em auto;
     overflow-x: auto;
-    border-radius: 16px 16px 0 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    border: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    background: #fff;
 }
 
 .table.block table {
     width: 100%;
-    max-width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    font-size: var(--body-font-size-xs);
-    border-radius: 16px 16px 0 0;
+    background: #fff;
+    font-size: 1.1em;
+    border-radius: 16px;
+    border: 1.5px solid #e0e0e0;
     overflow: hidden;
+}
+
+.table.block table th,
+.table.block table td {
+    border: 1.5px solid #e0e0e0;
+    padding: 1.25em 1.5em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table.block table thead tr {
+    background: #d32f2f;
+}
+
+.table.block table thead th {
+    color: #fff;
+    font-weight: 700;
+    background: #d32f2f;
+    font-size: 1.15em;
+}
+
+.table.block table tbody tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.table.block table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+@media (max-width: 600px) {
+    .table.block table,
+    .table.block table th,
+    .table.block table td {
+        font-size: 0.95em;
+        padding: 0.75em 0.5em;
+    }
 }
 
 @media (width >= 600px) {
@@ -28,45 +65,8 @@
     }
 }
 
-.table.block table thead tr {
-    background: #d32f2f;
-    color: #fff;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border: none;
-}
-
-.table.block table thead th {
-    font-weight: 700;
-    background: #d32f2f;
-    color: #fff;
-    padding: 1em 1.5em;
-    border: none;
-}
-
 .table.block table tbody tr {
-    border-bottom: 2px solid #e0e0e0;
-}
-
-.table.block table tbody tr:nth-child(even) {
-    background: #f5f5f5;
-}
-
-.table.block table tbody tr:nth-child(odd) {
-    background: #fff;
-}
-
-.table.block table td {
-    padding: 1em 1.5em;
-    text-align: left;
-    vertical-align: top;
-    font-size: 1.1em;
-    border: none;
-}
-
-.table.block table th,
-.table.block table td {
-    border: none;
+    background: transparent;
 }
 
 .table table th p,
@@ -80,7 +80,7 @@
 
 /* no header variant */
 .table.block.no-header table tbody tr {
-    border-top: 1px solid;
+    border-top: none;
 }
 
 /* striped variant */
@@ -91,5 +91,5 @@
 /* bordered variant */
 .table.block.bordered table th,
 .table.block.bordered table td {
-    border: 1px solid;
+    border: none !important;
 }
