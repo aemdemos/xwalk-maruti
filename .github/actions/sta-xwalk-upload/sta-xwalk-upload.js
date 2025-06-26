@@ -75,7 +75,7 @@ export async function run() {
 
   try {
     const url = new URL(target);
-    const hostTarget = `${url.protocol}//${url.host}/`;
+    const hostTarget = `${url.origin}/`;
     const assetMappingPath = `${zipPath}/asset-mapping.json`;
     const fullZipPath = path.join(zipPath, zipName || 'xwalk-index.zip');
 
