@@ -1,8 +1,8 @@
 {
-  "name": "sta-extract-mountpoint",
+  "name": "sta-sharepoint-upload-action",
   "version": "1.0.0",
   "type": "module",
-  "main": "sta-mountpoint.js",
+  "main": "sta-sharepoint-upload.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
@@ -11,12 +11,13 @@
   "keywords": [
     "STA",
     "Experience Catalyst",
-    "Mountpoint"
+    "SharePoint Upload"
   ],
   "author": "Experience Catalyst",
   "license": "ISC",
-  "description": "Parse the mountpoint and type and validate it.",
+  "description": "Upload the Import Zip contents to SharePoint",
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "mime-types": "^3.0.1"
   }
 }
