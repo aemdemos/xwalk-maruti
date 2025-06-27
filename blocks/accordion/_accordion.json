@@ -1,6 +1,7 @@
 {
   "definitions": [
     {
+      "title": "Accordion",
       "id": "accordion",
       "plugins": {
         "xwalk": {
@@ -12,10 +13,10 @@
             }
           }
         }
-      },
-      "title": "Accordion"
+      }
     },
     {
+      "title": "Accordion Item",
       "id": "accordion-item",
       "plugins": {
         "xwalk": {
@@ -27,8 +28,33 @@
             }
           }
         }
-      },
-      "title": "Accordion Item"
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "accordion-item",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "summary",
+          "value": "",
+          "label": "Accordion Headline"
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "text",
+          "value": "",
+          "label": "Accordion Text"
+        },
+        {
+          "component": "boolean",
+          "name": "accordionOpen",
+          "label": "Set as Open Panel"
+        }
+      ]
     }
   ],
   "filters": [
@@ -42,31 +68,6 @@
       "id": "accordion",
       "components": [
         "accordion-item"
-      ]
-    }
-  ],
-  "models": [
-    {
-      "id": "accordion-item",
-      "fields": [
-        {
-          "component": "text",
-          "name": "summary",
-          "label": "Accordion Heading",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "text",
-          "label": "Accordion Content",
-          "valueType": "string"
-        },
-        {
-          "component": "boolean",
-          "name": "accordionOpen",
-          "label": "Set as Open Panel",
-          "valueType": "boolean"
-        }
       ]
     }
   ]
