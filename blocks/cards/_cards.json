@@ -39,15 +39,38 @@
           "component": "reference",
           "valueType": "string",
           "name": "image",
-          "label": "Image",
-          "multi": false
+          "label": "Image"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "value": "",
+          "label": "Alt"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card_title",
+          "label": "Title"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card_link",
+          "label": "Link URL"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card_linkText",
+          "label": "Link Text"
         },
         {
           "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
+          "valueType": "string",
+          "name": "card_description",
+          "label": "Description"
         }
       ]
     }
