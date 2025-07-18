@@ -1,58 +1,12 @@
 {
-  "originUrl": "https://www.marutisuzukicommercial.com",
-  "lastCrawled": "https://www.marutisuzukicommercial.com/",
+  "originUrl": "https://main--aem-boilerplate--adobe.aem.page",
+  "lastCrawled": "https://main--aem-boilerplate--adobe.aem.page/",
   "urls": [
     {
-      "url": "https://www.marutisuzukicommercial.com/",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/about-us",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/alto-tour-h1",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/dzire-tour-s",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/eeco-cargo",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/eeco-tour-v",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/ertiga-tour-m",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/privacy",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/rewards-program",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/super-carry",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/super-carry-cng",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/terms",
-      "source": "SITEMAPS"
-    },
-    {
-      "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
-      "source": "SITEMAPS"
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "3e001f8e061719b5b648a04afeb2d041bf93d5fd"
     }
   ],
   "crawlOptions": {
@@ -62,8 +16,16 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "SITEMAPS",
-    "logger": {}
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
   },
-  "extractionErrors": []
+  "extractionErrors": [
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/test-page",
+      "status": "404 Not Found"
+    }
+  ]
 }
