@@ -3,819 +3,126 @@
     {
       "name": "nav",
       "path": "/nav",
+      "totalBoxes": 1,
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
-          "uuid": "0a890356-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-          "uuid": "2752521f-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/privacy",
-          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-          "uuid": "2b2bb280-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-          "uuid": "31823a7d-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/player-supporters",
-          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
-          "uuid": "422a2c75-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-          "uuid": "44305c78-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-          "uuid": "589d3a07-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect-thanks",
-          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-          "uuid": "5f4c4b25-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/fundraising-events",
-          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-          "uuid": "7fa68913-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-          "uuid": "962e9271-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/about-us",
-          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-          "uuid": "d23392fa-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
-          "uuid": "ff6eafd9-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
           "xpath": "/html[1]/body[1]/header[1]"
         }
-      ]
+      ],
+      "styles": {
+        "height": 64
+      }
     },
     {
       "name": "footer",
       "path": "/footer",
+      "totalBoxes": 1,
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
-          "uuid": "0a890356-02-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-          "uuid": "2752521f-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/privacy",
-          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-          "uuid": "2b2bb280-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-          "uuid": "31823a7d-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/player-supporters",
-          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
-          "uuid": "422a2c75-02-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-          "uuid": "44305c78-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-05-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-08-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-          "uuid": "589d3a07-06-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect-thanks",
-          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-          "uuid": "5f4c4b25-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/fundraising-events",
-          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-          "uuid": "7fa68913-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-          "uuid": "962e9271-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/about-us",
-          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-          "uuid": "d23392fa-05-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
-          "uuid": "ff6eafd9-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-06-a507e040135207256fc0c4fd07f12510b5a9e729",
           "xpath": "/html[1]/body[1]/footer[1]"
         }
-      ]
+      ],
+      "styles": {
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
     }
   ],
   "blocks": [
     {
-      "name": "unknown",
+      "name": "header",
       "cluster": 1,
+      "source": "Header",
+      "target": "Header",
+      "key": "header1",
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
-          "uuid": "0a890356-02-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-          "uuid": "2752521f-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/privacy",
-          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-          "uuid": "2b2bb280-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-          "uuid": "31823a7d-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/player-supporters",
-          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
-          "uuid": "422a2c75-02-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-          "uuid": "44305c78-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-05-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-08-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-          "uuid": "589d3a07-06-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect-thanks",
-          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-          "uuid": "5f4c4b25-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/fundraising-events",
-          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-          "uuid": "7fa68913-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-          "uuid": "962e9271-04-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/about-us",
-          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-          "uuid": "d23392fa-05-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
-          "uuid": "ff6eafd9-02-a507e040135207256fc0c4fd07f12510b5a9e729",
-          "xpath": "/html[1]/body[1]/footer[1]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 2,
-      "source": "Columns",
-      "target": "Columns (columns2)",
-      "key": "columns2",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
-          "uuid": "0a890356-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
           "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-          "uuid": "2752521f-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/privacy",
-          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-          "uuid": "2b2bb280-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-          "uuid": "31823a7d-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/player-supporters",
-          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
-          "uuid": "422a2c75-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-          "uuid": "44305c78-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-          "uuid": "589d3a07-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect-thanks",
-          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-          "uuid": "5f4c4b25-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/fundraising-events",
-          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-          "uuid": "7fa68913-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-          "uuid": "962e9271-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/about-us",
-          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-          "uuid": "d23392fa-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
-          "uuid": "ff6eafd9-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
-          "xpath": "/html[1]/body[1]/header[1]"
-        }
-      ]
-    },
-    {
-      "name": "Hero (hero3)",
-      "cluster": 3,
-      "source": "Hero",
-      "target": "Hero (hero3)",
-      "key": "hero3",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-          "uuid": "2752521f-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/privacy",
-          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-          "uuid": "2b2bb280-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-          "uuid": "31823a7d-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-          "uuid": "44305c78-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-          "uuid": "589d3a07-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/connect-thanks",
-          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-          "uuid": "5f4c4b25-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/fundraising-events",
-          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-          "uuid": "7fa68913-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-          "uuid": "962e9271-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/about-us",
-          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-          "uuid": "d23392fa-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]"
         }
       ]
     },
     {
       "name": "Hero",
-      "cluster": 4,
+      "cluster": 2,
       "source": "Hero",
-      "target": "Hero (hero4)",
-      "key": "hero4",
+      "target": "Hero",
+      "key": "hero2",
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/player-supporters",
-          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
-          "uuid": "422a2c75-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
-          "xpath": "/html[1]/body[1]/main[1]"
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 5,
+      "cluster": 3,
       "source": "Columns",
-      "target": "Columns (columns5)",
-      "key": "columns5",
+      "target": "Columns",
+      "key": "columns3",
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/partners",
-          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-          "uuid": "6f8cacd8-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-03-516bd61c849c9e46833f85a0f2c9b3ecf6eeafe8",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]"
         }
       ]
     },
     {
-      "name": "Columns",
-      "cluster": 6,
-      "source": "Columns",
-      "target": "Columns (columns6)",
-      "key": "columns6",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/all-other-programs",
-          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-          "uuid": "30ae9ff7-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
-          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Cards (cards7)",
-      "cluster": 7,
+      "name": "Cards",
+      "cluster": 4,
       "source": "Cards",
-      "target": "Cards (cards7)",
-      "key": "cards7",
+      "target": "Cards",
+      "key": "cards4",
       "instances": [
         {
-          "url": "https://www.birdiesforthebrave.org/charities-we-support",
-          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-          "uuid": "49d93f32-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
-          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
-      "cluster": 8,
-      "source": "Carousel",
-      "target": "Carousel (carousel8)",
-      "key": "carousel8",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-02-b44bfb6f91053e616228982ab0752280ea739906",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 9,
-      "source": "Columns",
-      "target": "Columns (columns9)",
-      "key": "columns9",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-05-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
-          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 10,
-      "source": "Columns",
-      "target": "Columns (columns10)",
-      "key": "columns10",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-03-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-          "xpath": "/html[1]/body[1]/main[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 11,
-      "source": "Columns",
-      "target": "Columns (columns11)",
-      "key": "columns11",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-06-ac18c7f4ff0dda41caddc17273e87ac35c820487",
-          "xpath": "/html[1]/body[1]/main[1]/div[4]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
-      "cluster": 12,
-      "source": "Carousel",
-      "target": "Carousel (carousel12)",
-      "key": "carousel12",
-      "instances": [
-        {
-          "url": "https://www.birdiesforthebrave.org/",
-          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-          "uuid": "54406607-07-d70c6e6ca8d70ee1f6c77e1030748587e67c4882",
-          "xpath": "/html[1]/body[1]/main[1]/div[5]"
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-05-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]",
+          "section": "section-1"
         }
       ]
     }
   ],
   "outliers": [
     {
-      "url": "https://www.birdiesforthebrave.org/footer",
-      "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
-      "uuid": "0a890356-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
-      "xpath": "/html[1]/body[1]/main[1]"
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-02-8cdf091a50d8a29688208f1a49c3aa0874e36321",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-      "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-      "uuid": "2752521f-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-04-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]",
+      "section": "section-1"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-      "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
-      "uuid": "2752521f-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]",
+      "section": "section-1"
+    }
+  ],
+  "sections": [
     {
-      "url": "https://www.birdiesforthebrave.org/privacy",
-      "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-      "uuid": "2b2bb280-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/privacy",
-      "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
-      "uuid": "2b2bb280-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/all-other-programs",
-      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-      "uuid": "30ae9ff7-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/all-other-programs",
-      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-      "uuid": "30ae9ff7-03-58ba820679040862b94ffd9804d9204b6c03e429",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/all-other-programs",
-      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
-      "uuid": "30ae9ff7-05-0c380e199633cb4db43425bcf9c66bf9b71896fd",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/volunteers",
-      "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-      "uuid": "31823a7d-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/volunteers",
-      "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
-      "uuid": "31823a7d-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect",
-      "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-      "uuid": "44305c78-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect",
-      "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
-      "uuid": "44305c78-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/charities-we-support",
-      "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-      "uuid": "49d93f32-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/charities-we-support",
-      "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
-      "uuid": "49d93f32-03-58ba820679040862b94ffd9804d9204b6c03e429",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/",
-      "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-      "uuid": "54406607-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/",
-      "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
-      "uuid": "54406607-04-58ba820679040862b94ffd9804d9204b6c03e429",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-      "uuid": "589d3a07-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-      "uuid": "589d3a07-03-58ba820679040862b94ffd9804d9204b6c03e429",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-      "uuid": "589d3a07-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
-      "uuid": "589d3a07-05-ac18c7f4ff0dda41caddc17273e87ac35c820487",
-      "xpath": "/html[1]/body[1]/main[1]/div[4]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect-thanks",
-      "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-      "uuid": "5f4c4b25-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect-thanks",
-      "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
-      "uuid": "5f4c4b25-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/partners",
-      "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
-      "uuid": "6f8cacd8-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/fundraising-events",
-      "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-      "uuid": "7fa68913-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/fundraising-events",
-      "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
-      "uuid": "7fa68913-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/donate",
-      "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-      "uuid": "962e9271-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/donate",
-      "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
-      "uuid": "962e9271-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/about-us",
-      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-      "uuid": "d23392fa-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
-      "xpath": "/html[1]/body[1]/main[1]/div[2]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/about-us",
-      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-      "uuid": "d23392fa-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/about-us",
-      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
-      "uuid": "d23392fa-04-2922ed37363f66e6d7ff6723ce2179fcf4091251",
-      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]/p[4]/picture[1]/img[1]"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/terms-of-service",
-      "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
-      "uuid": "ff6eafd9-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
-      "xpath": "/html[1]/body[1]/main[1]"
+      "name": "section-1",
+      "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
     }
   ]
 }
