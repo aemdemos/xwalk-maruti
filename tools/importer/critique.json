@@ -1,0 +1,259 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 64
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "differences": [
+            {
+              "element_id": "html__body__footer",
+              "element_description": "The footer section, which originally displayed copyright information and hyperlinks, is replaced with a single block of text promoting AEM.",
+              "computed_style_change": "N/A",
+              "difference": "The overall content of the footer section has changed completely. The original version contains multiple lines of text and hyperlinks, while the translated version contains a single block of promotional text.",
+              "dissimilarity_score": 0.8,
+              "noticeability_score": 0.8
+            }
+          ],
+          "similarity_score": 0.19999999999999996
+        }
+      ],
+      "styles": {
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-03-516bd61c849c9e46833f85a0f2c9b3ecf6eeafe8",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_2__div_2__div__div_2__div__picture__img",
+              "element_description": "The yellow double helix image in the original version.",
+              "computed_style_change": "N/A",
+              "difference": "The yellow double helix image is replaced with a blue gradient double helix image in the translated version, resulting in a completely different visual style.",
+              "dissimilarity_score": 0.9,
+              "noticeability_score": 0.9
+            }
+          ],
+          "similarity_score": 0.09999999999999998
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://main--aem-boilerplate--adobe.aem.page/",
+          "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+          "uuid": "3e001f8e-05-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]",
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_3__div_2",
+              "element_description": "The first card in the grid layout.",
+              "computed_style_change": "N/A",
+              "difference": "The order of the cards has changed. 'Unmatched speed' is the first card in the original version, while 'Content at scale' is the first card in the translated version.",
+              "dissimilarity_score": 0.6,
+              "noticeability_score": 0.6
+            }
+          ],
+          "similarity_score": 0.4
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-02-8cdf091a50d8a29688208f1a49c3aa0874e36321",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]",
+      "differences": [
+        {
+          "element_id": "html__body__main__div_2__div__p_2",
+          "element_description": "The blue 'Live' button in the original version.",
+          "computed_style_change": "N/A",
+          "difference": "The 'Live' button is missing in the translated version, leaving no interactive element in its place.",
+          "dissimilarity_score": 1.0,
+          "noticeability_score": 1.0
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-04-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]",
+      "section": "section-1",
+      "differences": [
+        {
+          "element_id": "html__body__main__div_3__div__h2",
+          "element_description": "The heading element labeled 'Boilerplate Highlights?'.",
+          "computed_style_change": "font-size: 36px -> 10px; line-height: 45px -> 12.5px",
+          "difference": "The heading font size and line height are significantly reduced in the translated version, making the text less prominent and harder to read.",
+          "dissimilarity_score": 0.7,
+          "noticeability_score": 0.7
+        }
+      ],
+      "similarity_score": 0.30000000000000004
+    },
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "urlHash": "3e001f8e061719b5b648a04afeb2d041bf93d5fd",
+      "uuid": "3e001f8e-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]",
+      "section": "section-1",
+      "differences": [
+        {
+          "element_id": "html__body__footer",
+          "element_description": "The footer section, which originally displayed copyright information and hyperlinks, is replaced with a single block of text promoting AEM.",
+          "computed_style_change": "N/A",
+          "difference": "The overall content of the footer section has changed completely. The original version contains multiple lines of text and hyperlinks, while the translated version contains a single block of promotional text.",
+          "dissimilarity_score": 0.8,
+          "noticeability_score": 0.8
+        }
+      ],
+      "similarity_score": 0.19999999999999996
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
+      "differences": [
+        {
+          "element_id": "html__body",
+          "element_description": "The overall background color of the webpage.",
+          "computed_style_change": "background-color: rgb(255, 255, 255) -> rgb(248, 248, 248)",
+          "difference": "The background color changes from pure white to a slightly off-white shade, creating a subtle visual difference.",
+          "dissimilarity_score": 0.2,
+          "noticeability_score": 0.2
+        },
+        {
+          "element_id": "html__body__main__div_2",
+          "element_description": "The two-column layout featuring a bulleted list, images, and buttons.",
+          "computed_style_change": "display: list-item -> display: block; list-style-type: disc -> none",
+          "difference": "The bulleted list ('One', 'Two', 'Three') is removed in the translated version, replaced by plain text without bullet points.",
+          "dissimilarity_score": 0.8,
+          "noticeability_score": 0.8
+        },
+        {
+          "element_id": "html__body__main__div_2__div__p_2",
+          "element_description": "The blue 'Live' button in the original version.",
+          "computed_style_change": "N/A",
+          "difference": "The 'Live' button is missing in the translated version, leaving no interactive element in its place.",
+          "dissimilarity_score": 1.0,
+          "noticeability_score": 1.0
+        },
+        {
+          "element_id": "html__body__main__div_2__div_2__div__div_2__div__picture__img",
+          "element_description": "The yellow double helix image in the original version.",
+          "computed_style_change": "N/A",
+          "difference": "The yellow double helix image is replaced with a blue gradient double helix image in the translated version, resulting in a completely different visual style.",
+          "dissimilarity_score": 0.9,
+          "noticeability_score": 0.9
+        },
+        {
+          "element_id": "html__body__main__div_3",
+          "element_description": "The grid layout of cards titled 'Boilerplate Highlights?'.",
+          "computed_style_change": "font-size: 18px -> 10px; display: block -> grid",
+          "difference": "The grid layout changes from a block layout to a grid layout in the translated version, with smaller text and rearranged card order. The translated version appears more compact and less visually balanced.",
+          "dissimilarity_score": 0.7,
+          "noticeability_score": 0.7
+        },
+        {
+          "element_id": "html__body__main__div_3__div__h2",
+          "element_description": "The heading element labeled 'Boilerplate Highlights?'.",
+          "computed_style_change": "font-size: 36px -> 10px; line-height: 45px -> 12.5px",
+          "difference": "The heading font size and line height are significantly reduced in the translated version, making the text less prominent and harder to read.",
+          "dissimilarity_score": 0.7,
+          "noticeability_score": 0.7
+        },
+        {
+          "element_id": "html__body__main__div_3__div_2",
+          "element_description": "The first card in the grid layout.",
+          "computed_style_change": "N/A",
+          "difference": "The order of the cards has changed. 'Unmatched speed' is the first card in the original version, while 'Content at scale' is the first card in the translated version.",
+          "dissimilarity_score": 0.6,
+          "noticeability_score": 0.6
+        },
+        {
+          "element_id": "html__body__footer",
+          "element_description": "The footer section, which originally displayed copyright information and hyperlinks, is replaced with a single block of text promoting AEM.",
+          "computed_style_change": "N/A",
+          "difference": "The overall content of the footer section has changed completely. The original version contains multiple lines of text and hyperlinks, while the translated version contains a single block of promotional text.",
+          "dissimilarity_score": 0.8,
+          "noticeability_score": 0.8
+        }
+      ],
+      "similarity_score": 0.2875000000000001
+    }
+  ]
+}
