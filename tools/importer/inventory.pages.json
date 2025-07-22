@@ -1,14 +1,14 @@
 {
   "templates": [
     {
-      "name": "'Event Listing'",
+      "name": "\"Event Listing\"",
       "cluster": 1,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/fundraising-events",
           "uuid": "050e7c8122b47faac404f78d89effdbf325ea0e4",
           "cluster": 1,
-          "template": "'Event Listing'",
+          "template": "\"Event Listing\"",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <div>\n   <div>\n    <div></div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 91.58221302998966,
           "Comment": ""
@@ -17,7 +17,7 @@
           "url": "https://www.birdiesforthebrave.org/all-other-programs",
           "uuid": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
           "cluster": 1,
-          "template": "'Event Listing'",
+          "template": "\"Event Listing\"",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n  </div>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 96.03158933859822,
           "Comment": ""
@@ -26,7 +26,7 @@
           "url": "https://www.birdiesforthebrave.org/charities-we-support",
           "uuid": "af5eb31409abe5d736992a499034fe866cc1433c",
           "cluster": 1,
-          "template": "'Event Listing'",
+          "template": "\"Event Listing\"",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "name": "'Event Page'",
+      "name": "'Hero Banner Page'",
       "cluster": 2,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/connect-thanks",
           "uuid": "842d2ec38114d8577375264fdbe14bd78ef319ed",
           "cluster": 2,
-          "template": "'Event Page'",
+          "template": "'Hero Banner Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -50,7 +50,7 @@
           "url": "https://www.birdiesforthebrave.org/donate",
           "uuid": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
           "cluster": 2,
-          "template": "'Event Page'",
+          "template": "'Hero Banner Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -59,7 +59,7 @@
           "url": "https://www.birdiesforthebrave.org/partners",
           "uuid": "5aa5f8be3617f5b760248a895dec32333a814fba",
           "cluster": 2,
-          "template": "'Event Page'",
+          "template": "'Hero Banner Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -68,7 +68,7 @@
           "url": "https://www.birdiesforthebrave.org/privacy",
           "uuid": "767e96fcb89d944dc7da29e307189992d492a438",
           "cluster": 2,
-          "template": "'Event Page'",
+          "template": "'Hero Banner Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -91,14 +91,14 @@
       ]
     },
     {
-      "name": "'Homepage Template'",
+      "name": "'Homepage Banner Template'",
       "cluster": 4,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/player-supporters",
           "uuid": "95959b39d3728be048948beff8a871a62219b019",
           "cluster": 4,
-          "template": "'Homepage Template'",
+          "template": "'Homepage Banner Template'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div></div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "name": "News Listing",
+      "name": "Article Page",
       "cluster": 5,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/volunteers",
           "uuid": "a854c904cdcbf542b72eb23d583ac403c27676b0",
           "cluster": 5,
-          "template": "News Listing",
+          "template": "Article Page",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div>\n  <ul></ul>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -121,14 +121,14 @@
       ]
     },
     {
-      "name": "'Directory Listing Page'",
+      "name": "'Directory Listing'",
       "cluster": 6,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/connect",
           "uuid": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
           "cluster": 6,
-          "template": "'Directory Listing Page'",
+          "template": "'Directory Listing'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n</div>\n<div>\n <div></div>\n <div>\n  <div>\n   <div>\n    <div>\n     <div><input></div>\n     <div><input></div>\n     <div><input></div>\n     <div><input></div>\n     <div><input></div>\n     <div></div>\n     <div></div>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -136,14 +136,14 @@
       ]
     },
     {
-      "name": "'Forum Listing Page'",
+      "name": "'Directory Listing Page'",
       "cluster": 7,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/footer",
           "uuid": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
           "cluster": 7,
-          "template": "'Forum Listing Page'",
+          "template": "'Directory Listing Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <ul></ul>\n  <ul></ul>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
@@ -151,14 +151,14 @@
       ]
     },
     {
-      "name": "Event Overview Page",
+      "name": "'Sports Event Overview Page'",
       "cluster": 8,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/",
           "uuid": "f6cd17d7b882a9db345199cc6cb98b282becb678",
           "cluster": 8,
-          "template": "Event Overview Page",
+          "template": "'Sports Event Overview Page'",
           "domStructure": "\n<div>\n <div>\n  <div></div>\n </div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div></div>\n</div>\n<div>\n <div>\n  <div></div>\n  <div></div>\n  <div>\n   <div>\n    <div></div>\n    <div>\n     <div></div>\n    </div>\n   </div>\n   <div>\n    <div></div>\n    <div>\n     <div></div>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <div>\n   <ul>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n   </ul>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <div></div>\n  <div>\n   <ul>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n    <div></div>\n   </ul>\n  </div>\n </div>\n</div>\n<div>\n <div>\n  <div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <div></div>\n  <div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n   <div>\n    <div></div>\n    <div></div>\n   </div>\n  </div>\n </div>\n</div>\n<div>\n <div></div>\n <div>\n  <ul></ul>\n </div>\n <div>\n  <ul></ul>\n </div>\n</div>\n",
           "closeness_percent": 100,
           "Comment": ""
