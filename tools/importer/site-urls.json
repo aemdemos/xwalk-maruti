@@ -1,366 +1,113 @@
 {
-  "originUrl": "https://www.qantasnewsroom.com.au",
-  "lastCrawled": "https://www.qantasnewsroom.com.au",
+  "originUrl": "https://www.birdiesforthebrave.org",
+  "lastCrawled": "https://www.birdiesforthebrave.org/",
   "urls": [
     {
-      "url": "https://www.qantasnewsroom.com.au/",
-      "source": "CRAWL",
+      "url": "https://www.birdiesforthebrave.org/",
+      "source": "SITEMAPS",
       "targetPath": "/index",
-      "id": "1f0375dbe66cc44e0b6fbd2376e605cf0516f7d0"
+      "id": "544066079f784df68543cb3606be7a3eb7e6f09f"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/opinion-article-west-australian-qantas-wants-to-keep-airport-costs-in-check/",
-      "source": "CRAWL",
-      "targetPath": "/featured/opinion-article-west-australian-qantas-wants-to-keep-airport-costs-in-check",
-      "id": "a76ffc8f9e8490175e78cf0817b9097f3f1d2f72"
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us",
+      "id": "d23392fa44f1d6b46a258473f9494d064b02a34d"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/qantas-and-tourism-wa-boost-funding-by-45-to-leverage-landmark-perth-london-service/",
-      "source": "CRAWL",
-      "targetPath": "/featured/qantas-and-tourism-wa-boost-funding-by-45-to-leverage-landmark-perth-london-service",
-      "id": "aa2409f6ecf856c75f55965c055ca4bf90739428"
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "source": "SITEMAPS",
+      "targetPath": "/all-other-programs",
+      "id": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/qantas-announces-soya-interactive-content-gaming-winner/",
-      "source": "CRAWL",
-      "targetPath": "/featured/qantas-announces-soya-interactive-content-gaming-winner",
-      "id": "64e673738baa485365315083ba6d3c325a83e10a"
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+      "source": "SITEMAPS",
+      "targetPath": "/callaway-warrior-club-fittings",
+      "id": "2752521fa504d05197568d35d065a06995812e5d"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/qantas-group-statement-on-cockpit-access/",
-      "source": "CRAWL",
-      "targetPath": "/featured/qantas-group-statement-on-cockpit-access",
-      "id": "dddaf40a29ca96e371d26716097acf8105b1e0b3"
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
+      "source": "SITEMAPS",
+      "targetPath": "/charities-we-support",
+      "id": "49d93f32ce1f4b46f49f02b95f62145489f1004a"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/remarks-from-chairman-agm-2020/",
-      "source": "CRAWL",
-      "targetPath": "/featured/remarks-from-chairman-agm-2020",
-      "id": "5291322ae207c66c2b48757bb74bfa95f42e82a9"
+      "url": "https://www.birdiesforthebrave.org/connect",
+      "source": "SITEMAPS",
+      "targetPath": "/connect",
+      "id": "44305c78299ece3022cde8bd662281465a1e71f9"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/featured/statement-on-domestic-airfares/",
-      "source": "CRAWL",
-      "targetPath": "/featured/statement-on-domestic-airfares",
-      "id": "25d5c5b9716002298a764aa20161ef735ef91fb8"
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
+      "source": "SITEMAPS",
+      "targetPath": "/connect-thanks",
+      "id": "5f4c4b253734179985b3ed7c4b795920d216ce1a"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/airports-and-lounges/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/airports-and-lounges",
-      "id": "1ebb5f3852928bd7bae920b3cc01f8c5895c2f1d"
+      "url": "https://www.birdiesforthebrave.org/donate",
+      "source": "SITEMAPS",
+      "targetPath": "/donate",
+      "id": "962e9271e3c47afbc306ea849b2933a19aacda1f"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/airports-and-lounges//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/airports-and-lounges",
-      "id": "c8052d373b08974948f1f8fcff303eb872c79780"
+      "url": "https://www.birdiesforthebrave.org/footer",
+      "source": "SITEMAPS",
+      "targetPath": "/footer",
+      "id": "0a8903562a7617b738c3e8491e8aa51b6008081f"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/airports-and-lounges//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/airports-and-lounges",
-      "id": "ae597aca8f7f8b4f74b7dbaff837196da15071ad"
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "source": "SITEMAPS",
+      "targetPath": "/fundraising-events",
+      "id": "7fa6891341c5b78f0dae8212a6b447b9827f95a7"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/engineering-and-technology/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/engineering-and-technology",
-      "id": "67d5c1844959379df18c795755ae24d84f60855d"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/engineering-and-technology//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/engineering-and-technology",
-      "id": "160cdd7667fbea7341a1677a41ae14f528bb3a3d"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/engineering-and-technology//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/engineering-and-technology",
-      "id": "51d1a437e1d7a143bcbff445b77f1a51e42a653d"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/fleet-and-cabins/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/fleet-and-cabins",
-      "id": "dcbd86dd7053594f25f73a1396f8e0e5a01bb08e"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/fleet-and-cabins//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/fleet-and-cabins",
-      "id": "a3035e85d187fdc40278041d9fc6b0434a4c6d05"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/fleet-and-cabins//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/fleet-and-cabins",
-      "id": "a7cc8becf38e21e4d9e74daad3055289df1d28bb"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/heritage/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/heritage",
-      "id": "7a575c206aab74da8a6a31718ac224ea1d48d38d"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/heritage//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/heritage",
-      "id": "54259ce369327bc6586c5784c78fb97c8493c153"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/heritage//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/heritage",
-      "id": "93dd0326191abcd2da493e900593960209dcbfc8"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/news-and-events/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/news-and-events",
-      "id": "c684fe8c6b7725dde4e6ba09e5766b51729b4aa6"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/news-and-events//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/news-and-events",
-      "id": "7d4a2293c7312e18f897b5542d192e9cc7c722fc"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/news-and-events//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/news-and-events",
-      "id": "27771b6cfcb5d8314173f07451f7a1e28aa94f1f"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/our-people/",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/our-people",
-      "id": "56dce8dc98f23a403d7c7fca1c112e1c33680db7"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/our-people//",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/our-people",
-      "id": "dedcd3145f07af3d09ed09013f538c8144c14d6b"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery-category/our-people//?gallery_type=video",
-      "source": "CRAWL",
-      "targetPath": "/gallery-category/our-people",
-      "id": "80593d3c01c9a9c3abe51a4c53f3ec6047332041"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/",
-      "source": "CRAWL",
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "source": "SITEMAPS",
       "targetPath": "/gallery",
-      "id": "be55da6290efe33d23ea35eed79b3f0fbb5a961f"
+      "id": "589d3a071939584b7753f0c724475b89a873d170"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery/80th-anniversary-of-qantas-international/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/80th-anniversary-of-qantas-international",
-      "id": "cbd0aeec2c7ae62d930b3becb096a4bb78531354"
+      "url": "https://www.birdiesforthebrave.org/partners",
+      "source": "SITEMAPS",
+      "targetPath": "/partners",
+      "id": "6f8cacd812b6abc0507de290ef389d8adab01d68"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery/95-years-of-qantas-history-2/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/95-years-of-qantas-history-2",
-      "id": "192338e23443910f55f2fcf253c576c840ca65e7"
+      "url": "https://www.birdiesforthebrave.org/player-supporters",
+      "source": "SITEMAPS",
+      "targetPath": "/player-supporters",
+      "id": "422a2c759d92d9191bc72f4859ba1d64ce407e62"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery/american-airlines-777-300er-flies-over-sydney-harbour-ahead-of-welcome-into-qantas-hangar-96/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/american-airlines-777-300er-flies-over-sydney-harbour-ahead-of-welcome-into-qantas-hangar-96",
-      "id": "355ae6516d70f0e2a37883eabbffce2bb2c3de7b"
+      "url": "https://www.birdiesforthebrave.org/privacy",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy",
+      "id": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery/australia-post-and-qantas-freight-renew-agreement-to-support-ecommerce-growth/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/australia-post-and-qantas-freight-renew-agreement-to-support-ecommerce-growth",
-      "id": "cf20ac9f66e551512e65a40f138725c918c5e8bb"
+      "url": "https://www.birdiesforthebrave.org/terms-of-service",
+      "source": "SITEMAPS",
+      "targetPath": "/terms-of-service",
+      "id": "ff6eafd98bb0e723e046a544073093604606f052"
     },
     {
-      "url": "https://www.qantasnewsroom.com.au/gallery/australia-takes-centre-stage-in-new-qantas-safety-video/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/australia-takes-centre-stage-in-new-qantas-safety-video",
-      "id": "87eec63ca09048611a9c3db90832d61a31bfd37b"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/b787-9-factory-tour-seattle/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/b787-9-factory-tour-seattle",
-      "id": "ad08aaa89851840fa4068104a23fd3d7a9acf0c0"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/boeing-747-sp/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/boeing-747-sp",
-      "id": "69fae5d97cc73240cd4e9488a3f3fdb499752088"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/boeing-787-9-dreamliner/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/boeing-787-9-dreamliner",
-      "id": "e3cebd7242d568a09b0011bb1e6771326b39664a"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/brisbane-domestic-business-lounge/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/brisbane-domestic-business-lounge",
-      "id": "49ba1f0f0dca9d46fca27f8203b65d3db0e520a7"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/car-vs-plane-fasten-your-seatbelts-batteries-included/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/car-vs-plane-fasten-your-seatbelts-batteries-included",
-      "id": "dd62374adcc85335f21e3229235090df655b54b7"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/centenary-livery-unveiled-on-newest-qantas-dreamliner/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/centenary-livery-unveiled-on-newest-qantas-dreamliner",
-      "id": "2820b55a82299c1ecb36b694f645dc2c54f37661"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/dreamliner-fleet-names-revealed-quokka/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/dreamliner-fleet-names-revealed-quokka",
-      "id": "cc149afb294c266efe65eadd576c243483f45096"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/full-year-results-2017/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/full-year-results-2017",
-      "id": "8a830a5287e2ea29db626822f81820ccffdc9abc"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/history-of-the-qantas-pilot-uniform-2/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/history-of-the-qantas-pilot-uniform-2",
-      "id": "626e98c437951bc715fd93533947f220c3bb4851"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/karratha-regional-lounge-western-australia/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/karratha-regional-lounge-western-australia",
-      "id": "be4a7fdf2174a670fc7c04f956cc6dc76dcda74e"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/lax-a380-hangar/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/lax-a380-hangar",
-      "id": "2b2f8ff69606b1410da098323a50ebca13e0a13b"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/lax-first-class-business-lounges/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/lax-first-class-business-lounges",
-      "id": "7858af79b08fa223bd1f868b7424d8bada07aa63"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/martin-grant-capsule-collection/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/martin-grant-capsule-collection",
-      "id": "3c08a3c66e49e3b3e1988846a04de785f413be4b"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/martin-grant-pyjamas-and-amenities-for-qantas-first/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/martin-grant-pyjamas-and-amenities-for-qantas-first",
-      "id": "8926d3ea9948457adb6b34775cb3643d65c808a3"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/mca-tate-and-qantas-announce-new-acquisitions/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/mca-tate-and-qantas-announce-new-acquisitions",
-      "id": "901783ab92f4a8173eb2930bf1d9e9cd7ccc5497"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/new-perth-business-lounge/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/new-perth-business-lounge",
-      "id": "640933e51d68dcf71fc26cef2a6cb253d4e824a3"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/new-qantas-livery-2016/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/new-qantas-livery-2016",
-      "id": "cfcb312516df7daee6dd9b132c7bd901ac6126d6"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/new-rockpool-sommeliers/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/new-rockpool-sommeliers",
-      "id": "1b8aa54ecc360d7e60e34b6ec0626e6518a90245"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/noritake/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/noritake",
-      "id": "147f273d7c747e69a6116dcc344934287f79fe48"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/our-new-look/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/our-new-look",
-      "id": "c2566fa60724ad56690f0ecb0266416f6827fe78"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-2017-safety-video/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-2017-safety-video",
-      "id": "030017219747eddad5901811692fc3cc087311af"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-787-dreamliner-interiors/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-787-dreamliner-interiors",
-      "id": "bd7816609c77f151dfd4a6c2f4a7207d987197c4"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-787-dreamliner-reveal/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-787-dreamliner-reveal",
-      "id": "62f511dc0364eec6e13003bb755ed06aae883ecf"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-a380-upgraded-cabins/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-a380-upgraded-cabins",
-      "id": "6dddcd3c31230da073e00366ef589f653d473255"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-airbus-330-200-a330/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-airbus-330-200-a330",
-      "id": "ec41c2bcde863b9c173cd6fd0522b54809995170"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-airbus-380-a380/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-airbus-380-a380",
-      "id": "b173f93288ef092e0bef9632f93380bf0d1e5319"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-and-american-airlines/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-and-american-airlines",
-      "id": "c08f45a12354b95cb974733a0288042879de83b1"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-announces-special-indigenous-livery/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-announces-special-indigenous-livery",
-      "id": "af7f392e5135aebd2be84325ab27278e3a64dadf"
-    },
-    {
-      "url": "https://www.qantasnewsroom.com.au/gallery/qantas-boeing-737-800/",
-      "source": "CRAWL",
-      "targetPath": "/gallery/qantas-boeing-737-800",
-      "id": "871024320171fcf2e57a69491be80b21d4c1d96c"
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "source": "SITEMAPS",
+      "targetPath": "/volunteers",
+      "id": "31823a7d641d0e8d6dbdec98f6e3764017e66592"
     }
-  ]
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "SITEMAPS",
+    "logger": {}
+  },
+  "extractionErrors": []
 }
