@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "'Event Page'",
+      "name": "'Hero Image Content Page'",
       "cluster": 2,
       "pages": [
         {
@@ -41,17 +41,17 @@
       ]
     },
     {
-      "name": "'News Listing'",
+      "name": "'Content Listing Page'",
       "cluster": 3,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "uuid": "03853d140faf6bfd0831012a23b906b98465507e"
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "uuid": "a854c904cdcbf542b72eb23d583ac403c27676b0"
         }
       ]
     },
     {
-      "name": "'Homepage Template'",
+      "name": "'Homepage Banner Layout'",
       "cluster": 4,
       "pages": [
         {
@@ -61,12 +61,12 @@
       ]
     },
     {
-      "name": "'Content Overview Page'",
+      "name": "'Basic Content Page'",
       "cluster": 5,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/volunteers",
-          "uuid": "a854c904cdcbf542b72eb23d583ac403c27676b0"
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "uuid": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1"
         }
       ]
     },
@@ -81,17 +81,17 @@
       ]
     },
     {
-      "name": "'List Page'",
+      "name": "'News Listing'",
       "cluster": 7,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "uuid": "31968b8590838ebbdb9f51f8a2e552b6879b6050"
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "uuid": "03853d140faf6bfd0831012a23b906b98465507e"
         }
       ]
     },
     {
-      "name": "'Event Overview Page'",
+      "name": "'Sports Event Overview'",
       "cluster": 8,
       "pages": [
         {
@@ -111,17 +111,17 @@
       ]
     },
     {
-      "name": "'Content Listing Page'",
+      "name": "'Directory Listing Page'",
       "cluster": 10,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "uuid": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1"
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "uuid": "31968b8590838ebbdb9f51f8a2e552b6879b6050"
         }
       ]
     },
     {
-      "name": "\"Article Page\"",
+      "name": "'Article Page'",
       "cluster": 11,
       "pages": [
         {
