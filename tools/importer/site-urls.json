@@ -1,102 +1,12 @@
 {
-  "originUrl": "https://www.birdiesforthebrave.org",
-  "lastCrawled": "https://www.birdiesforthebrave.org/",
+  "originUrl": "https://main--aem-boilerplate--adobe.aem.page",
+  "lastCrawled": "https://main--aem-boilerplate--adobe.aem.page/",
   "urls": [
     {
-      "url": "https://www.birdiesforthebrave.org/",
+      "url": "https://main--aem-boilerplate--adobe.aem.page/",
       "source": "SITEMAPS",
-      "targetPath": "/index",
-      "id": "544066079f784df68543cb3606be7a3eb7e6f09f"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/about-us",
-      "source": "SITEMAPS",
-      "targetPath": "/about-us",
-      "id": "d23392fa44f1d6b46a258473f9494d064b02a34d"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/all-other-programs",
-      "source": "SITEMAPS",
-      "targetPath": "/all-other-programs",
-      "id": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-      "source": "SITEMAPS",
-      "targetPath": "/callaway-warrior-club-fittings",
-      "id": "2752521fa504d05197568d35d065a06995812e5d"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/charities-we-support",
-      "source": "SITEMAPS",
-      "targetPath": "/charities-we-support",
-      "id": "49d93f32ce1f4b46f49f02b95f62145489f1004a"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect",
-      "source": "SITEMAPS",
-      "targetPath": "/connect",
-      "id": "44305c78299ece3022cde8bd662281465a1e71f9"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/connect-thanks",
-      "source": "SITEMAPS",
-      "targetPath": "/connect-thanks",
-      "id": "5f4c4b253734179985b3ed7c4b795920d216ce1a"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/donate",
-      "source": "SITEMAPS",
-      "targetPath": "/donate",
-      "id": "962e9271e3c47afbc306ea849b2933a19aacda1f"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/footer",
-      "source": "SITEMAPS",
-      "targetPath": "/footer",
-      "id": "0a8903562a7617b738c3e8491e8aa51b6008081f"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/fundraising-events",
-      "source": "SITEMAPS",
-      "targetPath": "/fundraising-events",
-      "id": "7fa6891341c5b78f0dae8212a6b447b9827f95a7"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "source": "SITEMAPS",
-      "targetPath": "/gallery",
-      "id": "589d3a071939584b7753f0c724475b89a873d170"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/partners",
-      "source": "SITEMAPS",
-      "targetPath": "/partners",
-      "id": "6f8cacd812b6abc0507de290ef389d8adab01d68"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/player-supporters",
-      "source": "SITEMAPS",
-      "targetPath": "/player-supporters",
-      "id": "422a2c759d92d9191bc72f4859ba1d64ce407e62"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/privacy",
-      "source": "SITEMAPS",
-      "targetPath": "/privacy",
-      "id": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/terms-of-service",
-      "source": "SITEMAPS",
-      "targetPath": "/terms-of-service",
-      "id": "ff6eafd98bb0e723e046a544073093604606f052"
-    },
-    {
-      "url": "https://www.birdiesforthebrave.org/volunteers",
-      "source": "SITEMAPS",
-      "targetPath": "/volunteers",
-      "id": "31823a7d641d0e8d6dbdec98f6e3764017e66592"
+      "targetPath": "/",
+      "id": "3e001f8e061719b5b648a04afeb2d041bf93d5fd"
     }
   ],
   "crawlOptions": {
@@ -106,8 +16,16 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "SITEMAPS",
-    "logger": {}
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
   },
-  "extractionErrors": []
+  "extractionErrors": [
+    {
+      "url": "https://main--aem-boilerplate--adobe.aem.page/test-page",
+      "status": "404 Not Found"
+    }
+  ]
 }
