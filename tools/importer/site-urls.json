@@ -1,54 +1,102 @@
 {
-  "originUrl": "https://www.nils-lars.com",
-  "lastCrawled": "https://www.nils-lars.com/",
+  "originUrl": "https://www.birdiesforthebrave.org",
+  "lastCrawled": "https://www.birdiesforthebrave.org/",
   "urls": [
     {
-      "url": "https://nils-lars.com/",
+      "url": "https://www.birdiesforthebrave.org/",
       "source": "SITEMAPS",
-      "targetPath": "/",
-      "id": "3778e6996317e723265c2561a29a0b3a3e166f74"
+      "targetPath": "/index",
+      "id": "544066079f784df68543cb3606be7a3eb7e6f09f"
     },
     {
-      "url": "https://nils-lars.com/impressum-%2F-kontakt",
+      "url": "https://www.birdiesforthebrave.org/about-us",
       "source": "SITEMAPS",
-      "targetPath": "/impressum/kontakt",
-      "id": "b704d0496dcca9013c5a94f3969139aed5242a47"
+      "targetPath": "/about-us",
+      "id": "d23392fa44f1d6b46a258473f9494d064b02a34d"
     },
     {
-      "url": "https://nils-lars.com/m/create",
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
       "source": "SITEMAPS",
-      "targetPath": "/m/create",
-      "id": "9e8d491e10eb6f2b8031aba7adb221fd97d79320"
+      "targetPath": "/all-other-programs",
+      "id": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625"
     },
     {
-      "url": "https://nils-lars.com/m/create-account",
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
       "source": "SITEMAPS",
-      "targetPath": "/m/create-account",
-      "id": "b36b049d4f326edfb60baa9e944ef71837ba3871"
+      "targetPath": "/callaway-warrior-club-fittings",
+      "id": "2752521fa504d05197568d35d065a06995812e5d"
     },
     {
-      "url": "https://nils-lars.com/m/login",
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
       "source": "SITEMAPS",
-      "targetPath": "/m/login",
-      "id": "217f63bad70f5930faf43c6bc69cef80ae49263f"
+      "targetPath": "/charities-we-support",
+      "id": "49d93f32ce1f4b46f49f02b95f62145489f1004a"
     },
     {
-      "url": "https://nils-lars.com/m/reset",
+      "url": "https://www.birdiesforthebrave.org/connect",
       "source": "SITEMAPS",
-      "targetPath": "/m/reset",
-      "id": "00265ac3180ddfa2b6a547490834d4d56062bbbc"
+      "targetPath": "/connect",
+      "id": "44305c78299ece3022cde8bd662281465a1e71f9"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
       "source": "SITEMAPS",
-      "targetPath": "/nils-lars",
-      "id": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5"
+      "targetPath": "/connect-thanks",
+      "id": "5f4c4b253734179985b3ed7c4b795920d216ce1a"
     },
     {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "url": "https://www.birdiesforthebrave.org/donate",
       "source": "SITEMAPS",
-      "targetPath": "/nils-lars/ola/services/breathwork-session-with-nils",
-      "id": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61"
+      "targetPath": "/donate",
+      "id": "962e9271e3c47afbc306ea849b2933a19aacda1f"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/footer",
+      "source": "SITEMAPS",
+      "targetPath": "/footer",
+      "id": "0a8903562a7617b738c3e8491e8aa51b6008081f"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "source": "SITEMAPS",
+      "targetPath": "/fundraising-events",
+      "id": "7fa6891341c5b78f0dae8212a6b447b9827f95a7"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "source": "SITEMAPS",
+      "targetPath": "/gallery",
+      "id": "589d3a071939584b7753f0c724475b89a873d170"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/partners",
+      "source": "SITEMAPS",
+      "targetPath": "/partners",
+      "id": "6f8cacd812b6abc0507de290ef389d8adab01d68"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/player-supporters",
+      "source": "SITEMAPS",
+      "targetPath": "/player-supporters",
+      "id": "422a2c759d92d9191bc72f4859ba1d64ce407e62"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/privacy",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy",
+      "id": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/terms-of-service",
+      "source": "SITEMAPS",
+      "targetPath": "/terms-of-service",
+      "id": "ff6eafd98bb0e723e046a544073093604606f052"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "source": "SITEMAPS",
+      "targetPath": "/volunteers",
+      "id": "31823a7d641d0e8d6dbdec98f6e3764017e66592"
     }
   ],
   "crawlOptions": {
@@ -58,11 +106,8 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "sitemaps",
-    "logger": {},
-    "strategiesAttempted": [
-      "SITEMAPS"
-    ]
+    "strategy": "SITEMAPS",
+    "logger": {}
   },
   "extractionErrors": []
 }
