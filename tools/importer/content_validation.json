@@ -1,0 +1,906 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 668,
+        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 3,
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-12-4e0019e0b4dd516907e7a27467168967848cc537",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-11-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-12-4e0019e0b4dd516907e7a27467168967848cc537",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-11-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-05-31cc073d92595bc6cdedaafdaa2002a22450d269",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-04-18bd99c1e18ad98bb00f22088c143c9352b0d9ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-03-31dfa8fc9041d7386429706c79619ccee6894f25",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-13-4e0019e0b4dd516907e7a27467168967848cc537",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-12-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-11-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-11-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-11-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-12-955de387216cab6562d0acca656ad426052fe1ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-09-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-09-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-02-fee2d640f594c8fb5580f70494c58b440634153d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-03-d339c3618e77a6b600a1ce4cfdd16452faea73de",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 6,
+      "source": "Hero",
+      "target": "Hero (hero6)",
+      "key": "hero6",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-10-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 7,
+      "source": "Header",
+      "target": "Header (header7)",
+      "key": "header7",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/",
+          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+          "uuid": "3778e699-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://nils-lars.com/nils-lars",
+          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+          "uuid": "7c50cdda-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 8,
+      "source": "Embed",
+      "target": "Embed",
+      "key": "embedVideo8",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/reset",
+          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+          "uuid": "00265ac3-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 9,
+      "source": "Cards",
+      "target": "Cards (cards9)",
+      "key": "cards9",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-04-18bd99c1e18ad98bb00f22088c143c9352b0d9ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 10,
+      "source": "Cards",
+      "target": "Cards (cards10)",
+      "key": "cards10",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/create",
+          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+          "uuid": "9e8d491e-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 11,
+      "source": "Hero",
+      "target": "Hero (hero11)",
+      "key": "hero11",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 13,
+      "source": "Hero",
+      "target": "Hero (hero13)",
+      "key": "hero13",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-03-d085342d136e3e998f01dade5e38f11e2110acbc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 14,
+      "source": "Header",
+      "target": "Header (header14)",
+      "key": "header14",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+          "uuid": "f11370cd-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 15,
+      "source": "Header",
+      "target": "Header (header15)",
+      "key": "header15",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/create-account",
+          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+          "uuid": "b36b049d-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 16,
+      "source": "Header",
+      "target": "Header (header16)",
+      "key": "header16",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/m/login",
+          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+          "uuid": "217f63ba-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 17,
+      "source": "Header",
+      "target": "Header (header17)",
+      "key": "header17",
+      "instances": [
+        {
+          "url": "https://nils-lars.com/impressum-%2F-kontakt",
+          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+          "uuid": "b704d049-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://nils-lars.com/m/reset",
+      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+      "uuid": "00265ac3-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/reset",
+      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+      "uuid": "00265ac3-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/reset",
+      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
+      "uuid": "00265ac3-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/login",
+      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+      "uuid": "217f63ba-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/login",
+      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+      "uuid": "217f63ba-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/login",
+      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
+      "uuid": "217f63ba-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-03-fe31138471344c3391fae0db8b8818c5117859f9",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-04-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-05-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-06-9df83cec2c81cbe2078153abd2693047fd898bf1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-07-fd873c4a526973274539aa42639442e6ff5aa85f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-08-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/",
+      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
+      "uuid": "3778e699-12-4e0019e0b4dd516907e7a27467168967848cc537",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-03-fe31138471344c3391fae0db8b8818c5117859f9",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-04-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-05-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-06-9df83cec2c81cbe2078153abd2693047fd898bf1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-07-fd873c4a526973274539aa42639442e6ff5aa85f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-08-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars",
+      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
+      "uuid": "7c50cdda-12-4e0019e0b4dd516907e7a27467168967848cc537",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create",
+      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+      "uuid": "9e8d491e-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create",
+      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+      "uuid": "9e8d491e-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create",
+      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
+      "uuid": "9e8d491e-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create-account",
+      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+      "uuid": "b36b049d-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create-account",
+      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+      "uuid": "b36b049d-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/m/create-account",
+      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
+      "uuid": "b36b049d-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/impressum-%2F-kontakt",
+      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+      "uuid": "b704d049-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/impressum-%2F-kontakt",
+      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+      "uuid": "b704d049-03-31dfa8fc9041d7386429706c79619ccee6894f25",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/impressum-%2F-kontakt",
+      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
+      "uuid": "b704d049-05-31cc073d92595bc6cdedaafdaa2002a22450d269",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[7]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-01-f8becf065cce6cc1cc88a441ba66ad1fffa8cb39",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-04-fe31138471344c3391fae0db8b8818c5117859f9",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-05-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-06-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-07-9df83cec2c81cbe2078153abd2693047fd898bf1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-08-fd873c4a526973274539aa42639442e6ff5aa85f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-09-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-11-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
+      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
+      "uuid": "f11370cd-13-4e0019e0b4dd516907e7a27467168967848cc537",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
+      "section": "section-1"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://wknd.site/ca/en.html",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Welcome Sign In Sign Out en-CA United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT Home Magazine Adventures FAQs About Us WKND Adventures Join us on one of our next adventures. Browse our list of curated experiences and sign up for one when you're ready to explore with us. View Trips San Diego Surf Spots From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene. Full Article Downhill Skiing Wyoming A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. View Trip Previous Next WKND Adventures San Diego Surf Spots Downhill Skiing Wyoming Featured Article Camping in Western Australia The Australian West coast is a camper\u2019s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you\u2019ll find anywhere in the world. Full Article Recent Articles Ultimate Guide to LA Skateparks Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this! Ski Touring Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing. Arctic Surfing We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions. San Diego Surf Spots Best beach breaks All Articles Next Adventures Climbing New Zealand Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. See Trip Where do you want to go? Yosemite Backpacking Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today. Whistler Mountain Biking Whistler is often considered North America\u2019s preeminent mountain bike destination. Let us show you why. West Coast Cycling Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean. Tahoe Skiing Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art"
+        },
+        {
+          "change_type": "insertion",
+          "text": "404"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "lift"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Page"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "chairs. Lake"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Not"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Tahoe"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Found"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "is"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Go"
+        },
+        {
+          "change_type": "equal",
+          "text": " home"
+        },
+        {
+          "change_type": "deletion",
+          "text": " to dozens of resorts and we'll be your guide for the best of them. All Trips Home Magazine Adventures FAQs About Us Follow Us Facebook Twitter Instagram Canadian specific footer. This footer serves as an example of localization features with Core Components \u24b8 2019, WKND Site. WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager Core Components and Archetype that are available as open source code to the public. The entire site source code is available as open source as well and is accompanied with a detailed tutorial on how to recreate the site. Many of the beautiful images in the WKND site are available for purchase via Adobe Stock . Home Magazine Adventures FAQs About Us"
+        }
+      ],
+      "similarity_score": 0.01997173829623223
+    }
+  ]
+}
