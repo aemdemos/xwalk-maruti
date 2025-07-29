@@ -3,266 +3,413 @@
     {
       "name": "nav",
       "path": "/nav",
-      "totalBoxes": 1,
       "instances": [
         {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
+          "uuid": "0a890356-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+          "uuid": "2752521f-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+          "uuid": "2b2bb280-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+          "uuid": "31823a7d-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
+          "uuid": "422a2c75-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+          "uuid": "44305c78-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
-        }
-      ],
-      "styles": {
-        "height": 668,
-        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
-      }
-    },
-    {
-      "name": "footer",
-      "path": "/footer",
-      "totalBoxes": 3,
-      "instances": [
-        {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+          "uuid": "589d3a07-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+          "uuid": "5f4c4b25-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+          "uuid": "7fa68913-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-12-4e0019e0b4dd516907e7a27467168967848cc537",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+          "uuid": "962e9271-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-11-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+          "uuid": "d23392fa-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         },
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-12-4e0019e0b4dd516907e7a27467168967848cc537",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-11-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-05-31cc073d92595bc6cdedaafdaa2002a22450d269",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[7]"
-        },
-        {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-04-18bd99c1e18ad98bb00f22088c143c9352b0d9ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-03-31dfa8fc9041d7386429706c79619ccee6894f25",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-13-4e0019e0b4dd516907e7a27467168967848cc537",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-12-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-11-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]"
-        }
-      ],
-      "styles": {}
-    }
-  ],
-  "blocks": [
-    {
-      "name": "header",
-      "cluster": 1,
-      "source": "Header",
-      "target": "Header (header1)",
-      "key": "header1",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
+          "uuid": "ff6eafd9-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         }
       ]
     },
     {
-      "name": "Cards",
-      "cluster": 2,
-      "source": "Cards",
-      "target": "Cards (cards2)",
-      "key": "cards2",
+      "name": "footer",
+      "path": "/footer",
       "instances": [
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-11-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
+          "uuid": "0a890356-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
         },
         {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-11-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+          "uuid": "2752521f-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
         },
         {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-12-955de387216cab6562d0acca656ad426052fe1ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+          "uuid": "2b2bb280-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+          "uuid": "31823a7d-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
+          "uuid": "422a2c75-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+          "uuid": "44305c78-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-08-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+          "uuid": "589d3a07-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+          "uuid": "5f4c4b25-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+          "uuid": "7fa68913-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+          "uuid": "962e9271-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+          "uuid": "d23392fa-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
+          "uuid": "ff6eafd9-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "unknown",
+      "cluster": 1,
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
+          "uuid": "0a890356-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+          "uuid": "2752521f-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+          "uuid": "2b2bb280-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+          "uuid": "31823a7d-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
+          "uuid": "422a2c75-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+          "uuid": "44305c78-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-08-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+          "uuid": "589d3a07-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+          "uuid": "5f4c4b25-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+          "uuid": "7fa68913-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+          "uuid": "962e9271-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+          "uuid": "d23392fa-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
+          "uuid": "ff6eafd9-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
+          "uuid": "0a890356-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+          "uuid": "2752521f-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+          "uuid": "2b2bb280-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+          "uuid": "31823a7d-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
+          "uuid": "422a2c75-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+          "uuid": "44305c78-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+          "uuid": "589d3a07-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+          "uuid": "5f4c4b25-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+          "uuid": "7fa68913-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+          "uuid": "962e9271-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+          "uuid": "d23392fa-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
+          "uuid": "ff6eafd9-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
         }
       ]
     },
@@ -274,34 +421,91 @@
       "key": "hero3",
       "instances": [
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-09-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+          "uuid": "2752521f-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
         },
         {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-09-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+          "uuid": "2b2bb280-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+          "uuid": "31823a7d-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+          "uuid": "44305c78-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+          "uuid": "589d3a07-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+          "uuid": "5f4c4b25-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+          "uuid": "7fa68913-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+          "uuid": "962e9271-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+          "uuid": "d23392fa-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
         }
       ]
     },
     {
-      "name": "Columns",
+      "name": "Hero",
       "cluster": 4,
-      "source": "Columns",
-      "target": "Columns (columns4)",
-      "key": "columns4",
+      "source": "Hero",
+      "target": "Hero (hero4)",
+      "key": "hero4",
       "instances": [
         {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-02-fee2d640f594c8fb5580f70494c58b440634153d",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "422a2c759d92d9191bc72f4859ba1d64ce407e62",
+          "uuid": "422a2c75-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+          "xpath": "/html[1]/body[1]/main[1]"
         }
       ]
     },
@@ -313,534 +517,305 @@
       "key": "columns5",
       "instances": [
         {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-03-d339c3618e77a6b600a1ce4cfdd16452faea73de",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 6,
-      "source": "Hero",
-      "target": "Hero (hero6)",
-      "key": "hero6",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-10-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "header",
-      "cluster": 7,
-      "source": "Header",
-      "target": "Header (header7)",
-      "key": "header7",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/",
-          "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-          "uuid": "3778e699-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://nils-lars.com/nils-lars",
-          "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-          "uuid": "7c50cdda-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Embed (video)",
-      "cluster": 8,
-      "source": "Embed",
-      "target": "Embed",
-      "key": "embedVideo8",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/m/reset",
-          "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-          "uuid": "00265ac3-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 9,
-      "source": "Cards",
-      "target": "Cards (cards9)",
-      "key": "cards9",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-04-18bd99c1e18ad98bb00f22088c143c9352b0d9ec",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 10,
-      "source": "Cards",
-      "target": "Cards (cards10)",
-      "key": "cards10",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/m/create",
-          "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-          "uuid": "9e8d491e-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 11,
-      "source": "Hero",
-      "target": "Hero (hero11)",
-      "key": "hero11",
-      "instances": [
-        {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+          "uuid": "6f8cacd8-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 12,
+      "cluster": 6,
       "source": "Columns",
-      "target": "Columns (columns12)",
-      "key": "columns12",
+      "target": "Columns (columns6)",
+      "key": "columns6",
       "instances": [
         {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+          "uuid": "30ae9ff7-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
         }
       ]
     },
     {
-      "name": "Hero",
-      "cluster": 13,
-      "source": "Hero",
-      "target": "Hero (hero13)",
-      "key": "hero13",
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
       "instances": [
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-03-d085342d136e3e998f01dade5e38f11e2110acbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+          "uuid": "49d93f32-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
         }
       ]
     },
     {
-      "name": "header",
-      "cluster": 14,
-      "source": "Header",
-      "target": "Header (header14)",
-      "key": "header14",
+      "name": "Carousel",
+      "cluster": 8,
+      "source": "Carousel",
+      "target": "Carousel (carousel8)",
+      "key": "carousel8",
       "instances": [
         {
-          "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-          "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-          "uuid": "f11370cd-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-02-b44bfb6f91053e616228982ab0752280ea739906",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]"
         }
       ]
     },
     {
-      "name": "header",
-      "cluster": 15,
-      "source": "Header",
-      "target": "Header (header15)",
-      "key": "header15",
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
       "instances": [
         {
-          "url": "https://nils-lars.com/m/create-account",
-          "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-          "uuid": "b36b049d-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-05-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
         }
       ]
     },
     {
-      "name": "header",
-      "cluster": 16,
-      "source": "Header",
-      "target": "Header (header16)",
-      "key": "header16",
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
       "instances": [
         {
-          "url": "https://nils-lars.com/m/login",
-          "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-          "uuid": "217f63ba-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-03-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]"
         }
       ]
     },
     {
-      "name": "header",
-      "cluster": 17,
-      "source": "Header",
-      "target": "Header (header17)",
-      "key": "header17",
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
       "instances": [
         {
-          "url": "https://nils-lars.com/impressum-%2F-kontakt",
-          "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-          "uuid": "b704d049-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
-          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-06-ac18c7f4ff0dda41caddc17273e87ac35c820487",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 12,
+      "source": "Carousel",
+      "target": "Carousel (carousel12)",
+      "key": "carousel12",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+          "uuid": "54406607-07-d70c6e6ca8d70ee1f6c77e1030748587e67c4882",
+          "xpath": "/html[1]/body[1]/main[1]/div[5]"
         }
       ]
     }
   ],
   "outliers": [
     {
-      "url": "https://nils-lars.com/m/reset",
-      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-      "uuid": "00265ac3-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/footer",
+      "urlHash": "0a8903562a7617b738c3e8491e8aa51b6008081f",
+      "uuid": "0a890356-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+      "xpath": "/html[1]/body[1]/main[1]"
     },
     {
-      "url": "https://nils-lars.com/m/reset",
-      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-      "uuid": "00265ac3-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+      "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+      "uuid": "2752521f-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/m/reset",
-      "urlHash": "00265ac3180ddfa2b6a547490834d4d56062bbbc",
-      "uuid": "00265ac3-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+      "urlHash": "2752521fa504d05197568d35d065a06995812e5d",
+      "uuid": "2752521f-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/m/login",
-      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-      "uuid": "217f63ba-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/privacy",
+      "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+      "uuid": "2b2bb280-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/m/login",
-      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-      "uuid": "217f63ba-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/privacy",
+      "urlHash": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52",
+      "uuid": "2b2bb280-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/m/login",
-      "urlHash": "217f63bad70f5930faf43c6bc69cef80ae49263f",
-      "uuid": "217f63ba-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+      "uuid": "30ae9ff7-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+      "uuid": "30ae9ff7-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-03-fe31138471344c3391fae0db8b8818c5117859f9",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625",
+      "uuid": "30ae9ff7-05-0c380e199633cb4db43425bcf9c66bf9b71896fd",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-04-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+      "uuid": "31823a7d-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-05-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "urlHash": "31823a7d641d0e8d6dbdec98f6e3764017e66592",
+      "uuid": "31823a7d-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-06-9df83cec2c81cbe2078153abd2693047fd898bf1",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/connect",
+      "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+      "uuid": "44305c78-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-07-fd873c4a526973274539aa42639442e6ff5aa85f",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/connect",
+      "urlHash": "44305c78299ece3022cde8bd662281465a1e71f9",
+      "uuid": "44305c78-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-08-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
+      "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+      "uuid": "49d93f32-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
+      "urlHash": "49d93f32ce1f4b46f49f02b95f62145489f1004a",
+      "uuid": "49d93f32-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
     },
     {
-      "url": "https://nils-lars.com/",
-      "urlHash": "3778e6996317e723265c2561a29a0b3a3e166f74",
-      "uuid": "3778e699-12-4e0019e0b4dd516907e7a27467168967848cc537",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/",
+      "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+      "uuid": "54406607-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/",
+      "urlHash": "544066079f784df68543cb3606be7a3eb7e6f09f",
+      "uuid": "54406607-04-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-03-fe31138471344c3391fae0db8b8818c5117859f9",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+      "uuid": "589d3a07-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-04-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+      "uuid": "589d3a07-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-05-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+      "uuid": "589d3a07-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-06-9df83cec2c81cbe2078153abd2693047fd898bf1",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "589d3a071939584b7753f0c724475b89a873d170",
+      "uuid": "589d3a07-05-ac18c7f4ff0dda41caddc17273e87ac35c820487",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-07-fd873c4a526973274539aa42639442e6ff5aa85f",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
+      "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+      "uuid": "5f4c4b25-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-08-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
-      "section": "section-2"
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
+      "urlHash": "5f4c4b253734179985b3ed7c4b795920d216ce1a",
+      "uuid": "5f4c4b25-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-10-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/partners",
+      "urlHash": "6f8cacd812b6abc0507de290ef389d8adab01d68",
+      "uuid": "6f8cacd8-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/nils-lars",
-      "urlHash": "7c50cdda1bdf69250d0545f85c8f62b23ab669b5",
-      "uuid": "7c50cdda-12-4e0019e0b4dd516907e7a27467168967848cc537",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+      "uuid": "7fa68913-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/m/create",
-      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-      "uuid": "9e8d491e-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "urlHash": "7fa6891341c5b78f0dae8212a6b447b9827f95a7",
+      "uuid": "7fa68913-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/m/create",
-      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-      "uuid": "9e8d491e-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/donate",
+      "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+      "uuid": "962e9271-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/m/create",
-      "urlHash": "9e8d491e10eb6f2b8031aba7adb221fd97d79320",
-      "uuid": "9e8d491e-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/donate",
+      "urlHash": "962e9271e3c47afbc306ea849b2933a19aacda1f",
+      "uuid": "962e9271-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/m/create-account",
-      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-      "uuid": "b36b049d-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+      "uuid": "d23392fa-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
     },
     {
-      "url": "https://nils-lars.com/m/create-account",
-      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-      "uuid": "b36b049d-02-c4952965290b21692cc38a2ed3edc0c0e7ec4914",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+      "uuid": "d23392fa-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
     },
     {
-      "url": "https://nils-lars.com/m/create-account",
-      "urlHash": "b36b049d4f326edfb60baa9e944ef71837ba3871",
-      "uuid": "b36b049d-04-503c92e27ac9edad36578f96b961de24c3c4acc3",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]",
-      "section": "section-1"
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "d23392fa44f1d6b46a258473f9494d064b02a34d",
+      "uuid": "d23392fa-04-2922ed37363f66e6d7ff6723ce2179fcf4091251",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]/p[4]/picture[1]/img[1]"
     },
     {
-      "url": "https://nils-lars.com/impressum-%2F-kontakt",
-      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-      "uuid": "b704d049-02-d339c3618e77a6b600a1ce4cfdd16452faea73de",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
-      "section": "section-1"
-    },
-    {
-      "url": "https://nils-lars.com/impressum-%2F-kontakt",
-      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-      "uuid": "b704d049-03-31dfa8fc9041d7386429706c79619ccee6894f25",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
-    },
-    {
-      "url": "https://nils-lars.com/impressum-%2F-kontakt",
-      "urlHash": "b704d0496dcca9013c5a94f3969139aed5242a47",
-      "uuid": "b704d049-05-31cc073d92595bc6cdedaafdaa2002a22450d269",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[7]",
-      "section": "section-1"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-01-f8becf065cce6cc1cc88a441ba66ad1fffa8cb39",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-04-fe31138471344c3391fae0db8b8818c5117859f9",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-05-6b498ea900317eb1e8460a98c59f59a9fc8afd52",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-06-fa4a14e3af7ec54ad25e6ba11a456bbaeafe7cd4",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-07-9df83cec2c81cbe2078153abd2693047fd898bf1",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-08-fd873c4a526973274539aa42639442e6ff5aa85f",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-09-fa2f33615bc83d047ac1ce00bb1ff4eef41c1924",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]",
-      "section": "section-2"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-11-d91096aa9ef66d651b6b96f3f6c20af4f5e386fb",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
-      "section": "section-1"
-    },
-    {
-      "url": "https://nils-lars.com/nils-lars/ola/services/breathwork-session-with-nils",
-      "urlHash": "f11370cd616f6807bfd4a26b25c58ba3e3f42b61",
-      "uuid": "f11370cd-13-4e0019e0b4dd516907e7a27467168967848cc537",
-      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[9]",
-      "section": "section-1"
-    }
-  ],
-  "sections": [
-    {
-      "name": "section-1",
-      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 48
-    },
-    {
-      "name": "section-2",
-      "background": "rgb(229, 227, 223) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 18
+      "url": "https://www.birdiesforthebrave.org/terms-of-service",
+      "urlHash": "ff6eafd98bb0e723e046a544073093604606f052",
+      "uuid": "ff6eafd9-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+      "xpath": "/html[1]/body[1]/main[1]"
     }
   ]
 }
