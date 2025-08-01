@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Event Listing'",
+      "name": "'Content Hub'",
       "cluster": 1,
       "pages": [
         {
@@ -19,16 +19,12 @@
       ]
     },
     {
-      "name": "'Event Page'",
+      "name": "'Content Showcase Page'",
       "cluster": 2,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/connect-thanks",
           "uuid": "842d2ec38114d8577375264fdbe14bd78ef319ed"
-        },
-        {
-          "url": "https://www.birdiesforthebrave.org/donate",
-          "uuid": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d"
         },
         {
           "url": "https://www.birdiesforthebrave.org/partners",
@@ -37,21 +33,29 @@
         {
           "url": "https://www.birdiesforthebrave.org/privacy",
           "uuid": "767e96fcb89d944dc7da29e307189992d492a438"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "uuid": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d"
         }
       ]
     },
     {
-      "name": "'News Listing'",
+      "name": "'Content Dashboard'",
       "cluster": 3,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/gallery",
-          "uuid": "03853d140faf6bfd0831012a23b906b98465507e"
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "uuid": "663a24fed3465ed4d78ac225e164d7fa55081d3c"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "uuid": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27"
         }
       ]
     },
     {
-      "name": "'Homepage Template'",
+      "name": "'Basic Content Page'",
       "cluster": 4,
       "pages": [
         {
@@ -61,7 +65,7 @@
       ]
     },
     {
-      "name": "'Content Overview Page'",
+      "name": "'Content Listing Page'",
       "cluster": 5,
       "pages": [
         {
@@ -71,27 +75,27 @@
       ]
     },
     {
-      "name": "'Directory Listing Page'",
+      "name": "'Video Gallery Page'",
       "cluster": 6,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/connect",
-          "uuid": "663a24fed3465ed4d78ac225e164d7fa55081d3c"
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "uuid": "03853d140faf6bfd0831012a23b906b98465507e"
         }
       ]
     },
     {
-      "name": "'List Page'",
+      "name": "'Article Page'",
       "cluster": 7,
       "pages": [
         {
-          "url": "https://www.birdiesforthebrave.org/footer",
-          "uuid": "31968b8590838ebbdb9f51f8a2e552b6879b6050"
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "uuid": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1"
         }
       ]
     },
     {
-      "name": "'Event Overview Page'",
+      "name": "'Portfolio Showcase'",
       "cluster": 8,
       "pages": [
         {
@@ -101,32 +105,22 @@
       ]
     },
     {
-      "name": "'Sports Landing Page'",
+      "name": "'Content Page'",
       "cluster": 9,
-      "pages": [
-        {
-          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-          "uuid": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27"
-        }
-      ]
-    },
-    {
-      "name": "'Content Listing Page'",
-      "cluster": 10,
-      "pages": [
-        {
-          "url": "https://www.birdiesforthebrave.org/terms-of-service",
-          "uuid": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1"
-        }
-      ]
-    },
-    {
-      "name": "\"Article Page\"",
-      "cluster": 11,
       "pages": [
         {
           "url": "https://www.birdiesforthebrave.org/about-us",
           "uuid": "640c2aa54eedd46040fb8b432d36294b81f83626"
+        }
+      ]
+    },
+    {
+      "name": "'Forum Listing'",
+      "cluster": 10,
+      "pages": [
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "uuid": "31968b8590838ebbdb9f51f8a2e552b6879b6050"
         }
       ]
     }
