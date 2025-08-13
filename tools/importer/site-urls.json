@@ -1,102 +1,1538 @@
 {
-  "originUrl": "https://www.birdiesforthebrave.org",
-  "lastCrawled": "https://www.birdiesforthebrave.org/",
+  "originUrl": "https://www.pfa.dk",
+  "targetUrl": "https://main--pfa--aemdemos.aem.page/",
+  "lastCrawled": "https://www.pfa.dk/",
+  "excludedUrls": [],
   "urls": [
     {
-      "url": "https://www.birdiesforthebrave.org/",
-      "source": "SITEMAPS",
-      "targetPath": "/index",
-      "id": "544066079f784df68543cb3606be7a3eb7e6f09f"
+      "url": "https://www.pfa.dk/companies/carlsberg/",
+      "source": "MANUAL",
+      "id": "4fa14c1065d384b9cdae8ff65072667d8b66ac06",
+      "targetPath": "/companies/carlsberg"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/about-us",
-      "source": "SITEMAPS",
-      "targetPath": "/about-us",
-      "id": "d23392fa44f1d6b46a258473f9494d064b02a34d"
+      "url": "https://www.pfa.dk/andet/din-kundeoplevelse/",
+      "source": "CRAWL",
+      "targetPath": "/andet/din-kundeoplevelse",
+      "id": "61c929ad4427b926642399413622fc941f06b298"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/all-other-programs",
-      "source": "SITEMAPS",
-      "targetPath": "/all-other-programs",
-      "id": "30ae9ff7c780f88ce4c43e91731f5162b9ad0625"
+      "url": "https://www.pfa.dk/andet/finanstilsyn/",
+      "source": "CRAWL",
+      "targetPath": "/andet/finanstilsyn",
+      "id": "4e2f98792d674e174d5f87298efde87bd2fa285a"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
-      "source": "SITEMAPS",
-      "targetPath": "/callaway-warrior-club-fittings",
-      "id": "2752521fa504d05197568d35d065a06995812e5d"
+      "url": "https://www.pfa.dk/andet/forudsaetninger-opsparingsberegner/",
+      "source": "CRAWL",
+      "targetPath": "/andet/forudsaetninger-opsparingsberegner",
+      "id": "3c424d021699765d6e9e4a8acea6dc7be5455b62"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/charities-we-support",
-      "source": "SITEMAPS",
-      "targetPath": "/charities-we-support",
-      "id": "49d93f32ce1f4b46f49f02b95f62145489f1004a"
+      "url": "https://www.pfa.dk/andet/legitimation/",
+      "source": "CRAWL",
+      "targetPath": "/andet/legitimation",
+      "id": "be70d69e09f8f5d741e492c17f07a24d1060c5cf"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/connect",
-      "source": "SITEMAPS",
-      "targetPath": "/connect",
-      "id": "44305c78299ece3022cde8bd662281465a1e71f9"
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-kunde/",
+      "source": "CRAWL",
+      "targetPath": "/andet/legitimation/legitimation-kunde",
+      "id": "577a71eca4e12728b892dd07b534efe912d56129"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/connect-thanks",
-      "source": "SITEMAPS",
-      "targetPath": "/connect-thanks",
-      "id": "5f4c4b253734179985b3ed7c4b795920d216ce1a"
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-kunde/legitimation-kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/andet/legitimation/legitimation-kunde/legitimation-kvittering",
+      "id": "3209d2eaaeea6ae1a96398abcd945acb9c7e92ec"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/donate",
-      "source": "SITEMAPS",
-      "targetPath": "/donate",
-      "id": "962e9271e3c47afbc306ea849b2933a19aacda1f"
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald/",
+      "source": "CRAWL",
+      "targetPath": "/andet/legitimation/legitimation-ved-doedsfald",
+      "id": "70004bdc119a55e57e81e546cb5ead5a88cd223a"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/footer",
-      "source": "SITEMAPS",
-      "targetPath": "/footer",
-      "id": "0a8903562a7617b738c3e8491e8aa51b6008081f"
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald/dokumentation-kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/andet/legitimation/legitimation-ved-doedsfald/dokumentation-kvittering",
+      "id": "40e082f380cbb2fb30e5c15301a068d236d392b7"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/fundraising-events",
-      "source": "SITEMAPS",
-      "targetPath": "/fundraising-events",
-      "id": "7fa6891341c5b78f0dae8212a6b447b9827f95a7"
+      "url": "https://www.pfa.dk/andet/markedsudvikling/",
+      "source": "CRAWL",
+      "targetPath": "/andet/markedsudvikling",
+      "id": "99a809efdd6c5f1c355b1c872760cb49782a9a7b"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/gallery",
-      "source": "SITEMAPS",
-      "targetPath": "/gallery",
-      "id": "589d3a071939584b7753f0c724475b89a873d170"
+      "url": "https://www.pfa.dk/andet/markedsudvikling/",
+      "source": "CRAWL",
+      "targetPath": "/andet/markedsudvikling",
+      "id": "2957d4accf898a549e7979134bdc7442c2af6a6d"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/partners",
-      "source": "SITEMAPS",
-      "targetPath": "/partners",
-      "id": "6f8cacd812b6abc0507de290ef389d8adab01d68"
+      "url": "https://www.pfa.dk/andet/markedsudvikling/",
+      "source": "CRAWL",
+      "targetPath": "/andet/markedsudvikling",
+      "id": "8b1cd2f4d9e48f054c76c3920ac9b3e45a4a5341"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/player-supporters",
-      "source": "SITEMAPS",
-      "targetPath": "/player-supporters",
-      "id": "422a2c759d92d9191bc72f4859ba1d64ce407e62"
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-a/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-a",
+      "id": "334c44e45ed2d9f76458379c94ed3050de2f8596"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/privacy",
-      "source": "SITEMAPS",
-      "targetPath": "/privacy",
-      "id": "2b2bb280ffef4204c29704df3c2c28ba3a0c2a52"
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-b/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-b",
+      "id": "7cd6e52ada805f05a049a2831bceff53e114de91"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/terms-of-service",
-      "source": "SITEMAPS",
-      "targetPath": "/terms-of-service",
-      "id": "ff6eafd98bb0e723e046a544073093604606f052"
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-beregninger-prognoser/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-beregninger-prognoser",
+      "id": "2b50076492604460bebfd8bc1fbac8cdc86839e0"
     },
     {
-      "url": "https://www.birdiesforthebrave.org/volunteers",
-      "source": "SITEMAPS",
-      "targetPath": "/volunteers",
-      "id": "31823a7d641d0e8d6dbdec98f6e3764017e66592"
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-btb/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-btb",
+      "id": "eeac71ba69e74d0d3dec2826fbca2aa4254f3b8d"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-btb/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-btb",
+      "id": "6ace2c981566153ea89964ec4834dfebcd2aa162"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-c/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-c",
+      "id": "5e73881d729d7a88b7d23e93af585c61a800f4fc"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-d/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-d",
+      "id": "d37621e87ff71f160452d52991909b7571dde7f8"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-fleksibel/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-fleksibel",
+      "id": "6f3be984324a117b10ba790046e7f38520f66e5e"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-klima/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-klima",
+      "id": "e7d28bc0f22dfedeeee4a276c90f3fe2a5880090"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-webinar/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler-webinar",
+      "id": "be8a1ea9abdeb03739bee1c13c30f23ec5110e08"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler",
+      "id": "6ac3c8add4473dc6c5aaddc2afb43a658445e96c"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler/",
+      "source": "CRAWL",
+      "targetPath": "/andet/nye-investeringsprofiler",
+      "id": "f710a2af63fb70796d4f2ab0ed235d758cdeff56"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/paragraf-41/",
+      "source": "CRAWL",
+      "targetPath": "/andet/paragraf-41",
+      "id": "2d11dbb010ca9dd030cd38f487dd71e97b8d41e9"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/paragraf-41/paragraf-41-kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/andet/paragraf-41/paragraf-41-kvittering",
+      "id": "63bcb591cd4eb8d356ec14bf851bf799a339bf76"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/persondata-kf/",
+      "source": "CRAWL",
+      "targetPath": "/andet/persondata-kf",
+      "id": "4293082cd02117aa6f0bce050ae66855ace92ff3"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/produktinformation/",
+      "source": "CRAWL",
+      "targetPath": "/andet/produktinformation",
+      "id": "9ee1759622a794ef5c694395e36c41ae166f4cf4"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/ratepension/",
+      "source": "CRAWL",
+      "targetPath": "/andet/ratepension",
+      "id": "589eb4bc2708875c0bb845f7c1e206d1b6c0f71a"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/saerlige-undersoegelser/",
+      "source": "CRAWL",
+      "targetPath": "/andet/saerlige-undersoegelser",
+      "id": "3ee4b87425686160dd6e60197693c281296328d0"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/update/",
+      "source": "CRAWL",
+      "targetPath": "/andet/update",
+      "id": "ac49aa2a08fbc3a0c0bb0932dbb083b4eb7303b6"
+    },
+    {
+      "url": "https://www.pfa.dk/campaigns/senkarriere/",
+      "source": "CRAWL",
+      "targetPath": "/campaigns/senkarriere",
+      "id": "b57559604da32c17ceeae9ea7dcb133827606cd9"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv",
+      "id": "6dbd0e883e331188e1ca7f674ce9de225f7ef1d0"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/bliv-kunde",
+      "id": "dea7fc010945a4cd047c55b6aebaf512976d7c7d"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/bliv-kunde",
+      "id": "e7e493d12bf5fff909bfe833ba1b70c5b51644d3"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde/tak-bliv-kunde/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/bliv-kunde/tak-bliv-kunde",
+      "id": "bdc548dba77afe02872cf6afcdd5d8f01cbabfa5"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/administration-i-hverdagen/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/administration-i-hverdagen",
+      "id": "3e50c45d762f67d640aab295fdb14613e2c826ac"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/elever-og-laerlinge",
+      "id": "6fdccac763788e77ab9be1fd939b251451109972"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/elever-og-laerlinge/formular",
+      "id": "0439c73a800cc2b0d994497533bcf570803fee0b"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular/tak/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/elever-og-laerlinge/formular/tak",
+      "id": "002e70e0ff20bc2cdd1bc6b2d6265e29e8b19580"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/indbetaling-og-indberetning/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/indbetaling-og-indberetning",
+      "id": "f4094e47a2588072aa2a5806004ec73f83e2baee"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/individuelle-tilpasninger-til-ordningen/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/individuelle-tilpasninger-til-ordningen",
+      "id": "284b71e7d947b62a33b91d46d76257858133e1c6"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/naar-en-medarbejder/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/naar-en-medarbejder",
+      "id": "d585990fccd520eb153c12c19eb2c0fb59cdea66"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/naar-helbredet-svigter/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/naar-helbredet-svigter",
+      "id": "a5904cfb7e633048e6f951efce1347bd729b416c"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/saerlige-medarbejderbehov/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/saerlige-medarbejderbehov",
+      "id": "8143bf211958c086a5eaa8aeb0c50771867638f5"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/samlede-kontaktoplysninger/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/samlede-kontaktoplysninger",
+      "id": "73c7b77fba920329cb860e0a8230c0a0472c614c"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/send-besked",
+      "id": "577f8c7c114df111cb5c179129af50293dec34cf"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/send-besked",
+      "id": "2b2f1e6080dd6f60aec526df4c402725a2dc8852"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/send-besked",
+      "id": "f4af84f086116fc700e99850037711ec70f95b6a"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/for-administratorer/send-besked",
+      "id": "e12dc58923b8b9a009c7b8a421f29b8689f5269d"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/formularer/kontaktes-kundechef",
+      "id": "58538f5b595d4a6955fb36c851a6d93a4ffd912c"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef/tak/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/formularer/kontaktes-kundechef/tak",
+      "id": "eb7f29f57b1f1d0c0a05b1f986434fa0d6261b71"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/et-afkast-i-top/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/hvorfor-pfa/et-afkast-i-top",
+      "id": "a29180967ef09ebb4313d689962a3a4085c21866"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/konkurrencedygtige-omkostninger/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/hvorfor-pfa/konkurrencedygtige-omkostninger",
+      "id": "e8793670d3f5ff509c97efef6fe2a06c1b6f4acf"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-kundekapital/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/hvorfor-pfa/pfa-kundekapital",
+      "id": "b8ccecb4cc59aaba4d45e1b45fbde521072f2947"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-som-partner/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/hvorfor-pfa/pfa-som-partner",
+      "id": "44dfa26b6466b39313fdf8bb581a0e0dc5c1067d"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/raadgivning/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/hvorfor-pfa/raadgivning",
+      "id": "43f92a33553c818739d820ec095bfde1e137e38d"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/firmapension-i-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/produkter/firmapension-i-pfa",
+      "id": "640379b7de47adc7217394f63803eff59d609bf8"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/international-raadgivning/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/produkter/international-raadgivning",
+      "id": "531ab66bb70347f13e8ad85899ac740805e1c36a"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-plus/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/produkter/pfa-plus",
+      "id": "55965b8b98ec58d2247b60cb494cb4b4d554f656"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-rygestop/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/produkter/pfa-rygestop",
+      "id": "5a243d672c8caeed854d72056c4fc3a244d4bdd6"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-senkarriere/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/produkter/pfa-senkarriere",
+      "id": "d12838a854340cb154f1f84e6ae40759603e49e9"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/digital-trivselsraadgiver",
+      "id": "bc6b3689dab607d11042d749256165c901e5ab3c"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/digital-trivselsraadgiver",
+      "id": "2e823ddb3b01d720736f27a0dcbc98ed35bdadad"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/earlycare/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/earlycare",
+      "id": "7776c6ccb7fa4450d2ef97a84d71048951b7fd20"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/hr-ledersparring/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/hr-ledersparring",
+      "id": "85f307064f7e2a2ab925946955c8b8074c2ae230"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/online-sundhedshjaelp/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/online-sundhedshjaelp",
+      "id": "a1481dc10ca4c2a55dcd85f04ef2c622de9691bf"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/overblik/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/overblik",
+      "id": "cb0c560420cad1dcf23df59d8a05bfbb7ff2cc75"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/sundhed-trivsel-paa-agendaen/",
+      "source": "CRAWL",
+      "targetPath": "/erhverv/sundhed/sundhed-trivsel-paa-agendaen",
+      "id": "f2c71463fa67c089c3b573e21122f8bb9aceeced"
+    },
+    {
+      "url": "https://www.pfa.dk/kontakt/",
+      "source": "CRAWL",
+      "targetPath": "/kontakt",
+      "id": "ec95361ff4f4d2803a875bb8b8bdb6997c88955f"
+    },
+    {
+      "url": "https://www.pfa.dk/kontakt/",
+      "source": "CRAWL",
+      "targetPath": "/kontakt",
+      "id": "5cd8e2bbbcd1b2d2b233df588e6f8b683c1e2b85"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive",
+      "id": "96bbe855c8f131927b1f0d45e69203e75361392a"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive",
+      "id": "926656ae927c6c50c91e0c9c8d60783563610dc6"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande",
+      "id": "e03a77089ac8e443ddeb69435d90be125be0aa3e"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande",
+      "id": "8a8f8fe836c536142ed85528e7fdc77678bb7072"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/12/15/16/19/pfa-har-branchens-bedste-kundetilfredshed/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2024/12/15/16/19/pfa-har-branchens-bedste-kundetilfredshed",
+      "id": "d9037510a017099158d8ad17978a7cb36c331791"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost",
+      "id": "39800ea751ea6bb078bc9ac4f6247ddaa2553d2a"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost",
+      "id": "e9cbfdad5b082767ca5f2e4055f2bcb322b46cec"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette",
+      "id": "b67414ed9769829abbe44fc8437f5cd89b689c01"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette",
+      "id": "c0042a8aaa98637cc228c7023a8621d0eefb77ec"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/01/20/10/37/aktivt-ejerskab-2024/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/01/20/10/37/aktivt-ejerskab-2024",
+      "id": "fd71f210787ec57c2f07c19fb2d3b61804bb1a37"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling",
+      "id": "83b49e7655e37db68f86fcdfa6b40bc59018ebab"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling",
+      "id": "a8b135fc7d58421c7ea7485df63cbec5e2fc49d4"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/12/12/19/usikkerhed-spolerer-risikoappetitten/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/12/12/19/usikkerhed-spolerer-risikoappetitten",
+      "id": "7f1507dcfafa094584cf51ac91d3aaeba0884f2f"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/13/12/29/ansvar-pfa-overfor-amerikanske-selskaber/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/13/12/29/ansvar-pfa-overfor-amerikanske-selskaber",
+      "id": "112b83d839f56027123cce76f3b5788464c2e3d9"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/20/10/22/kig-paa-historien/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/20/10/22/kig-paa-historien",
+      "id": "40b20cd3c6f4d780dcb276bc62e36abf3e1ef455"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/20/10/58/pfa-center-for-angst-samarbejde/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/03/20/10/58/pfa-center-for-angst-samarbejde",
+      "id": "344916ce1dc1dd2675cd8b6d5411a218623c6623"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve",
+      "id": "82083e2fe105bdcca468f1f86fed74bee15f771c"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve",
+      "id": "7f53387dddb25ce4d058cbd6a02e66190bd02a60"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger",
+      "id": "05c6bbf9027affea3bfc42346143e79c2848a8e6"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger",
+      "id": "a316616ab17dab9ded3575fcbf45ea590102fe3c"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg",
+      "id": "fe3518777daaa07aaab920db66f1c4d9a6d6f96c"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg",
+      "id": "8b8d41f069935a923c4a720080f799748b71820d"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/22/07/35/nu-vil-et-flertal-forlaenge-arbejdslivet/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/22/07/35/nu-vil-et-flertal-forlaenge-arbejdslivet",
+      "id": "f87daa0fd797deb295132c0878a1d57fbd5766ab"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/24/09/25/pfa-sender-milliardbeloeb-tilbage/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/24/09/25/pfa-sender-milliardbeloeb-tilbage",
+      "id": "fb56f79eaec708e0ba8dafb7809aa0d694d6c579"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/29/08/46/trumps-foerste-100-dage/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/04/29/08/46/trumps-foerste-100-dage",
+      "id": "1bdc90b189fd585eca15e8ff2e81b901b679743b"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/06/11/05/se-billederne-fra-danmarks-hoejeste-traehus/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/06/11/05/se-billederne-fra-danmarks-hoejeste-traehus",
+      "id": "e79f012e06f1a22ce0e7e788b7a3f40aa18c5a05"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar",
+      "id": "a3fb9ac74982644720f509500ea3bc2d42e04107"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar",
+      "id": "422256cba740fe5b18d6b4a53f18ccf8be842cc3"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/09/10/09/pfa-opfoerer-friplejehjem-og-seniorboliger/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/09/10/09/pfa-opfoerer-friplejehjem-og-seniorboliger",
+      "id": "cb6ce624dc1b0f703d949992240f1f757c85004d"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/10/58/fra-frit-fald-til-flot-comeback/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/14/10/58/fra-frit-fald-til-flot-comeback",
+      "id": "c44721a895f356c0b2162bad621676df65c4d2fb"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune",
+      "id": "7a2b9fa09fae3454fdcf1270dc2cc9cbe6f7116c"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune",
+      "id": "8e3fdc0e07c93e05bce2e441a30a38a495213246"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten",
+      "id": "cb4c8f582b0740d7c8440af0fab40574433ba03f"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten",
+      "id": "8ef982986279af0668cb92e4449bfc390eede26a"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/",
+      "source": "CRAWL",
+      "targetPath": "/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten",
+      "id": "36b2901e11f8a4c9432c644cd602ab829aa4e063"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa",
+      "id": "33a005a8f60afd13376dc63e48ebca794a19bf03"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/aarsrapporter/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/finansiel-information/aarsrapporter",
+      "id": "a9192c0db3ece6a803397e6b30f745dd75737733"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/artikel/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/finansiel-information/artikel",
+      "id": "d847bdbedc4b166e61cf0400b46c2a12fc112ed2"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/magasin/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/finansiel-information/magasin",
+      "id": "2dcfa9411a1dc58a3eee7f560a54165a0cda9467"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/omkostninger-og-priser/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/finansiel-information/omkostninger-og-priser",
+      "id": "224fca254cc04866cf6fe6c4bd3deb04f29b4d6c"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/omkostningsmaaler/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/finansiel-information/omkostningsmaaler",
+      "id": "6d1b531815376296acb00839026878187cf4a816"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/bestyrelse/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/bestyrelse",
+      "id": "7fbaf4d0ca4da39999cc6a9ea17b4d402bec8ce7"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/kort-om-pfa",
+      "id": "8eb2a57904b23b4f574dbb5e175431c838999410"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/kort-om-pfa",
+      "id": "36e0dfba0f594728d05193d59bc9fb42de90feda"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/ledelse/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/ledelse",
+      "id": "d7061af46ae5d4add582389b891c7da1423ee201"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/ledelse/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/ledelse",
+      "id": "d4cbd7ca6d91f67e88f79a250ef13d8249073ece"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/organisation",
+      "id": "134e69f391628dc5764c1e4dc4535779ae1064c7"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/esg/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/organisation/esg",
+      "id": "ae1aaf6e7cf6eeb4362819d4a8f424cb4672d61b"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/overholdelse-eu-taksonomien-paa-danske-ejendomme/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/organisation/overholdelse-eu-taksonomien-paa-danske-ejendomme",
+      "id": "640372c16df8fd9f736728e47cfeddd7a68aa6dd"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/presserum/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/hvem-er-vi/presserum",
+      "id": "9b88f605ef3e0e1b35df02ef92b5fde161372400"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/finanselev/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/finanselev",
+      "id": "3cf779ff2c7485a7bd75db9f33a2d40ed05edbae"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/graduate/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/graduate",
+      "id": "05db1ddddc72b57de2ea1f1c1d19b03ad9a758fc"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/ledige-job",
+      "id": "a137914c06b4ba9cf04aa3f0e8e1728f8a31fcc0"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/ledige-job",
+      "id": "666a08e04f80a3d048c2380f7f91243a3af7ccd0"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/ledige-job",
+      "id": "3c7c20f83f8cb89c0d219971bbe5572d93150012"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/pfa-som-arbejdsplads",
+      "id": "ad82113fa3eb8c761d6cbfa9200612a66a1d89ac"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/job-i-pfa/pfa-som-arbejdsplads",
+      "id": "8e4021e01b0a0b4a55def2b75e7806f799a290e3"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/aktivt-ejerskab/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/aktivt-ejerskab",
+      "id": "c13c9b59e68b8fd5711f31e2246f24531a23fef3"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/dataetik/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/dataetik",
+      "id": "a862c901777931bd4d8ca278922071e29ec0dfa4"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/dialog-log/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/dialog-log",
+      "id": "b8fa95e280c308eba2dd402cd7ca127b07dbfeb0"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/eksklusion/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/eksklusion",
+      "id": "63f8fda5905832f7c47e18fd0c124a808355c915"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/groen-omstilling/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/groen-omstilling",
+      "id": "f6f6939f3ab93e1e109043002d7c6077001117dd"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/indsatser-paa-tvaers/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/indsatser-paa-tvaers",
+      "id": "9fe81909503da374db19201c9eb7e43d4e05e58c"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/menneskerettigheder/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/menneskerettigheder",
+      "id": "a93c85ed21cf74301b59b04d47d58c70892e6fa7"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/oekonomisk-tryghed/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/oekonomisk-tryghed",
+      "id": "0c1fb6b9513e5384863e86184cd9a69f43afae44"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/politik-og-retningslinjer/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/politik-og-retningslinjer",
+      "id": "e01215c17a9941a7cd58704526d50566c5b4c5d8"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/rapporter-og-rammer/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/rapporter-og-rammer",
+      "id": "de18c0ec7ab377c401be2ee448a06f7a351c1c44"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/seniorliv/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/seniorliv",
+      "id": "fd1d4a3418e7e2de2036b10d0a8da7ff486b816a"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/skatteadfaerd/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/skatteadfaerd",
+      "id": "5815dcab408dc6aaae23966333c114ae76f3d20b"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/stemmeafgivelse/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/stemmeafgivelse",
+      "id": "be7e95863cd699d9f1491b1482884ac9c2024bbf"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/sundhed/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/sundhed",
+      "id": "41e5e75f8ae134d56a5dce198bebc7960783bd6e"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/vores-tilgang/",
+      "source": "CRAWL",
+      "targetPath": "/om-pfa/samfundsansvar/vores-tilgang",
+      "id": "7436d1aa58ca7cf6af7c126b8df38f539928cab3"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/",
+      "source": "CRAWL",
+      "targetPath": "/privat",
+      "id": "109d2b1ef4db84ec2e6cd8efb3e585e7f9010ab7"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/forside-fuldmagt/",
+      "source": "CRAWL",
+      "targetPath": "/privat/formularer/forside-fuldmagt",
+      "id": "616ae89b3519066e723d5c9885f9acfbf64b4f63"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/klag-over-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/privat/formularer/klag-over-pfa",
+      "id": "d7218b0abf8427576312db7613f46de6063ddadb"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/klag-over-pfa/klage-kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/privat/formularer/klag-over-pfa/klage-kvittering",
+      "id": "e5ecd39c32c286ce27fbdb5774ac890aca8faf1f"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/testamenteservice/",
+      "source": "CRAWL",
+      "targetPath": "/privat/formularer/testamenteservice",
+      "id": "839adc1deeedaaf88c9d238a2d3a3c4abea9e945"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/testamenteservice/kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/privat/formularer/testamenteservice/kvittering",
+      "id": "29032ffe052dabb94007d981f8e8769d53f28c56"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/anmeld-skade/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/anmeld-skade",
+      "id": "520839b5c2746e425ad174dc3538d7330647c856"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/anmeld-skade/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/anmeld-skade",
+      "id": "37b539c1c015399a5c6903359f9eb4c5864b712f"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/du-kan-ikke-laengere-arbejde/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/du-kan-ikke-laengere-arbejde",
+      "id": "9a5bc09694d07f32c7df737fe45229a3ef1daaf8"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/er-du-blevet-sygemeldt/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/er-du-blevet-sygemeldt",
+      "id": "62f959a3833bcd22cbbf7db58c058018b7e27705"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/er-du-ok/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/er-du-ok",
+      "id": "3114b18789261760d1642fcf0b16bf42a2d8b004"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/har-du-smerter/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/har-du-smerter",
+      "id": "8f5aca46dac08fa00f8e251e673bef01622e03aa"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/hjaelp-til-at-leve-sundere",
+      "id": "176810a11eda53d05a6e2f22ce8d4bcf69cf6f28"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/hjaelp-til-at-leve-sundere",
+      "id": "6cfdf7b2a1245b301db2ca805fd0a6255f2ebf7b"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hvis-du-bliver-alvorligt-syg/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/hvis-du-bliver-alvorligt-syg",
+      "id": "dd08b323ac002c0db0203cd5f42ebb2e87f6190f"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/mistrives-dit-barn/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/mistrives-dit-barn",
+      "id": "62f21dc5364c4d28a2079a02cea1aec487d1261f"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/online-sundhedshjaelp/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/online-sundhedshjaelp",
+      "id": "b567b6b24d94af44df370ddfa4571bdd039857f8"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/overblik/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/overblik",
+      "id": "eb9098d99cd8735689a3a4dc1dfac402f789bfba"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-earlycare",
+      "id": "dcc00ffb8245fd389e3bedc3e057ece476ea7393"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare/tak-early/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-earlycare/tak-early",
+      "id": "31676db22321b3082360d49c0aa77a6e99ccdbf3"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-erhvervsevne/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-erhvervsevne",
+      "id": "904422892cd86c33932c0076eda63cac93087311"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-forebygger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-forebygger",
+      "id": "aba4d835082ed7ae4a0c44b8ca1cd51ef13971cb"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring-60-79",
+      "id": "eef144078a98bedf3f283c62be3566632309fff2"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring-60-79",
+      "id": "0cdee02058fa9503b1e5709c39aadab7b989adcf"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs",
+      "id": "68ad1f96b54b8a98ac67775fed725cc0bc4a3db8"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/kvittering",
+      "id": "190f5c14c698023ac871eca90d50819f00596054"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring",
+      "id": "aa5feb32cad42af4892587d5f68bad6a7921d340"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-helbredssikring",
+      "id": "261c428faa00c1d8aad9fa401b5bd38935cd1334"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-kritisk-sygdom/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-kritisk-sygdom",
+      "id": "447e71a770642aad903bb4ea3dace620fb636e0b"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-liv/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-liv",
+      "id": "65a028a2aed3b02db6c43dc055d301f5460411f0"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-sundhedslinje/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/pfa-sundhedslinje",
+      "id": "c34125f5ccacdaee7f8acbb7e4f1b5681e42b9ef"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/saadan-faar-du-hjaelp/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/saadan-faar-du-hjaelp",
+      "id": "172cd49addf4b5985703e0344184b814e8944c1f"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/symptomer-paa-stress/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/symptomer-paa-stress",
+      "id": "9873826f74d5d1a81e48579f2046f72c70c737af"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/udbetaling-til-dine-efterladte/",
+      "source": "CRAWL",
+      "targetPath": "/privat/forsikringer/udbetaling-til-dine-efterladte",
+      "id": "43790b378b4f52301ae5d92b50a6bac866766f99"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/dine-fordele-i-pfa",
+      "id": "3a7e2ce73c638bb5ecc9196dd7b6761df9573acf"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/dine-fordele-i-pfa",
+      "id": "7a3bff4662a2cbb3fe53a22a0e7227a03cebe107"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/friplejehjem/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/friplejehjem",
+      "id": "8084c18eca26f51eb699050f6875f0709f7a6e2d"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/fysiske-kurser/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/fysiske-kurser",
+      "id": "5a9d66aacdd5fe2bbdc6b70cac47a55ed3bca10b"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/goodlife/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/goodlife",
+      "id": "ef2ce381bab2cccc1c53880d60acd6003b14c6e3"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/kf-forsikring/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/kf-forsikring",
+      "id": "b6c69050ddd904b06d1ace212dc2306816db94e6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/kurser/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/kurser",
+      "id": "0d8efe32f9834dcb0b68477a1d5b3e8e07c482e8"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-boliger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/pfa-boliger",
+      "id": "aa4cfcea77c0c83878edbd0faefdc66305767735"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-boliger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/pfa-boliger",
+      "id": "52efe10cab78a80249d9c98b52627cbe27ce9fe4"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-kollegier/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/pfa-kollegier",
+      "id": "2acc991635fafb69876dd16fc25b2168e450ead7"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-seniorboliger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/pfa-seniorboliger",
+      "id": "ae49173605b8366c384185a41e141dad06d2dcf5"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/podcast/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/podcast",
+      "id": "005de046f49cb0854fc576bea850d215d508c9ff"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/podcast/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/podcast",
+      "id": "3088fe7f7bf96c4315e128cedbb8907a086794e0"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/testamenteservice/",
+      "source": "CRAWL",
+      "targetPath": "/privat/kundefordele/testamenteservice",
+      "id": "322cb538372f072c95309c758c84134d6304801e"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/arv-og-testamente/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/arv-og-testamente",
+      "id": "7cedbb129ad277682cbb7726825d842a333363e0"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/er-der-udloebsdato-paa-arbejdslivet/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-senior-liv-artikler/er-der-udloebsdato-paa-arbejdslivet",
+      "id": "5b1e85d51776e9eeaa7d578402a5099373a0e16d"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/frivilligt-arbejde-nyrup/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-senior-liv-artikler/frivilligt-arbejde-nyrup",
+      "id": "195b66982551dcbcc5e1406d552ef33d88dc4160"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/penge-til-et-langt-liv-schjoelin/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-senior-liv-artikler/penge-til-et-langt-liv-schjoelin",
+      "id": "f2824459d3e3484deb2f902e5afcb289fcd502d3"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tid-til-at-flytte-i-mindre/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-senior-liv-artikler/tid-til-at-flytte-i-mindre",
+      "id": "e17464f0af84bd2a2cc06eb951151237617e6f30"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tiden-gaar-lysten-bestaar-oerting/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-senior-liv-artikler/tiden-gaar-lysten-bestaar-oerting",
+      "id": "01dfc39c514de61502dd09f8c206094bf4ab674d"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-seniorliv-hub/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/det-gode-seniorliv-hub",
+      "id": "9faeb9ffff637d45cb754c0351b9f116c6d127a6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/din-boligsituation-aendrer-sig/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/din-boligsituation-aendrer-sig",
+      "id": "c4f29f06219a89f3af90baed39fe64a298a0a6b6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-bliver-arbejdsloes/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-bliver-arbejdsloes",
+      "id": "6c900ed39fd3fdcaeab75be68652497fffa1b158"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-faar-boern/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-faar-boern",
+      "id": "74d80184839600fc0b354118372f499cbf87e074"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-faar-bonus-eller-loenforhoejelse/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-faar-bonus-eller-loenforhoejelse",
+      "id": "9286757e73e5c63aabe2edc2b25c86e9b97c4cd6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-har-faaet-nyt-job/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-har-faaet-nyt-job",
+      "id": "c7e49f55e2939de1ee11def34b97c73269af1cf6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-giftes",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-skal-giftes",
+      "id": "0d0ceafb3c6b4e34d99561bb736bf1af720e1179"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-giftes/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-skal-giftes",
+      "id": "db082f14b198029ba69b5c53658be70001237f81"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-skilles/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-skal-skilles",
+      "id": "777b2ea86166352fe41a32756258c557a06c0feb"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-udstationeres/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-skal-udstationeres",
+      "id": "59dd618f6ed22ab9afbbaa6706e9a1eb84f217ff"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-tager-orlov/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/du-tager-orlov",
+      "id": "6482bc6f13e4776aac86427aa0bd8445f53b4717"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/gradvis-overgang-til-pension/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/gradvis-overgang-til-pension",
+      "id": "cdb6e5ab8f1094b9630d6ef635261689c9efc271"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/hvis-du-doer-inden-pensionsalderen/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/hvis-du-doer-inden-pensionsalderen",
+      "id": "8f07b07758780bb6bd1a9fdb7fd6d95ecaee1b70"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/indbetalingsfri-pensionsordning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/indbetalingsfri-pensionsordning",
+      "id": "1a7d2c02129e89b0e7b4dab4b8dc6409ec69dd6d"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/ved-alvorlig-sygdom/",
+      "source": "CRAWL",
+      "targetPath": "/privat/livsaendringer/ved-alvorlig-sygdom",
+      "id": "f33de0d384ceb9287ea9f80c7cf5348624fabb20"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/aktivsammensaetning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/aktivsammensaetning",
+      "id": "98ff691367671cfa69ede1f5d0f986913825e229"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/baeredygtighedsrelaterede-oplysninger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/baeredygtighedsrelaterede-oplysninger",
+      "id": "9c1f9638895128a3afd0e32ab486ef210d656bfe"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/begunstigelse/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/begunstigelse",
+      "id": "41ff4838cef884b2a143471516f62b587f81d234"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/bolig-seniorliv/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/bolig-seniorliv",
+      "id": "09a46beb0e7314f6e93ca56bc3a1a780d67e17a4"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/du-investerer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/du-investerer",
+      "id": "88a0c468bd96f4d8ced07444391f684f031c3d62"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/hvad-er-en-pensionsopsparing/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/hvad-er-en-pensionsopsparing",
+      "id": "e21795e8cf3c19ef9d53253d674efa55b85c0255"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/investeringsformer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/investeringsformer",
+      "id": "3fde3a8b7a528182c1c751f0100189055d4a4639"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/klogere-paa-investeringer-old",
+      "id": "3a2fb515f4b80d287a98ae021f407c0ac20fb93b"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/klogere-paa-investeringer-old",
+      "id": "e0f4698f518814a2f78320c99bed83341d09f32e"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/klogere-paa-investeringer",
+      "id": "fc1e976f43d57e9ceacdae3857be611fe4aea880"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/opsparing-i-gennemsnitsrente/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/opsparing-i-gennemsnitsrente",
+      "id": "aabec4b73b53599039a2302d005ed7f98c95dd95"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/opsparingsformer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/opsparingsformer",
+      "id": "e5476f6fff0392c9ebca091a887891498140b79e"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-afkast",
+      "id": "a555abd2973e1080685a8c72af2327da5364a66a"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast/forudsaetninger-for-afkastberegninger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-afkast/forudsaetninger-for-afkastberegninger",
+      "id": "9853fd4140067af6fda3271dfd417fcafd7195e3"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-fleksibel/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-fleksibel",
+      "id": "fab9135e29a157101ff8ca97f8253954eb386471"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-investerer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-investerer",
+      "id": "298691005166913d62544fb3805d6d7ab6f6bd59"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-klima-plus/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-klima-plus",
+      "id": "95c2018375199beb8ab8f2ce46f849d7c71272dc"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-kundekapital/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-kundekapital",
+      "id": "6772e48d8fb83f4ded061e9eff53dd9ea8114b7d"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-kundekapital/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-kundekapital",
+      "id": "0835cc173073af3d6b30da832aaa1ca66e4fc789"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-plus-fri/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/pfa-plus-fri",
+      "id": "eac8783b4cfe4dd8175ae8552f63299a46df890a"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/planlaeg-din-opsparing/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/planlaeg-din-opsparing",
+      "id": "b9daddce64c17dd256536850fe20174b056b7707"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/profil-forsigtig-aktivsammensaetning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/profil-forsigtig-aktivsammensaetning",
+      "id": "179dcbe819e9d97a26b23b04c51d61e11587ee19"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/profil-forsigtig/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/profil-forsigtig",
+      "id": "95b6cf4c85aa032a4c7318be690d889d120e8610"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/risikomaerkning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/risikomaerkning",
+      "id": "84d873f642b401a49aa03825dd5e328401e3ce23"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/saml-dine-pensionsopsparinger",
+      "id": "9f499cd3d14e07e7763bc32ccb337d68b4073ed0"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger/kvittering/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/saml-dine-pensionsopsparinger/kvittering",
+      "id": "5b1fad01dcba1dd23d0d55dfbdd6957663c76531"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/skatteregler/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/skatteregler",
+      "id": "91b0c288f5058d60137b7131e4315108700a83c6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/sparekstraop/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/sparekstraop",
+      "id": "fe0d05cbcf9ffbffb38da478e7cbc5f6126665eb"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/udbetaling-af-pension/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/udbetaling-af-pension",
+      "id": "9792efed4d0b71025ec1c9d4d98b4e2d0b192ed4"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/unoterede-investeringer/",
+      "source": "CRAWL",
+      "targetPath": "/privat/opsparing/unoterede-investeringer",
+      "id": "6ae09e4f67dc688791f191f5509c370de3edf1b6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/raadgivning",
+      "id": "981f5a8b98029a4cb7669c1b2543506f95b98e2b"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/raadgivning",
+      "id": "5987ceef1b4ecf30a5d007abbc9aa137f898d667"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning/",
+      "source": "CRAWL",
+      "targetPath": "/privat/raadgivning",
+      "id": "126a46720cb1759aadcbfeb25caec1ed587e7ad6"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/til-dig-over-halvtreds/planlaeg-din-pension/",
+      "source": "CRAWL",
+      "targetPath": "/privat/til-dig-over-halvtreds/planlaeg-din-pension",
+      "id": "20d1d0cd9dc4c27d36ea31de366f2c6165027a9c"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/tilmeld-dig-nyheder/",
+      "source": "CRAWL",
+      "targetPath": "/privat/tilmeld-dig-nyheder",
+      "id": "f87112b16254c72d37e456027b638459396a7366"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/udbetalingssikring/",
+      "source": "CRAWL",
+      "targetPath": "/privat/udbetalingssikring",
+      "id": "426fc2c16ade28c98663520a23ffc39b681bb232"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/brug-af-cookies-i-mit-pfa/",
+      "source": "CRAWL",
+      "targetPath": "/skjult/brug-af-cookies-i-mit-pfa",
+      "id": "df3b47c5cc096bce9c1890db59fadc4c31775890"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/brug-af-cookies/",
+      "source": "CRAWL",
+      "targetPath": "/skjult/brug-af-cookies",
+      "id": "070f6e8f00ecb2f47741f81f8da13ef21ba6c596"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/forbehold/",
+      "source": "CRAWL",
+      "targetPath": "/skjult/forbehold",
+      "id": "fa08b4c2756fb8bd67f31df9b5c3456b9d6cc85e"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/notfound/",
+      "source": "CRAWL",
+      "targetPath": "/skjult/notfound",
+      "id": "a5909e1a120bc428c88466c5f88ddf2051513831"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/notfound/",
+      "source": "CRAWL",
+      "targetPath": "/skjult/notfound",
+      "id": "1a47466f67ca07a2ceb38cc46a2612ba140e9650"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/aktier-og-obligationer/",
+      "source": "CRAWL",
+      "targetPath": "/andet/aktier-og-obligationer",
+      "id": "297d4c9bb228eb38f9e8ca46380b5c00015b7ed4"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/behandling-af-personoplysninger/",
+      "source": "CRAWL",
+      "targetPath": "/andet/behandling-af-personoplysninger",
+      "id": "efa46abc19580c4779bab643cda039597edf447f"
     }
   ],
   "crawlOptions": {
@@ -106,8 +1542,1377 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "SITEMAPS",
+    "strategy": "crawl",
     "logger": {}
   },
-  "extractionErrors": []
+  "extractionErrors": [
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/pfabruglivetfonden/",
+      "status": "301 Moved Permanently Redirect: https://pfabruglivetfonden.dk/forside/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-video/",
+      "status": "301 Moved Permanently Redirect: https://video.pfa.dk/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/pfa-administratorportal/",
+      "status": "301 Moved Permanently Redirect: https://vores.pfa.dk/login"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/logo/pfa-logo-2023-alle-formater.zip?rev=811dbbc2e0424eb2a7fbc36c27012d74",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/logo/pfa-logo-2023-alle-formater.zip/?rev=811dbbc2e0424eb2a7fbc36c27012d74"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/aktier-og-obligationer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/aktier-og-obligationer/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/behandling-af-personoplysninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/behandling-af-personoplysninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/din-kundeoplevelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/din-kundeoplevelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/finanstilsyn",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/finanstilsyn/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/forudsaetninger-opsparingsberegner",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/forudsaetninger-opsparingsberegner/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/legitimation",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/legitimation/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-kunde",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/legitimation/legitimation-kunde/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-kunde/legitimation-kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/legitimation/legitimation-kunde/legitimation-kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald/dokumentation-kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/legitimation/legitimation-ved-doedsfald/dokumentation-kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/markedsudvikling",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/markedsudvikling/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/markedsudvikling?icid=spot_bevarroenitrumpstoldkrig_",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/markedsudvikling/?icid=spot_bevarroenitrumpstoldkrig_"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-a",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-a/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-b",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-b/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-beregninger-prognoser",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-beregninger-prognoser/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-btb",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-btb/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-btb?icid=spot_ppfaintroducerernyeinvesteringsbrprofilerp_laesmere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-btb/?icid=spot_ppfaintroducerernyeinvesteringsbrprofilerp_laesmere"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-c",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-c/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-d",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-d/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-fleksibel",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-fleksibel/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-klima",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-klima/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler-webinar",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler-webinar/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/nye-investeringsprofiler",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/nye-investeringsprofiler/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/paragraf-41",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/paragraf-41/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/paragraf-41/paragraf-41-kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/paragraf-41/paragraf-41-kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/persondata-kf",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/persondata-kf/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/produktinformation",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/produktinformation/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/ratepension",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/ratepension/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/saerlige-undersoegelser",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/saerlige-undersoegelser/"
+    },
+    {
+      "url": "https://www.pfa.dk/andet/update",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/andet/update/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/forlaeng-dit-arbejdsliv/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/campaigns/senkarriere"
+    },
+    {
+      "url": "https://www.pfa.dk/campaigns/senkarriere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/campaigns/senkarriere/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/bliv-kunde/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde?icid=spot_faringfirmapensionuansetomierellermedarbejdere_",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/bliv-kunde/?icid=spot_faringfirmapensionuansetomierellermedarbejdere_"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/bliv-kunde/tak-bliv-kunde",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/bliv-kunde/tak-bliv-kunde/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/administration-i-hverdagen",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/administration-i-hverdagen/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular/tak",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/elever-og-laerlinge/formular/tak/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/indbetaling-og-indberetning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/indbetaling-og-indberetning/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/individuelle-tilpasninger-til-ordningen",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/individuelle-tilpasninger-til-ordningen/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/naar-en-medarbejder",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/naar-en-medarbejder/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/naar-helbredet-svigter",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/naar-helbredet-svigter/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/pfa-administratorportal",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/pfa-administratorportal/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/saerlige-medarbejderbehov",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/saerlige-medarbejderbehov/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/samlede-kontaktoplysninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/samlede-kontaktoplysninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/send-besked/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked?icid=quicklink_foradministratorer_sendsikkerbesked",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/send-besked/?icid=quicklink_foradministratorer_sendsikkerbesked"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked?icid=quicklink_hvorforpfa_sendsikkerbesked",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/send-besked/?icid=quicklink_hvorforpfa_sendsikkerbesked"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/for-administratorer/send-besked?icid=quicklink_produkter_sendsikkerbesked",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/for-administratorer/send-besked/?icid=quicklink_produkter_sendsikkerbesked"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef/tak",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/formularer/kontaktes-kundechef/tak/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/et-afkast-i-top",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/hvorfor-pfa/et-afkast-i-top/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/konkurrencedygtige-omkostninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/hvorfor-pfa/konkurrencedygtige-omkostninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-kundekapital",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-kundekapital/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-som-partner",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/hvorfor-pfa/pfa-som-partner/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/hvorfor-pfa/raadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/hvorfor-pfa/raadgivning/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/earlycare/kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/earlycare/kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/firmapension-i-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/firmapension-i-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/international-raadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/international-raadgivning/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-plus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/pfa-plus/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-rygestop",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/pfa-rygestop/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/pfa-senkarriere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/produkter/pfa-senkarriere/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver?icid=spot_faaskraeddersyedeanbefalingerpaaminutter_",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/digital-trivselsraadgiver/?icid=spot_faaskraeddersyedeanbefalingerpaaminutter_"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/produkter/earlycare/kvittering/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/earlycare"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/earlycare",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/earlycare/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/hr-ledersparring",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/hr-ledersparring/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/online-sundhedshjaelp",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/online-sundhedshjaelp/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/overblik",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/overblik/"
+    },
+    {
+      "url": "https://www.pfa.dk/erhverv/sundhed/sundhed-trivsel-paa-agendaen",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/erhverv/sundhed/sundhed-trivsel-paa-agendaen/"
+    },
+    {
+      "url": "https://www.pfa.dk/kontakt",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/kontakt/"
+    },
+    {
+      "url": "https://www.pfa.dk/kontakt?icid=spot_kontaktvoresraringdgivningscenterellersundhedscenter_sehvordandukontakteros",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/kontakt/?icid=spot_kontaktvoresraringdgivningscenterellersundhedscenter_sehvordandukontakteros"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/News-Archive/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive?icid=news_pfanyheder_seflerenyheder",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/?icid=news_pfanyheder_seflerenyheder"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2024/11/22/09/20/fond-skal-skabe-groenne-fremskridt-i-ulande/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/12/15/16/19/pfa-har-branchens-bedste-kundetilfredshed",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2024/12/15/16/19/pfa-har-branchens-bedste-kundetilfredshed/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2024/12/28/08/36/tocifrede-afkast-giver-staerkt-boost/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/01/03/14/19/derfor-kan-aktiefremgangen-fortsaette/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/01/20/10/37/aktivt-ejerskab-2024",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/01/20/10/37/aktivt-ejerskab-2024/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/03/04/12/13/trumps-tariffer-sender-aktierne-til-taelling/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/12/12/19/usikkerhed-spolerer-risikoappetitten",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/03/12/12/19/usikkerhed-spolerer-risikoappetitten/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/13/12/29/ansvar-pfa-overfor-amerikanske-selskaber",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/03/13/12/29/ansvar-pfa-overfor-amerikanske-selskaber/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/20/10/22/kig-paa-historien",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/03/20/10/22/kig-paa-historien/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/03/20/10/58/pfa-center-for-angst-samarbejde",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/03/20/10/58/pfa-center-for-angst-samarbejde/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/03/13/51/toldkrig-aktiemarkederne-paa-proeve/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/10/11/33/toldpause-giver-rekordstigninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/15/07/18/faa-svar-paa-de-mest-stillede-spg/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/22/07/35/nu-vil-et-flertal-forlaenge-arbejdslivet",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/22/07/35/nu-vil-et-flertal-forlaenge-arbejdslivet/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/24/09/25/pfa-sender-milliardbeloeb-tilbage",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/24/09/25/pfa-sender-milliardbeloeb-tilbage/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/04/29/08/46/trumps-foerste-100-dage",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/04/29/08/46/trumps-foerste-100-dage/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/06/11/05/se-billederne-fra-danmarks-hoejeste-traehus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/06/11/05/se-billederne-fra-danmarks-hoejeste-traehus/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar?icid=news_pfanyheder_pfaudvidermulighederneforatinvestereiforsvarsindustrien",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/08/10/52/pfa-udvider-investeringer-i-forsvar/?icid=news_pfanyheder_pfaudvidermulighederneforatinvestereiforsvarsindustrien"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/09/10/09/pfa-opfoerer-friplejehjem-og-seniorboliger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/09/10/09/pfa-opfoerer-friplejehjem-og-seniorboliger/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/10/58/fra-frit-fald-til-flot-comeback",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/14/10/58/fra-frit-fald-til-flot-comeback/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune?icid=news_pfanyheder_pfabygningpraemieretafkoebenhavnskommune",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/14/11/20/nordoe-praemieret-af-koebenhavns-kommune/?icid=news_pfanyheder_pfabygningpraemieretafkoebenhavnskommune"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/"
+    },
+    {
+      "url": "https://www.pfa.dk/News-Archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/News-Archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/"
+    },
+    {
+      "url": "https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten?icid=news_pfanyheder_nymulighedsaelgdinboligmurstenformurstenogfaamereatleveaf",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/news-archive/2025/05/20/11/41/saelg-din-bolig-mursten-for-mursten/?icid=news_pfanyheder_nymulighedsaelgdinboligmurstenformurstenogfaamereatleveaf"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/aarsrapporter",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/finansiel-information/aarsrapporter/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/artikel",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/finansiel-information/artikel/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/magasin",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/finansiel-information/magasin/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/omkostninger-og-priser",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/finansiel-information/omkostninger-og-priser/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/finansiel-information/omkostningsmaaler",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/finansiel-information/omkostningsmaaler/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/bestyrelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/bestyrelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa?icid=hero_mereendpension_laesmere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/kort-om-pfa/?icid=hero_mereendpension_laesmere"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/ledelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/ledelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/esg",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/esg/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/overholdelse-eu-taksonomien-paa-danske-ejendomme",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/organisation/overholdelse-eu-taksonomien-paa-danske-ejendomme/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/hvem-er-vi/presserum",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/hvem-er-vi/presserum/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/finanselev",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/finanselev/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/graduate",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/graduate/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ansaettelsesproces/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job?icid=linklist_nyttigelinks_ledigestillingeripfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/ledige-job/?icid=linklist_nyttigelinks_ledigestillingeripfa"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads?icid=quicklink_jobipfa_pfasomarbejdsplads",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/job-i-pfa/pfa-som-arbejdsplads/?icid=quicklink_jobipfa_pfasomarbejdsplads"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/aktivt-ejerskab",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/aktivt-ejerskab/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/ansvarlige-investeringer/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/ansvarlige-investeringer"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/ansvarlige-investeringer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/ansvarlige-investeringer/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/dataetik",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/dataetik/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/dialog-log",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/dialog-log/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/eksklusion",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/eksklusion/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/et-baeredygtigt-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/et-baeredygtigt-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/ansvarlige-investeringer/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/groen-omstilling"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/klima-og-ambitioner/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/groen-omstilling"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/groen-omstilling",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/groen-omstilling/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/et-baeredygtigt-pfa/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/indsatser-paa-tvaers"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/ansvarlig-forretningspraksis/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/indsatser-paa-tvaers"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/indsatser-paa-tvaers",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/indsatser-paa-tvaers/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/klima-og-ambitioner",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/klima-og-ambitioner/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/menneskerettigheder",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/menneskerettigheder/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/oekonomisk-tryghed",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/oekonomisk-tryghed/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/pfabruglivetfonden",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/pfabruglivetfonden/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/politik-og-retningslinjer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/politik-og-retningslinjer/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/rapporter-og-rammer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/rapporter-og-rammer/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/seniorliv",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/seniorliv/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/skatteadfaerd",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/skatteadfaerd/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/stemmeafgivelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/stemmeafgivelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/sundhed",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/sundhed/"
+    },
+    {
+      "url": "https://www.pfa.dk/om-pfa/samfundsansvar/vores-tilgang",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/om-pfa/samfundsansvar/vores-tilgang/"
+    },
+    {
+      "url": "https://www.pfa.dk/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/"
+    },
+    {
+      "url": "https://www.pfa.dk/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/book-raadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/book-raadgivning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/forside-fuldmagt",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/formularer/forside-fuldmagt/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/klag-over-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/formularer/klag-over-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/klag-over-pfa/klage-kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/formularer/klag-over-pfa/klage-kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/testamenteservice",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/formularer/testamenteservice/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/formularer/testamenteservice/kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/formularer/testamenteservice/kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/anmeld-skade",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/anmeld-skade/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/anmeld-skade?icid=linklist_nyttigelinks_brugdineforsikringeranmeldskade",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/anmeld-skade/?icid=linklist_nyttigelinks_brugdineforsikringeranmeldskade"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/begunstigelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/begunstigelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/du-kan-ikke-laengere-arbejde",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/du-kan-ikke-laengere-arbejde/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/er-du-blevet-sygemeldt",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/er-du-blevet-sygemeldt/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/er-du-ok",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/er-du-ok/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/har-du-smerter",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/har-du-smerter/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere?icid=quicklink_sundhedforsikringer_faagratissundhedsraadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/hjaelp-til-at-leve-sundere/?icid=quicklink_sundhedforsikringer_faagratissundhedsraadgivning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/hvis-du-bliver-alvorligt-syg",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/hvis-du-bliver-alvorligt-syg/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/mistrives-dit-barn",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/mistrives-dit-barn/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/online-laege",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/online-laege/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/online-laege/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/online-sundhedshjaelp"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/online-sundhedshjaelp",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/online-sundhedshjaelp/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/overblik",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/overblik/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare-old/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-earlycare"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare-old",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-earlycare-old/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-earlycare/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-earlycare/tak-early",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-earlycare/tak-early/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-erhvervsevne",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-erhvervsevne/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-forebygger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-forebygger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79?icid=linklist_nyttigelinks_pfahelbredssikringtildigfraaar",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/?icid=linklist_nyttigelinks_pfahelbredssikringtildigfraaar"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring-60-79/formular-aftale-hs/kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring?icid=linklist_nyttigelinks_brugfordinhelbredssikringlaesmere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring/?icid=linklist_nyttigelinks_brugfordinhelbredssikringlaesmere"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/hs-til-familien/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-helbredssikring/#helbredsikring-til-hele-familien"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-kritisk-sygdom",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-kritisk-sygdom/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-liv",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-liv/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/pfa-sundhedslinje",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/pfa-sundhedslinje/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/saadan-faar-du-hjaelp",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/saadan-faar-du-hjaelp/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/symptomer-paa-stress",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/symptomer-paa-stress/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/udbetaling-til-dine-efterladte",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/forsikringer/udbetaling-til-dine-efterladte/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa?icid=quicklink_kundefordele_faaoverblikoverdinefordele",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/dine-fordele-i-pfa/?icid=quicklink_kundefordele_faaoverblikoverdinefordele"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/friplejehjem",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/friplejehjem/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/fysiske-kurser",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/fysiske-kurser/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/goodlife",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/goodlife/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/hs-til-familien",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/hs-til-familien/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/kf-forsikring",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/kf-forsikring/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/kurser",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/kurser/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-boliger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-boliger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-boliger?icid=quicklink_kundefordele_skrivdigoptilenlejebolig",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-boliger/?icid=quicklink_kundefordele_skrivdigoptilenlejebolig"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/pfa-boliger/pfa-kollegier/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-kollegier"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-kollegier",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-kollegier/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-seniorboliger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-seniorboliger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/pfa-video",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/pfa-video/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/podcast",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/podcast/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/podcast?icid=spot_komtaeligtparingmodigedanskereidenlyseside_",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/podcast/?icid=spot_komtaeligtparingmodigedanskereidenlyseside_"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/raadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/raadgivning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/testamenteservice",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/testamenteservice/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/testamenteservice/tak",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/kundefordele/testamenteservice/tak/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/seniorlivet/hvem-skal-arve-dig/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/arv-og-testamente"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/arv-og-testamente",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/arv-og-testamente/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/er-der-udloebsdato-paa-arbejdslivet",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/er-der-udloebsdato-paa-arbejdslivet/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/frivilligt-arbejde-nyrup",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/frivilligt-arbejde-nyrup/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/penge-til-et-langt-liv-schjoelin",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/penge-til-et-langt-liv-schjoelin/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tid-til-at-flytte-i-mindre",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tid-til-at-flytte-i-mindre/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tiden-gaar-lysten-bestaar-oerting",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-senior-liv-artikler/tiden-gaar-lysten-bestaar-oerting/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/overvejer-pension/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-seniorliv-hub"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/det-gode-seniorliv-hub",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/det-gode-seniorliv-hub/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/din-boligsituation-aendrer-sig",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/din-boligsituation-aendrer-sig/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-bliver-arbejdsloes",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-bliver-arbejdsloes/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-faar-boern",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-faar-boern/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-faar-bonus-eller-loenforhoejelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-faar-bonus-eller-loenforhoejelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-har-faaet-nyt-job",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-har-faaet-nyt-job/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-skilles",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-skal-skilles/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-skal-udstationeres",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-skal-udstationeres/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/du-tager-orlov",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/du-tager-orlov/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/forlaeng-dit-arbejdsliv",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/forlaeng-dit-arbejdsliv/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/gradvis-overgang-til-pension",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/gradvis-overgang-til-pension/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/hvis-du-doer-inden-pensionsalderen",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/hvis-du-doer-inden-pensionsalderen/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/indbetalingsfri-pensionsordning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/indbetalingsfri-pensionsordning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/overvejer-pension",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/overvejer-pension/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/skatteregler-ved-udstationering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/skatteregler-ved-udstationering/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/ved-alvorlig-sygdom",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/livsaendringer/ved-alvorlig-sygdom/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/aktivsammensaetning-v1/?icid=linklist_nyttigelinks_seaktivsammensaetningenforpfaplus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/aktivsammensaetning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/aktivsammensaetning-v1?icid=linklist_nyttigelinks_seaktivsammensaetningenforpfaplus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/aktivsammensaetning-v1/?icid=linklist_nyttigelinks_seaktivsammensaetningenforpfaplus"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/aktivsammensaetning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/aktivsammensaetning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/ansvarlige-investeringer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/ansvarlige-investeringer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/baeredygtighedsrelaterede-oplysninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/baeredygtighedsrelaterede-oplysninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/forsikringer/begunstigelse/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/begunstigelse"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/begunstigelse",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/begunstigelse/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/bolig-seniorliv",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/bolig-seniorliv/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/du-investerer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/du-investerer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/hvad-er-en-pensionsopsparing",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/hvad-er-en-pensionsopsparing/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-plus/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/investeringsformer"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/investeringsformer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/investeringsformer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/investeringsformer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/investeringsformer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old?icid=quicklink_finansielinformation_nytominvestering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer-old/?icid=quicklink_finansielinformation_nytominvestering"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/klogere-paa-investeringer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/opsparing-i-gennemsnitsrente",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/opsparing-i-gennemsnitsrente/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/opsparingsformer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/opsparingsformer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast-v1/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-afkast"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast-v1",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-afkast-v1/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-afkast/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-afkast/forudsaetninger-for-afkastberegninger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-afkast/forudsaetninger-for-afkastberegninger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-valgfri/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-fleksibel"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-fleksibel",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-fleksibel/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-investerer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-investerer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-klima-plus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-klima-plus/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-kundekapital",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-kundekapital/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-kundekapital?icid=hero_spanclassheroiaringrsendervimiakrtilbagetilvoreskunderspanstylemediamaxwidthspanherofontsizepxmediaminwidthpxspanherofontsizepxlineheightpxpaddingbottompxdisplayblockstyle_laesmere",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-kundekapital/?icid=hero_spanclassheroiaringrsendervimiakrtilbagetilvoreskunderspanstylemediamaxwidthspanherofontsizepxmediaminwidthpxspanherofontsizepxlineheightpxpaddingbottompxdisplayblockstyle_laesmere"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-plus-fri",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-plus-fri/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-plus",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-plus/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/pfa-valgfri",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/pfa-valgfri/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/planlaeg-din-opsparing",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/planlaeg-din-opsparing/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/profil-forsigtig-aktivsammensaetning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/profil-forsigtig-aktivsammensaetning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/profil-forsigtig",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/profil-forsigtig/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/risikomaerkning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/risikomaerkning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger/kvittering",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/saml-dine-pensionsopsparinger/kvittering/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/livsaendringer/skatteregler-ved-udstationering/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/skatteregler"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/skatteregler",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/skatteregler/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/sparekstraop",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/sparekstraop/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/udbetaling-af-pension",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/udbetaling-af-pension/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/opsparing/unoterede-investeringer",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/opsparing/unoterede-investeringer/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/pfa-boliger/pfa-kollegier",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/pfa-boliger/pfa-kollegier/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/raadgivning/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/raadgivning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/book-raadgivning/",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/raadgivning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/raadgivning/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning?icid=quicklink_pensionsopsparing_faaraadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/raadgivning/?icid=quicklink_pensionsopsparing_faaraadgivning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/raadgivning?icid=quicklink_sundhedforsikringer_faaraadgivning",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/raadgivning/?icid=quicklink_sundhedforsikringer_faaraadgivning"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/seniorlivet/hvem-skal-arve-dig",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/seniorlivet/hvem-skal-arve-dig/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/tilmeld-dig-nyheder",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/tilmeld-dig-nyheder/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/udbetalingssikring",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/privat/udbetalingssikring/"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/brug-af-cookies-i-mit-pfa",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/skjult/brug-af-cookies-i-mit-pfa/"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/brug-af-cookies",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/skjult/brug-af-cookies/"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/forbehold",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/skjult/forbehold/"
+    },
+    {
+      "url": "https://www.pfa.dk/skjult/notfound",
+      "status": "301 Moved Permanently Redirect: https://www.pfa.dk/skjult/notfound/"
+    },
+    {
+      "url": "https://www.pfa.dk/privat/kundefordele/testamenteservice/tak/",
+      "status": "404 Not Found"
+    },
+    {
+      "url": "https://www.pfa.dk/dist/assets/fonts/lato/WOFF/Lato-Regular.woff2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/dist/assets/fonts/lato/WOFF/Lato-Bold.woff2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/dist/assets/fonts/halant/WOFF/Halant-Medium.woff2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/bundles/css?v=3M2K4n3kgb6-va3wzN1Zib6lDH-ah7ISiiYSRZB1RnY1",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/ole_krogh/Ole1.JPG?rev=103e04c57fe5454485f7167dfde72098",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/ole_krogh/Ole2.JPG?rev=dfcc50acb1b647428c4c8556160a8a10",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/ole_krogh/Ole3.JPG?rev=8e43cb35d2bf46ce93704f430cff197b",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/ole_krogh/Ole5.JPG?rev=088132f605854b598308f9e786e21507",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/ole_krogh/Ole6.JPG?rev=dfc4cbf1b6c940bd9f40699eed2c32d6",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_holm/CamillaH1.JPG?rev=2aea598754964f3695e967dad0a21956",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_holm/CamillaH2.JPG?rev=8f730e3f7c7a4c8f8b003a4dcfa76e23",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_holm/CamillaH3.JPG?rev=6e17d7740d564d3e9c9cb0cc3e96e601",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/anders_damgaard/Anders1.JPG?rev=0e2c884bd37744ee809e2418848832af",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/anders_damgaard/Anders2.JPG?rev=6940c5fb58504f4481b1c89e1e670394",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/anders_damgaard/Anders3.JPG?rev=344b4fffc60741daa1a131c8050d932a",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/kasper_a_lorenzen/Kasper1.JPG?rev=cb50515777b9454cb269892cd7b7f96d",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/kasper_a_lorenzen/Kasper2.JPG?rev=043904bf642c4e2f8f85b74bdf0f73b4",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/kasper_a_lorenzen/Kasper3.JPG?rev=c196511e998a4f13bbfa1c408b780b45",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/morten_winther_hansen/Morten1.JPG?rev=f5249c9cc76a4459a1a976a52ef3bda0",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/morten_winther_hansen/Morten2.JPG?rev=09699c9eeb0f4763b794630817956253",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/morten_winther_hansen/Morten3.JPG?rev=1788ba203ffe4be69a141161d4b80972",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_schjoelin/CamillaS1.JPG?rev=02422046d33a4300a2b03b726dccbb09",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_schjoelin/CamillaS2.JPG?rev=08812317884c49308d64c09016271712",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/camilla_schjoelin/CamillaS3.JPG?rev=b2a124bd7b184625a3a612ebddde016c",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tine_choi/Tine1.JPG?rev=f9ee21e3f33e4e09856b398394b3b804",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tine_choi/Tine2.JPG?rev=6d277ac390624261a50b25fad6814094",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tine_choi/Tine3.JPG?rev=6a7e80c55e7a4b96a533b3f23074dacd",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tine_choi/Tine4.JPG?rev=9a368be61cca47528c7ff08ab61bd373",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rikke_haaber/Rikke1.JPG?rev=0daa949ff01b4b67b1619ba8d88ba3de",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rikke_haaber/Rikke2.JPG?rev=4dcd0032b77c479ba7521b06d85926e7",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rikke_haaber/Rikke3.JPG?rev=897c5641c2414a338715d9d97ad3442b",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rikke_haaber/rikke_haaber_013.JPG?rev=285370833fa14fba9d58e60170d374f3",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/jesper_brask/Jesper1.JPG?rev=9ba6d9c2a9fc45b8a5ed388c0e5760a6",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/jesper_brask/Jesper2.JPG?rev=4de75e5b6bc8442aae782b38a937860f",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/jesper_brask/Jesper3.JPG?rev=54555b1f17944a15b3ca4f4178d87a4a",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rasmus_bessing/Rasmus1.JPG?rev=b54712a0cd48447fb616397f05c450b2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rasmus_bessing/Rasmus2.JPG?rev=8be2f2727262447fa22f051e7dbb68dd",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rasmus_bessing/Rasmus3.JPG?rev=cb8e75330f1c4c2eb21ca04cb3cbe708",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/rasmus_bessing/Rasmus4.JPG?rev=1071803f10c24ebab96c1bd188d235f2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_morgan/PeterM1.JPG?rev=26a0ce3675db4cf28e548d562de70854",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_tind/PeterT1.JPG?rev=6e23f8cfd2c34ba4a5061d2d3bec2b67",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_morgan/PeterM2.JPG?rev=6c1fe4745d48415abfb39cd0023fba3a",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_tind/PeterT2.JPG?rev=2b758a5f517a49c19ed732a8cf537780",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_morgan/PeterM3.JPG?rev=b40bf82dc4df401da343f036da452bb2",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/peter_tind/PeterT3.JPG?rev=9578c4db1cdd47deac4333931dcf3211",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tim_smidemann/Tim2.JPG?rev=7d1f3677a68a4346af424c5a5e32762c",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tim_smidemann/Tim3.JPG?rev=2c6fdf87fa7a4682bb2f9d605d0ccae9",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/store-pressebilleder/tim_smidemann/TIm4.JPG?rev=c2e6a0c13d2c4285a73beaa3210d2ae1",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://www.pfa.dk/-/media/pfa-v2/dansk/images/om-pfa/ledelse-og-presserum/logo/pfa-logo-2023-alle-formater.zip/?rev=811dbbc2e0424eb2a7fbc36c27012d74",
+      "status": "content type is not text/html"
+    }
+  ]
 }
