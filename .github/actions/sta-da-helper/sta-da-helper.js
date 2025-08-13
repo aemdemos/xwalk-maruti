@@ -15,6 +15,9 @@ import { spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
 
+// Adobe IMS token endpoint for OAuth 2.0 authorization access token exchange
+const IMS_TOKEN_ENDPOINT = 'https://ims-na1.adobelogin.com/ims/token/v3';
+
 /**
  * Get the org and site from the target URL.
  * @param {string} target - The target URL.
@@ -40,6 +43,47 @@ function getOrgAndSiteFromTargetUrl(target) {
 }
 
 /**
+ * Exchange Adobe IMS credentials for an access token using OAuth 2.0 authorization code flow
+ * @param {string} clientId - Adobe IMS client ID from the service account
+ * @param {string} clientSecret - Adobe IMS client secret from the service account
+ * @param {string} serviceToken - Adobe IMS authorization code (obtained from service account)
+ * @returns {Promise<string>} Access token for DA Admin API authentication
+ */
+export async function getAccessToken(clientId, clientSecret, serviceToken) {
+  core.info('Exchanging IMS credentials for access token...');
+
+  // Prepare form-encoded data (matching the working curl request)
+  const formParams = new URLSearchParams();
+  formParams.append('grant_type', 'authorization_code');
+  formParams.append('client_id', clientId);
+  formParams.append('client_secret', clientSecret);
+  formParams.append('code', serviceToken);
+
+  const response = await fetch(IMS_TOKEN_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: formParams.toString(),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    core.warning(`IMS token exchange failed ${response.status}: ${errorText}`);
+    throw new Error(`Failed to exchange IMS credentials: ${response.status} ${errorText}`);
+  }
+
+  const tokenData = await response.json();
+
+  if (!tokenData.access_token) {
+    throw new Error('No access token received from IMS');
+  }
+
+  core.info('✅ Successfully obtained access token from IMS');
+  return tokenData.access_token;
+}
+
+/**
  * Upload the content to DA.
  * @param {string} contentPath - The path to the content folder.
  * @param {string} target - The target URL (DA URL).
@@ -60,16 +104,20 @@ async function uploadToDa(contentPath, target, token, skipAssets) {
       '--site', site,
       '--da-folder', `${contentPath}/da`,
       '--asset-list', `${contentPath}/asset-list.json`,
-      '--token', token,
     ];
+
+    // Only pass token if available
+    if (token) {
+      args.push('--token', token);
+    }
 
     if (skipAssets) {
       args.push('--skip-assets');
     }
 
     core.info('Running command:');
-    const argsWithoutToken = args.filter((arg) => arg !== token);
-    core.info(`${JSON.stringify(argsWithoutToken, null, 2)}`);
+    const argsSafe = token ? args.filter((arg) => arg !== token) : args;
+    core.info(`${JSON.stringify(argsSafe, null, 2)}`);
 
     const child = spawn('npx', args, {
       stdio: ['inherit', 'inherit', 'pipe'], // Pipe stderr to capture errors
@@ -152,12 +200,27 @@ export async function run() {
     // aem-import-helper can skip assets if needed
     const skipAssets = core.getInput('skip_assets') || false;
 
-    // the token to use to upload to DA
-    const token = process.env.IMS_TOKEN;
+    // DA IMS credentials for token exchange
+    let clientId = process.env.DA_CLIENT_ID;
+    let clientSecret = process.env.DA_CLIENT_SECRET;
+    let serviceToken = process.env.DA_SERVICE_TOKEN;
 
     try {
+      let accessToken = null;
+      // Conditionally exchange IMS credentials if all are present
+      if (clientId && clientSecret && serviceToken) {
+        // Trim whitespace from credentials
+        clientId = clientId.trim();
+        clientSecret = clientSecret.trim();
+        serviceToken = serviceToken.trim();
+
+        accessToken = await getAccessToken(clientId, clientSecret, serviceToken);
+      } else {
+        core.warning('DA credentials not set (DA_CLIENT_ID, DA_CLIENT_SECRET, DA_SERVICE_TOKEN). Proceeding without token.');
+      }
+
       checkForRequiredContent(contentPath);
-      const files = await uploadToDa(contentPath, target, token, skipAssets);
+      const files = await uploadToDa(contentPath, target, accessToken, skipAssets);
       core.setOutput('paths', files);
     } catch (error) {
       core.error(`DA Error: ${error.message}`);
