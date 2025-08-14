@@ -1,0 +1,3244 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+          "uuid": "050e7c81-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1",
+          "uuid": "19cddecb-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
+          "uuid": "31968b85-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+          "uuid": "640c2aa5-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+          "uuid": "663a24fe-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+          "uuid": "7eb14bcd-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+          "uuid": "842d2ec3-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "95959b39d3728be048948beff8a871a62219b019",
+          "uuid": "95959b39-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+          "uuid": "a28402ee-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]",
+          "differences": [
+            {
+              "element_id": "html__body__header",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "About"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "United"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Us"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "States"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Charities"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "en-US es-US"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "we"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Canada"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Support"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "en-CA"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Programs"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "fr-CA"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "at"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Switzerland"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "PGA"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "de-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Tour"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "fr-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Events"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "it-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Donate"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Germany de-DE France fr-FR Spain es-ES Italy it-IT Welcome Sign In Sign Out de-DE"
+                }
+              ],
+              "dissimilarity_score": 0.97
+            }
+          ],
+          "similarity_score": 0.030000000000000027
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 120
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+          "uuid": "050e7c81-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1",
+          "uuid": "19cddecb-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
+          "uuid": "31968b85-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+          "uuid": "640c2aa5-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+          "uuid": "663a24fe-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+          "uuid": "7eb14bcd-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+          "uuid": "842d2ec3-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "95959b39d3728be048948beff8a871a62219b019",
+          "uuid": "95959b39-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+          "uuid": "a28402ee-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "differences": [
+            {
+              "element_id": "html__body__footer",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Charitable"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Deutsch"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Solicitations"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Follow Us Facebook"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Disclosure"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Twitter"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Terms"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Instagram \u24b8 2019, WKND Site. WKND is a fictitious adventure and"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "of"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "travel"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Service"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "website"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Cookie"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "created"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Choices"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "by"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Your"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Privacy"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Choices"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "demonstrate"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Privacy"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "how"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Connect"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "anyone"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "b4b@pgatourhq.com \u00a9 2024"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "can"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Birdies"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "use"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "for"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager Core Components and Archetype that are available as open source code to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " the "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Brave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "public"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "All"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "The entire site source code is available as open source as well and is accompanied with a"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "rights"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "detailed tutorial"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "reserved"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "on how to recreate the site"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://www.facebook.com/birdiesforthebrave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Many of the beautiful images in the WKND site are available for purchase via"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://twitter.com/BirdiesForBrave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://www.instagram.com/birdiesforthebrave/"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Stock ."
+                }
+              ],
+              "dissimilarity_score": 0.96
+            }
+          ],
+          "similarity_score": 0.040000000000000036
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-09-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(242, 242, 242) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "unknown",
+      "cluster": 1,
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1",
+          "uuid": "19cddecb-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
+          "uuid": "31968b85-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+          "uuid": "842d2ec3-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__footer",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Charitable"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Deutsch"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Solicitations"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Follow Us Facebook"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Disclosure"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Twitter"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Terms"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Instagram \u24b8 2019, WKND Site. WKND is a fictitious adventure and"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "of"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "travel"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Service"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "website"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Cookie"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "created"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Choices"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "by"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Your"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Privacy"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Choices"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "demonstrate"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Privacy"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "how"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Connect"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "anyone"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "b4b@pgatourhq.com \u00a9 2024"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "can"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Birdies"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "use"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "for"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager Core Components and Archetype that are available as open source code to"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " the "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Brave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "public"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "All"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "The entire site source code is available as open source as well and is accompanied with a"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "rights"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "detailed tutorial"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "reserved"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "on how to recreate the site"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://www.facebook.com/birdiesforthebrave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Many of the beautiful images in the WKND site are available for purchase via"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://twitter.com/BirdiesForBrave"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Adobe"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "https://www.instagram.com/birdiesforthebrave/"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Stock ."
+                }
+              ],
+              "dissimilarity_score": 0.96
+            }
+          ],
+          "similarity_score": 0.040000000000000036
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-09-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+          "uuid": "050e7c81-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+          "uuid": "640c2aa5-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+          "uuid": "663a24fe-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+          "uuid": "7eb14bcd-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+          "uuid": "842d2ec3-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+          "uuid": "a28402ee-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-01-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 3,
+      "source": "Header",
+      "target": "Header",
+      "key": "header3",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+          "uuid": "050e7c81-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/terms-of-service",
+          "urlHash": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1",
+          "uuid": "19cddecb-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/footer",
+          "urlHash": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
+          "uuid": "31968b85-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+          "uuid": "640c2aa5-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+          "uuid": "663a24fe-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+          "uuid": "7eb14bcd-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/connect-thanks",
+          "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+          "uuid": "842d2ec3-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "95959b39d3728be048948beff8a871a62219b019",
+          "uuid": "95959b39-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+          "uuid": "a28402ee-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]",
+          "differences": [
+            {
+              "element_id": "html__body__header",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "About"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "United"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Us"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "States"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Charities"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "en-US es-US"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "we"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Canada"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Support"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "en-CA"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Programs"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "fr-CA"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "at"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Switzerland"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "PGA"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "de-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Tour"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "fr-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Events"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "it-CH"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Donate"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Germany de-DE France fr-FR Spain es-ES Italy it-IT Welcome Sign In Sign Out de-DE"
+                }
+              ],
+              "dissimilarity_score": 0.97
+            }
+          ],
+          "similarity_score": 0.030000000000000027
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 5,
+      "source": "Hero",
+      "target": "Hero (hero5)",
+      "key": "hero5",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "95959b39d3728be048948beff8a871a62219b019",
+          "uuid": "95959b39-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+          "xpath": "/html[1]/body[1]/main[1]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 6,
+      "source": "Accordion",
+      "target": "Accordion",
+      "key": "accordion6",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/privacy",
+          "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+          "uuid": "767e96fc-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/volunteers",
+          "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+          "uuid": "a854c904-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/player-supporters",
+          "urlHash": "95959b39d3728be048948beff8a871a62219b019",
+          "uuid": "95959b39-02-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/connect",
+          "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+          "uuid": "663a24fe-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/partners",
+          "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+          "uuid": "5aa5f8be-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/donate",
+          "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+          "uuid": "a28402ee-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 12,
+      "source": "Cards",
+      "target": "Cards (cards12)",
+      "key": "cards12",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/charities-we-support",
+          "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+          "uuid": "af5eb314-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/about-us",
+          "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+          "uuid": "640c2aa5-05-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 14,
+      "source": "Carousel",
+      "target": "Carousel (carousel14)",
+      "key": "carousel14",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-02-b44bfb6f91053e616228982ab0752280ea739906",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 15,
+      "source": "Carousel",
+      "target": "Carousel (carousel15)",
+      "key": "carousel15",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/gallery",
+          "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+          "uuid": "03853d14-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
+        },
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-08-729dbc69bd6754c600fde0469e2be2df5ed4759f",
+          "xpath": "/html[1]/body[1]/main[1]/div[5]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 16,
+      "source": "Columns",
+      "target": "Columns (columns16)",
+      "key": "columns16",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-03-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 17,
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+          "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+          "uuid": "7eb14bcd-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 18,
+      "source": "Cards",
+      "target": "Cards (cards18)",
+      "key": "cards18",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-05-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 19,
+      "source": "Columns",
+      "target": "Columns (columns19)",
+      "key": "columns19",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/",
+          "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+          "uuid": "f6cd17d7-06-ac18c7f4ff0dda41caddc17273e87ac35c820487",
+          "xpath": "/html[1]/body[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cards20)",
+      "key": "cards20",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-04-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/all-other-programs",
+          "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+          "uuid": "727d86f0-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 22,
+      "source": "Columns",
+      "target": "Columns (columns22)",
+      "key": "columns22",
+      "instances": [
+        {
+          "url": "https://www.birdiesforthebrave.org/fundraising-events",
+          "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+          "uuid": "050e7c81-04-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]",
+          "section": "section-1"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+      "uuid": "03853d14-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+      "uuid": "03853d14-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/gallery",
+      "urlHash": "03853d140faf6bfd0831012a23b906b98465507e",
+      "uuid": "03853d14-05-ac18c7f4ff0dda41caddc17273e87ac35c820487",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+      "uuid": "050e7c81-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/fundraising-events",
+      "urlHash": "050e7c8122b47faac404f78d89effdbf325ea0e4",
+      "uuid": "050e7c81-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/terms-of-service",
+      "urlHash": "19cddecb3f8669eb9a8a98efd9e957b2de30bcf1",
+      "uuid": "19cddecb-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+      "xpath": "/html[1]/body[1]/main[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/footer",
+      "urlHash": "31968b8590838ebbdb9f51f8a2e552b6879b6050",
+      "uuid": "31968b85-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
+      "xpath": "/html[1]/body[1]/main[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/partners",
+      "urlHash": "5aa5f8be3617f5b760248a895dec32333a814fba",
+      "uuid": "5aa5f8be-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+      "uuid": "640c2aa5-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+      "uuid": "640c2aa5-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/about-us",
+      "urlHash": "640c2aa54eedd46040fb8b432d36294b81f83626",
+      "uuid": "640c2aa5-04-2922ed37363f66e6d7ff6723ce2179fcf4091251",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]/div[1]/p[4]/picture[1]/img[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/connect",
+      "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+      "uuid": "663a24fe-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/connect",
+      "urlHash": "663a24fed3465ed4d78ac225e164d7fa55081d3c",
+      "uuid": "663a24fe-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+      "uuid": "727d86f0-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+      "uuid": "727d86f0-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/all-other-programs",
+      "urlHash": "727d86f0a0ff7e26575329ff8055f83e39a5b1fb",
+      "uuid": "727d86f0-05-0c380e199633cb4db43425bcf9c66bf9b71896fd",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/privacy",
+      "urlHash": "767e96fcb89d944dc7da29e307189992d492a438",
+      "uuid": "767e96fc-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+      "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+      "uuid": "7eb14bcd-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/callaway-warrior-club-fittings",
+      "urlHash": "7eb14bcdd2cb995934ad9f92f8deaff846ff2e27",
+      "uuid": "7eb14bcd-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
+      "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+      "uuid": "842d2ec3-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/connect-thanks",
+      "urlHash": "842d2ec38114d8577375264fdbe14bd78ef319ed",
+      "uuid": "842d2ec3-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/donate",
+      "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+      "uuid": "a28402ee-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/donate",
+      "urlHash": "a28402ee1bc0f0a051e58bbc1cc51a4225f19b5d",
+      "uuid": "a28402ee-03-28b4d3c63d2ccd41cb54740341e225ebae6698c5",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "urlHash": "a854c904cdcbf542b72eb23d583ac403c27676b0",
+      "uuid": "a854c904-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
+      "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+      "uuid": "af5eb314-02-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/charities-we-support",
+      "urlHash": "af5eb31409abe5d736992a499034fe866cc1433c",
+      "uuid": "af5eb314-03-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/",
+      "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+      "uuid": "f6cd17d7-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/",
+      "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+      "uuid": "f6cd17d7-04-58ba820679040862b94ffd9804d9204b6c03e429",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.birdiesforthebrave.org/",
+      "urlHash": "f6cd17d7b882a9db345199cc6cb98b282becb678",
+      "uuid": "f6cd17d7-07-d9f0ea1c4b166c6f5c921740e73123522fd76892",
+      "xpath": "/html[1]/body[1]/main[1]/div[5]/div[1]"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.birdiesforthebrave.org/volunteers",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "About"
+        },
+        {
+          "change_type": "insertion",
+          "text": "United"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Us"
+        },
+        {
+          "change_type": "insertion",
+          "text": "States"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Charities"
+        },
+        {
+          "change_type": "insertion",
+          "text": "en-US"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "we"
+        },
+        {
+          "change_type": "insertion",
+          "text": "es-US"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Support"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Canada"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Programs"
+        },
+        {
+          "change_type": "insertion",
+          "text": "en-CA"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "at"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fr-CA"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Switzerland"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Tour"
+        },
+        {
+          "change_type": "insertion",
+          "text": "de-CH"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Events"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fr-CH"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Donate"
+        },
+        {
+          "change_type": "insertion",
+          "text": "it-CH"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "VOLUNTEER"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Germany"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "VOLUNTEER"
+        },
+        {
+          "change_type": "insertion",
+          "text": "de-DE"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "OPPORTUNITIES"
+        },
+        {
+          "change_type": "insertion",
+          "text": "France"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Volunteers"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fr-FR"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "are"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Spain"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "es-ES"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "heart"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Italy"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "and"
+        },
+        {
+          "change_type": "insertion",
+          "text": "it-IT"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "soul"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Welcome"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "of"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Sign"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "In"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Sign"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR. Each"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Out"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "week"
+        },
+        {
+          "change_type": "insertion",
+          "text": "de-DE"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "throughout"
+        },
+        {
+          "change_type": "insertion",
+          "text": "404"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Page"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "year, tournaments"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Not"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "on"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Found"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Go"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "home"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR, PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Deutsch"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Follow"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Champions"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Us"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "and"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Facebook"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Korn"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Twitter"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Ferry"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Instagram \u24b8 2019, WKND"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Tour"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Site. WKND"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "rely"
+        },
+        {
+          "change_type": "insertion",
+          "text": "is"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "on"
+        },
+        {
+          "change_type": "insertion",
+          "text": "a"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fictitious"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "passion"
+        },
+        {
+          "change_type": "insertion",
+          "text": "adventure"
+        },
+        {
+          "change_type": "equal",
+          "text": " and "
+        },
+        {
+          "change_type": "deletion",
+          "text": "commitment"
+        },
+        {
+          "change_type": "insertion",
+          "text": "travel"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "of talented volunteers to orchestrate every facet of"
+        },
+        {
+          "change_type": "insertion",
+          "text": "website"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "championship"
+        },
+        {
+          "change_type": "insertion",
+          "text": "created"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "operations \u2013 enabling"
+        },
+        {
+          "change_type": "insertion",
+          "text": "by"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "tournaments"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Adobe"
+        },
+        {
+          "change_type": "equal",
+          "text": " to "
+        },
+        {
+          "change_type": "deletion",
+          "text": "make a significant impact on communities"
+        },
+        {
+          "change_type": "insertion",
+          "text": "demonstrate"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "through"
+        },
+        {
+          "change_type": "insertion",
+          "text": "how"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "charitable"
+        },
+        {
+          "change_type": "insertion",
+          "text": "anyone"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "giving. Volunteering"
+        },
+        {
+          "change_type": "insertion",
+          "text": "can"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "is"
+        },
+        {
+          "change_type": "insertion",
+          "text": "use"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "a"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Adobe"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "great"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Experience"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "way"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Manager"
+        },
+        {
+          "change_type": "equal",
+          "text": " to "
+        },
+        {
+          "change_type": "deletion",
+          "text": "give"
+        },
+        {
+          "change_type": "insertion",
+          "text": "build"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "back, share"
+        },
+        {
+          "change_type": "insertion",
+          "text": "a"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "camaraderie"
+        },
+        {
+          "change_type": "insertion",
+          "text": "beautiful"
+        },
+        {
+          "change_type": "equal",
+          "text": ", "
+        },
+        {
+          "change_type": "deletion",
+          "text": "and enjoy unique inside-the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "feature"
+        },
+        {
+          "change_type": "equal",
+          "text": "-"
+        },
+        {
+          "change_type": "deletion",
+          "text": "ropes experiences. To"
+        },
+        {
+          "change_type": "insertion",
+          "text": "rich"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "learn"
+        },
+        {
+          "change_type": "insertion",
+          "text": "website"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "more"
+        },
+        {
+          "change_type": "insertion",
+          "text": "over"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "about"
+        },
+        {
+          "change_type": "insertion",
+          "text": "a"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "rewarding"
+        },
+        {
+          "change_type": "insertion",
+          "text": "single"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "opportunities"
+        },
+        {
+          "change_type": "insertion",
+          "text": "weekend. This"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "to"
+        },
+        {
+          "change_type": "insertion",
+          "text": "site"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "volunteer"
+        },
+        {
+          "change_type": "insertion",
+          "text": "is"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "at"
+        },
+        {
+          "change_type": "insertion",
+          "text": "built"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "a"
+        },
+        {
+          "change_type": "insertion",
+          "text": "entirely"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "with"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Adobe"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "event"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Experience"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "near"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Manager"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "you, please"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Core"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "click"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Components"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "below"
+        },
+        {
+          "change_type": "insertion",
+          "text": "and"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "for"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Archetype"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "information"
+        },
+        {
+          "change_type": "insertion",
+          "text": "that"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "and"
+        },
+        {
+          "change_type": "insertion",
+          "text": "are"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "complete"
+        },
+        {
+          "change_type": "insertion",
+          "text": "available"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "2024"
+        },
+        {
+          "change_type": "insertion",
+          "text": "as"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "tournament"
+        },
+        {
+          "change_type": "insertion",
+          "text": "open"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "schedules. To"
+        },
+        {
+          "change_type": "insertion",
+          "text": "source"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "subscribe"
+        },
+        {
+          "change_type": "insertion",
+          "text": "code"
+        },
+        {
+          "change_type": "equal",
+          "text": " to the "
+        },
+        {
+          "change_type": "deletion",
+          "text": "official volunteer newsletter of the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "public. The"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "entire"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR, The"
+        },
+        {
+          "change_type": "insertion",
+          "text": "site"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "VIP-Volunteer"
+        },
+        {
+          "change_type": "insertion",
+          "text": "source"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Information"
+        },
+        {
+          "change_type": "insertion",
+          "text": "code"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Page, please"
+        },
+        {
+          "change_type": "insertion",
+          "text": "is"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "click"
+        },
+        {
+          "change_type": "insertion",
+          "text": "available"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "here. 2024"
+        },
+        {
+          "change_type": "insertion",
+          "text": "as"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "open"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR"
+        },
+        {
+          "change_type": "insertion",
+          "text": "source"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Schedule"
+        },
+        {
+          "change_type": "insertion",
+          "text": "as"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "2024"
+        },
+        {
+          "change_type": "insertion",
+          "text": "well"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "PGA"
+        },
+        {
+          "change_type": "insertion",
+          "text": "and"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "TOUR"
+        },
+        {
+          "change_type": "insertion",
+          "text": "is"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Champions"
+        },
+        {
+          "change_type": "insertion",
+          "text": "accompanied"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Schedule"
+        },
+        {
+          "change_type": "insertion",
+          "text": "with"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "2024"
+        },
+        {
+          "change_type": "insertion",
+          "text": "a"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Korn"
+        },
+        {
+          "change_type": "insertion",
+          "text": "detailed"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Ferry"
+        },
+        {
+          "change_type": "insertion",
+          "text": "tutorial"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Tour"
+        },
+        {
+          "change_type": "insertion",
+          "text": "on"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Schedule"
+        },
+        {
+          "change_type": "insertion",
+          "text": "how"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Charitable"
+        },
+        {
+          "change_type": "insertion",
+          "text": "to"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Solicitations"
+        },
+        {
+          "change_type": "insertion",
+          "text": "recreate"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Disclosure"
+        },
+        {
+          "change_type": "insertion",
+          "text": "the"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Terms"
+        },
+        {
+          "change_type": "insertion",
+          "text": "site. Many"
+        },
+        {
+          "change_type": "equal",
+          "text": " of "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Service"
+        },
+        {
+          "change_type": "insertion",
+          "text": "the"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Cookie"
+        },
+        {
+          "change_type": "insertion",
+          "text": "beautiful"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Choices"
+        },
+        {
+          "change_type": "insertion",
+          "text": "images"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Your"
+        },
+        {
+          "change_type": "insertion",
+          "text": "in"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Privacy"
+        },
+        {
+          "change_type": "insertion",
+          "text": "the"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Choices"
+        },
+        {
+          "change_type": "insertion",
+          "text": "WKND"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Privacy"
+        },
+        {
+          "change_type": "insertion",
+          "text": "site"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Connect"
+        },
+        {
+          "change_type": "insertion",
+          "text": "are"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "b4b@pgatourhq.com \u00a9 2024 Birdies"
+        },
+        {
+          "change_type": "insertion",
+          "text": "available"
+        },
+        {
+          "change_type": "equal",
+          "text": " for "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the Brave. All rights"
+        },
+        {
+          "change_type": "insertion",
+          "text": "purchase"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "reserved. https://www.facebook.com/birdiesforthebrave"
+        },
+        {
+          "change_type": "insertion",
+          "text": "via"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "https://twitter.com/BirdiesForBrave"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Adobe"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "https://www.instagram.com/birdiesforthebrave/"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Stock ."
+        }
+      ],
+      "similarity_score": 0.15572274509276693
+    }
+  ]
+}
