@@ -3394,178 +3394,170 @@
       "differences": [
         {
           "element_id": "html__body",
-          "element_description": "The overall layout of the section, including its structure, spacing, and alignment.",
-          "computed_style_change": "block-size: 5523.81px to 3239.05px; height: 5523.81px to 3239.05px",
-          "difference": "The translated version has a significantly more compact layout. The original version features a long, scrollable page with detailed sections, while the translated version condenses the content into accordion-style collapsible sections, reducing the overall page height.",
-          "dissimilarity_score": 0.8,
-          "noticeability_score": 0.9
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "The presence of a text overlay listing countries and locales.",
-          "computed_style_change": "N/A",
-          "difference": "The translated version includes a text overlay on the left side of the main image, listing countries and locales (e.g., 'France', 'Spain', 'Italy'). This overlay is entirely absent in the original version.",
-          "dissimilarity_score": 0.6,
+          "element_description": "The overall layout of the section, including the hero image, text content, and additional elements.",
+          "computed_style_change": "block-size: 5523.81px (original) to 3239.05px (translated); width: 1164px (original) to 1280px (translated)",
+          "difference": "The layout has been significantly altered. The translated version is shorter in height but wider, creating a more horizontally stretched appearance and affecting the visual balance and structure of the section.",
+          "dissimilarity_score": 0.7,
           "noticeability_score": 0.7
         },
         {
           "element_id": "html__body",
-          "element_description": "The layout of the subsections (e.g., Swami's, Cardiff by the Sea).",
-          "computed_style_change": "N/A",
-          "difference": "The original version displays subsections with headings, images, and paragraphs in a continuous flow. The translated version uses an accordion-style layout where subsections are collapsible and do not display images by default.",
-          "dissimilarity_score": 0.8,
-          "noticeability_score": 0.8
+          "element_description": "The hero image of a woman with a surfboard on the beach.",
+          "computed_style_change": "width: 1136px (original) to 1200px (translated); height: 702px (original) to 827.562px (translated)",
+          "difference": "The hero image is larger in the translated version, with increased width and height. This makes the image more visually prominent and alters the proportions slightly.",
+          "dissimilarity_score": 0.3,
+          "noticeability_score": 0.3
         },
         {
           "element_id": "html__body",
-          "element_description": "The sidebar content and layout.",
+          "element_description": "The text content, including headers and paragraphs.",
+          "computed_style_change": "font-size: 18px (original) to 10px (translated); line-height: 27px (original) to 16px (translated); font-family: 'Source Sans Pro' (original) to 'Roboto' (translated)",
+          "difference": "The font size and line height have been reduced significantly in the translated version, making the text appear smaller and more compact. The font family has also changed, resulting in a different text appearance.",
+          "dissimilarity_score": 0.5,
+          "noticeability_score": 0.5
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The addition of a list of countries and language codes in the translated version.",
           "computed_style_change": "N/A",
-          "difference": "The translated version does not include a sidebar. The original version features a sidebar with a 'Share This Story' section and additional links, which are missing in the translated version.",
+          "difference": "The translated version introduces a new list of countries ('France', 'Spain', 'Italy') and their respective language codes ('fr-FR', 'es-ES', 'it-IT'). This adds new content and changes the focus of the layout.",
+          "dissimilarity_score": 0.6,
+          "noticeability_score": 0.6
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The accordion-style collapsible sections for surf spots.",
+          "computed_style_change": "N/A",
+          "difference": "The translated version replaces the original visible headers and paragraphs with accordion-style collapsible sections. This changes the way content is presented and interacted with, making the layout more interactive but less immediately visible.",
           "dissimilarity_score": 0.7,
-          "noticeability_score": 0.8
+          "noticeability_score": 0.7
         }
       ],
-      "similarity_score": 0.2749999999999999
+      "similarity_score": 0.44000000000000006
     },
     {
       "url": "https://wknd.site/us/en/magazine/ski-touring.html",
       "differences": [
         {
           "element_id": "html__body",
-          "element_description": "Overall background color of the webpage.",
-          "computed_style_change": "background-color change from rgba(0, 0, 0, 0) to rgb(255, 255, 255).",
-          "difference": "The background color of the webpage changed from transparent in the original to white in the translated version, altering the overall contrast and brightness.",
-          "dissimilarity_score": 0.5,
-          "noticeability_score": 0.6
+          "element_description": "The overall section containing the article text, images, and other content.",
+          "computed_style_change": "block-size: 5884.02px -> 6570.44px; width: 1280px -> 1200px",
+          "difference": "The translated version is significantly larger in height and slightly narrower in width, accommodating additional content and creating a more compact layout.",
+          "dissimilarity_score": 0.7,
+          "noticeability_score": 0.7
         },
         {
           "element_id": "html__body",
-          "element_description": "Overall layout dimensions of the webpage.",
-          "computed_style_change": "block-size change from 5884.02px to 7142.92px.",
-          "difference": "The translated version has a significantly taller layout, creating more vertical space for content and altering the overall structure of the page.",
+          "element_description": "The overall section containing the article text, images, and other content.",
+          "computed_style_change": "font-family: 'Source Sans Pro' -> 'Roboto'",
+          "difference": "The font family has changed from 'Source Sans Pro' to 'Roboto', giving the translated version a more modern and minimalistic appearance.",
           "dissimilarity_score": 0.6,
           "noticeability_score": 0.5
         },
         {
           "element_id": "html__body",
-          "element_description": "Typography across the webpage.",
-          "computed_style_change": "font-family change from 'Source Sans Pro' to 'Roboto', font-size change from 18px to 10px, and line-height change from 27px to 16px.",
-          "difference": "The translated version uses a different font ('Roboto') with smaller font size and reduced line height, making the text appear more compact and less visually prominent.",
-          "dissimilarity_score": 0.6,
+          "element_description": "The overall section containing the article text, images, and other content.",
+          "computed_style_change": "font-size: 18px -> 10px; line-height: 27px -> 16px",
+          "difference": "The font size and line height have been significantly reduced in the translated version, making the text appear smaller and more compact.",
+          "dissimilarity_score": 0.8,
+          "noticeability_score": 0.8
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The left side of the section, where a new language selection menu is displayed.",
+          "computed_style_change": "N/A",
+          "difference": "A new language selection menu is displayed on the left side of the section in the translated version, partially obstructing the image and introducing new text elements. This menu was not present in the original version.",
+          "dissimilarity_score": 0.7,
           "noticeability_score": 0.7
         },
         {
           "element_id": "html__body",
-          "element_description": "Images throughout the webpage.",
-          "computed_style_change": "width: 776px to 1280px; height: proportional increases.",
-          "difference": "The images in the translated version are significantly larger, making them more prominent and immersive. This change affects the overall layout and visual hierarchy.",
-          "dissimilarity_score": 0.7,
-          "noticeability_score": 0.8
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "Contributor profile and social media section.",
+          "element_description": "The byline section containing the name 'Sofia Sj\u00f6berg', her occupations, and social media icons.",
           "computed_style_change": "N/A",
-          "difference": "The contributor profile section in the original version, which included an image, name, occupations, and horizontally aligned social media icons, is replaced in the translated version with a WKND logo, a language selector, larger social media buttons styled differently, and a detailed description of the WKND site.",
-          "dissimilarity_score": 0.8,
+          "difference": "The byline image of 'Sofia Sj\u00f6berg' is missing in the translated version, leaving a noticeable gap in the visual layout.",
+          "dissimilarity_score": 0.9,
           "noticeability_score": 0.9
         },
         {
           "element_id": "html__body",
-          "element_description": "Navigation menu in the header.",
-          "computed_style_change": "font-size change from 18px to 10px.",
-          "difference": "The text in the navigation menu is significantly smaller in the translated version, which may impact readability.",
-          "dissimilarity_score": 0.7,
-          "noticeability_score": 0.6
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "Additional text overlays on images.",
+          "element_description": "The byline section containing the name 'Sofia Sj\u00f6berg', her occupations, and social media icons.",
           "computed_style_change": "N/A",
-          "difference": "The translated version introduces new text overlays on some images, listing country names and language codes. These overlays partially obscure the images and add new visual elements that were not present in the original version.",
-          "dissimilarity_score": 0.8,
-          "noticeability_score": 0.9
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "Footer background and content.",
-          "computed_style_change": "background-color change from rgb(32, 32, 32) to rgba(0, 0, 0, 0).",
-          "difference": "The footer background color changed from black in the original to white in the translated version, significantly altering the contrast and visual hierarchy of the footer.",
+          "difference": "The social media icons are replaced with text-based buttons labeled 'Facebook', 'Twitter', and 'Instagram', styled as blue links and vertically stacked, differing from the original version where the icons were horizontally aligned and visually distinct.",
           "dissimilarity_score": 0.8,
           "noticeability_score": 0.8
         },
         {
           "element_id": "html__body",
-          "element_description": "Footer navigation menu.",
-          "computed_style_change": "font-size change from 18px to 10px.",
-          "difference": "The footer navigation menu text is significantly smaller in the translated version, which may impact readability.",
-          "dissimilarity_score": 0.7,
-          "noticeability_score": 0.6
+          "element_description": "The entire sidebar section containing the 'Share This Story' heading, article list, and social sharing buttons in the original version.",
+          "computed_style_change": "N/A",
+          "difference": "The entire sidebar section has been replaced with a footer layout in the translated version. The original content, including the 'Share This Story' heading, article list, and social sharing buttons, is completely missing.",
+          "dissimilarity_score": 1.0,
+          "noticeability_score": 1.0
         }
       ],
-      "similarity_score": 0.3111111111111111
+      "similarity_score": 0.2142857142857143
     },
     {
       "url": "https://wknd.site/us/en/magazine/western-australia.html",
       "differences": [
         {
           "element_id": "html__body",
-          "element_description": "The overall container of the webpage section, including all headings, paragraphs, and images.",
-          "computed_style_change": "width: 1280px (original) -> 1200px (translated), height: 6536.5px (original) -> 5939.44px (translated)",
-          "difference": "The translated version has a slightly narrower container and reduced height. This results in a more compact vertical layout with slightly less horizontal space.",
+          "element_description": "The overall section containing text, images, headings, and layout.",
+          "computed_style_change": "font-size: 18px (original) to 10px (translated), line-height: 27px (original) to 16px (translated)",
+          "difference": "The font size and line height have been significantly reduced in the translated version, making the text appear much smaller and harder to read. This impacts the overall readability and user experience.",
+          "dissimilarity_score": 0.7,
+          "noticeability_score": 0.8
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The overall section containing text, images, headings, and layout.",
+          "computed_style_change": "font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif (original) to 'Roboto', 'Roboto Fallback', 'sans-serif' (translated)",
+          "difference": "The font family has changed from 'Source Sans Pro' to 'Roboto', resulting in a more modern but less elegant appearance. The new font is slightly more geometric and condensed.",
+          "dissimilarity_score": 0.5,
+          "noticeability_score": 0.5
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The overall section containing text, images, headings, and layout.",
+          "computed_style_change": "text-align: justify (original) to start (translated)",
+          "difference": "The text alignment has changed from justified to left-aligned in the translated version, resulting in uneven text edges and a less polished appearance.",
+          "dissimilarity_score": 0.5,
+          "noticeability_score": 0.6
+        },
+        {
+          "element_id": "html__body",
+          "element_description": "The overall section containing text, images, headings, and layout.",
+          "computed_style_change": "padding-left: 0px (original) to 32px (translated), padding-right: 0px (original) to 32px (translated)",
+          "difference": "The translated version introduces padding on both sides of the section, creating more whitespace around the content and altering the alignment of text and images.",
           "dissimilarity_score": 0.4,
           "noticeability_score": 0.4
         },
         {
           "element_id": "html__body",
-          "element_description": "The font used throughout the section.",
-          "computed_style_change": "font-family: 'Source Sans Pro' (original) -> 'Roboto' (translated)",
-          "difference": "The font family has changed from 'Source Sans Pro' to 'Roboto', resulting in a slightly different text appearance. The new font appears less refined and slightly more condensed.",
-          "dissimilarity_score": 0.3,
-          "noticeability_score": 0.3
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "The overall text alignment throughout the section.",
-          "computed_style_change": "text-align: justify (original) -> start (translated)",
-          "difference": "The text alignment changes from justified in the original version to left-aligned in the translated version, altering the visual balance and flow of the text.",
-          "dissimilarity_score": 0.4,
-          "noticeability_score": 0.4
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "The padding within the section container.",
-          "computed_style_change": "padding-left: 0px (original) -> 32px (translated), padding-right: 0px (original) -> 32px (translated)",
-          "difference": "Padding has been added to the left and right of the section container in the translated version, creating extra spacing and altering the overall layout.",
-          "dissimilarity_score": 0.4,
-          "noticeability_score": 0.4
-        },
-        {
-          "element_id": "html__body",
-          "element_description": "The presence of new elements in the translated version.",
+          "element_description": "The overall section containing text, images, headings, and layout.",
           "computed_style_change": "N/A",
-          "difference": "The translated version introduces several new elements, including a language selector, social media links, and additional text content. These elements are entirely absent in the original version and significantly alter the layout.",
-          "dissimilarity_score": 0.9,
+          "difference": "The translated version includes additional visual elements such as a language selector and social media links in certain sections, which are absent in the original version. These additions alter the visual focus and layout.",
+          "dissimilarity_score": 0.8,
           "noticeability_score": 0.9
         },
         {
           "element_id": "html__body",
-          "element_description": "The navigation bar at the top of the page.",
+          "element_description": "The social media icons (Facebook, Twitter, Instagram) in the original version, which are styled as black buttons with white icons and are aligned horizontally.",
           "computed_style_change": "N/A",
-          "difference": "The navigation bar in the original version includes menu options such as 'MAGAZINE', 'ADVENTURES', 'FAQS', 'ABOUT US', and a search icon. In the translated version, these options are missing, and instead, there is a 'Welcome Sign In Sign Out' text and a blue 'de-DE' button in the top-right corner.",
+          "difference": "The social media icons are replaced with blue buttons labeled 'Facebook,' 'Twitter,' and 'Instagram' in the translated version. These buttons are vertically stacked and include text labels, which significantly changes their appearance and layout.",
           "dissimilarity_score": 0.7,
-          "noticeability_score": 0.7
+          "noticeability_score": 0.8
         },
         {
           "element_id": "html__body",
-          "element_description": "Top-left corner of the page, where language selection options are displayed in the translated version.",
-          "computed_style_change": "N/A",
-          "difference": "In the translated version, a list of language options (e.g., 'fr-CH', 'it-CH', 'de-DE', etc.) is displayed in the top-left corner of the page. This list was not present in the original version and introduces a significant visual change.",
+          "element_description": "The overall layout of the section, including the byline and social media icons.",
+          "computed_style_change": "width: 1280px (original) to 1200px (translated), height: 6536.5px (original) to 5939.44px (translated)",
+          "difference": "The layout in the translated version is significantly narrower and includes additional elements such as the WKND logo, a language selector, and descriptive text about the WKND site. The original layout is minimalistic and compact, while the translated layout is more complex and spacious.",
           "dissimilarity_score": 0.8,
-          "noticeability_score": 0.8
+          "noticeability_score": 0.9
         }
       ],
-      "similarity_score": 0.44285714285714295
+      "similarity_score": 0.37142857142857133
     }
   ]
 }
