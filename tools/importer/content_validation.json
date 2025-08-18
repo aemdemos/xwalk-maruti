@@ -184,23 +184,21 @@
               "differences": [
                 {
                   "change_type": "deletion",
-                  "text": "Welcome Sign In Sign Out en-CA United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
-                }
-              ],
-              "dissimilarity_score": 1.0
-            },
-            {
-              "element_id": "html__body__div__div__div__header__div__div__div__div__div__div",
-              "differences": [
+                  "text": "Welcome Sign In Sign Out en-CA "
+                },
                 {
-                  "change_type": "deletion",
-                  "text": "Welcome Sign In Sign Out en-CA United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
+                  "change_type": "equal",
+                  "text": "United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": " Welcome Sign In Sign Out de-DE"
                 }
               ],
-              "dissimilarity_score": 1.0
+              "dissimilarity_score": 0.03
             }
           ],
-          "similarity_score": 0.0
+          "similarity_score": 0.97
         },
         {
           "url": "https://wknd.site/us/en/magazine/western-australia.html",
@@ -1058,23 +1056,21 @@
               "differences": [
                 {
                   "change_type": "deletion",
-                  "text": "Welcome Sign In Sign Out en-CA United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
-                }
-              ],
-              "dissimilarity_score": 1.0
-            },
-            {
-              "element_id": "html__body__div__div__div__header__div__div__div__div__div__div",
-              "differences": [
+                  "text": "Welcome Sign In Sign Out en-CA "
+                },
                 {
-                  "change_type": "deletion",
-                  "text": "Welcome Sign In Sign Out en-CA United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
+                  "change_type": "equal",
+                  "text": "United States en-US es-US Canada en-CA fr-CA Switzerland de-CH fr-CH it-CH Germany de-DE France fr-FR Spain es-ES Italy it-IT"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": " Welcome Sign In Sign Out de-DE"
                 }
               ],
-              "dissimilarity_score": 1.0
+              "dissimilarity_score": 0.03
             }
           ],
-          "similarity_score": 0.0
+          "similarity_score": 0.97
         },
         {
           "url": "https://wknd.site/us/en/magazine/western-australia.html",
