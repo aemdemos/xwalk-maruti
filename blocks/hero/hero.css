@@ -35,3 +35,107 @@
     padding: 40px 32px;
   }
 }
+
+.hero.hero6 {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Image container */
+.hero.hero6 > div:first-child {
+  position: relative;
+  width: 100vw;
+  height: 770px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* Image styles */
+.hero.hero6 > div:first-child picture,
+.hero.hero6 > div:first-child img {
+  width: 100vw;
+  height: 770px;
+  object-fit: cover;
+  display: block;
+}
+
+/* White panel overlaps bottom of image using negative margin and raised z-index */
+.hero.hero6 > div:last-child {
+  position: relative;
+  width: 90vw;
+  max-width: 1200px;
+  min-height: 160px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgb(32 32 32 / 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: auto;
+  border-radius: 0;
+  margin: -80px auto 0; /* negative top margin to overlap image */
+  padding: 0;
+}
+
+/* Inner text wrapper centered */
+.hero.hero6 > div:last-child > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headline style */
+.hero.hero6 h2, .hero.hero6 h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.8rem;
+  color: #222;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0 2rem;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  background: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+/* Responsive for smaller screens */
+@media (width <= 900px) {
+  .hero.hero6 > div:first-child,
+  .hero.hero6 > div:first-child picture,
+  .hero.hero6 > div:first-child img {
+    height: 340px;
+  }
+
+  .hero.hero6 > div:last-child {
+    min-height: 90px;
+    width: 98vw;
+    max-width: 98vw;
+    margin: -36px auto 0;
+    padding: 0;
+  }
+
+  .hero.hero6 h2, .hero.hero6 h1 {
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+  }
+}
+
+/* Remove any extraneous overlays/language lists */
+.hero.hero6 .language-options,
+.hero.hero6 .country-names,
+.hero.hero6 ul,
+.hero.hero6 li,
+.hero.hero6 [lang] {
+  display: none;
+}
