@@ -1,6 +1,4 @@
 /* stylelint-disable no-descending-specificity */
-
-
 .tabs.tabs3 {
   display: flex;
   flex-direction: row;
@@ -11,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/* Sidebar adjustments */
 .tabs.tabs3 > div:first-child {
   flex: 0 0 340px;
   max-width: 340px;
@@ -41,7 +38,6 @@
   }
 }
 
-/* Sidebar title/heading */
 .tabs.tabs3 > div:first-child h3 {
   font-size: 1.52rem;
   font-weight: 700;
@@ -57,7 +53,6 @@
   width: fit-content;
 }
 
-/* Sidebar subtitle */
 .tabs.tabs3 > div:first-child p:first-of-type {
   font-size: 13.5px;
   color: #232323;
@@ -68,7 +63,6 @@
   line-height: 1.32;
 }
 
-/* Sidebar image (centered, smaller, more margin) */
 .tabs.tabs3 > div:first-child picture img {
   display: block;
   width: 100%;
@@ -79,7 +73,6 @@
   box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
 }
 
-/* Sidebar "card" description block */
 .tabs.tabs3 > div:first-child p:nth-of-type(2) {
   font-size: 14px;
   color: #565656;
@@ -95,7 +88,6 @@
   max-width: 238px;
 }
 
-/* Related trips in sidebar */
 .tabs.tabs3 > div:first-child ul {
   margin-top: 36px;
   margin-bottom: 0;
@@ -113,13 +105,11 @@
   letter-spacing: 0.3px;
 }
 
-/* Related trips heading, if present */
 .tabs.tabs3 > div:first-child ul::before {
   display: block;
   margin-bottom: 10px;
 }
 
-/* Sidebar: ensure last item at bottom */
 .tabs.tabs3 > div:first-child > *:last-child {
   margin-top: auto;
   font-size: 12.5px;
@@ -133,7 +123,6 @@
   padding-top: 32px;
 }
 
-/* Hide non-active tab panels (show only 2nd column for default "Overview") */
 .tabs.tabs3 > div:not(:first-child) {
   display: none;
   flex: 1 1 0;
@@ -149,7 +138,6 @@
   display: flex;
 }
 
-/* Main content headings and spacing */
 .tabs.tabs3 > div:nth-child(2) h2 {
   font-family: serif;
   font-size: 2.06rem;
@@ -169,7 +157,6 @@
   margin-top: 0;
 }
 
-/* Main image: max width and margin */
 .tabs.tabs3 > div:nth-child(2) picture img {
   display: block;
   width: 780px;
@@ -190,7 +177,6 @@
   }
 }
 
-/* Main description paragraphs */
 .tabs.tabs3 > div:nth-child(2) p {
   font-size: 15.5px;
   line-height: 1.64;
@@ -201,7 +187,6 @@
   max-width: 650px;
 }
 
-/* Tabs navigation (first child div p in overview tab) */
 .tabs.tabs3 > div:nth-child(2) > div:first-child {
   display: flex;
   flex-direction: row;
@@ -224,7 +209,6 @@
   line-height: 1;
 }
 
-/* Responsive adjustment for main content */
 @media (width <= 900px) {
   .tabs.tabs3 > div:not(:first-child) {
     padding: 24px 10px;
@@ -238,8 +222,212 @@
   }
 }
 
-/* Remove overlays and unrelated overlays if present */
 .tabs.tabs3 ul.country-language-overlay,
 .tabs.tabs3 .country-language-overlay {
+  display: none;
+}
+
+
+.tabs.tabs11 {
+  /* Top-level: two columns, remove all vertical centering and excessive margin */
+  display: flex;
+  flex-direction: row;
+  max-width: 1164px;
+  margin: 32px auto 0;
+  background: #fff;
+  min-height: 0; /* let content define height */
+  box-shadow: 0 2px 16px rgb(60 60 60 / 4%);
+  border-radius: 0;
+  align-items: flex-start;
+
+  /* Remove vertical centering */
+  justify-content: flex-start;
+}
+
+/* Responsive: stack columns */
+@media (width <= 900px) {
+  .tabs.tabs11 {
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+/* Sidebar: left, narrow, remove excess top padding */
+.tabs.tabs11 > div > div:first-child {
+  flex: 0 0 220px;
+  max-width: 220px;
+  min-width: 140px;
+  border-right: 1px solid #ececec;
+  padding: 32px 16px 32px 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 0;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs11 > div > div:first-child {
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+    padding: 16px 8px 8px 16px;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Sidebar tab label: left-aligned, prominent, no extra margin */
+.tabs.tabs11 > div > div:first-child p {
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  margin: 0 0 24px;
+  padding: 0 0 0 8px;
+  border-left: 3px solid #f7d700;
+  background: none;
+  text-transform: uppercase;
+  min-height: 24px;
+  display: block;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Main content: wide, all content stacked vertically, remove top padding */
+.tabs.tabs11 > div > div:nth-child(2) {
+  flex: 1 1 0%;
+  min-width: 0;
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  min-height: 0;
+}
+
+@media (width <= 1200px) {
+  .tabs.tabs11 > div > div:nth-child(2) {
+    padding: 24px 8px 32px;
+  }
+}
+
+@media (width <= 900px) {
+  .tabs.tabs11 > div > div:nth-child(2) {
+    padding: 16px 8px;
+  }
+}
+
+/* Main heading */
+.tabs.tabs11 h3 {
+  font-size: 2.1rem;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  color: #232323;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  position: relative;
+  display: block;
+}
+
+/* Yellow accent line under title */
+.tabs.tabs11 h3::after {
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: #f7d700;
+  content: "";
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+/* Image: left-aligned, generous bottom margin */
+.tabs.tabs11 picture,
+.tabs.tabs11 img {
+  display: block;
+  width: 845px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 0;
+}
+
+/* Image caption: bold, uppercase, left aligned */
+.tabs.tabs11 p img + br + *,
+.tabs.tabs11 picture + * {
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+/* Paragraphs and headings: left aligned, readable, good vertical rhythm */
+.tabs.tabs11 > div > div:nth-child(2) p {
+  font-family: inherit;
+  font-size: 1.08rem;
+  color: #222;
+  margin-bottom: 30px;
+  margin-top: 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Section headings in content */
+.tabs.tabs11 > div > div:nth-child(2) h2 {
+  font-size: 1.06rem;
+  font-weight: 600;
+  color: #232323;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  font-family: inherit;
+  text-align: left;
+}
+
+/* Lists */
+.tabs.tabs11 ul {
+  margin: 24px 0;
+  padding-left: 28px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.tabs.tabs11 li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #222;
+  text-align: left;
+}
+
+/* Ensure ALL tab content is stacked in main content column */
+.tabs.tabs11 > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tabs.tabs11 > div > div {
+  min-height: 0;
+}
+
+/* Remove overlays and extra text if present */
+.tabs.tabs11 .image-overlay,
+.tabs.tabs11 .image-extra-text {
   display: none;
 }
