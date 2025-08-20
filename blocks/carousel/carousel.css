@@ -1,0 +1,43 @@
+
+
+.carousel.carousel9 {
+  /* Minimal, flush styling */
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0 auto;
+  max-width: 100vw;
+  overflow: visible;
+  position: relative;
+}
+
+/* Show only one slide at a time */
+.carousel.carousel9 > div {
+  display: none;
+}
+
+.carousel.carousel9 > div.active,
+.carousel.carousel9 > div:first-child {
+  display: block;
+}
+
+/* Edge-to-edge image, no border radius */
+.carousel.carousel9 picture img {
+  display: block;
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* Remove any accidental overlays */
+.carousel.carousel9 .main-image-header,
+.carousel.carousel9 .main-image-vertical-nav {
+  display: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
