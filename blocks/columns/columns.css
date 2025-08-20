@@ -35,202 +35,205 @@
 
 
 .columns.columns5 {
-  background: #232221;
-  color: #ebebeb;
-  font-family: Montserrat, 'Arial Black', Roboto, sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 48px 32px 36px 64px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: min-content 1fr min-content;
-  gap: 0 48px;
-  align-items: start;
   position: relative;
-}
-
-/* --- Left Column: Logo --- */
-.columns.columns5 > div:first-child {
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  background: #222221;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  min-width: 0;
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 2;
+  gap: 64px;
+  padding: 56px 64px 48px;
+  box-sizing: border-box;
 }
 
-/* Logo */
+/* Left column: logo and vertical stack */
+.columns.columns5 > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  min-width: 220px;
+  max-width: 340px;
+  flex-shrink: 0;
+}
+
+/* Logo ("WKND") styling */
 .columns.columns5 .columns-img-col {
   margin-bottom: 0;
-  margin-right: 0;
-  align-self: flex-start;
 }
 
 .columns.columns5 .columns-img-col img {
-  max-width: 120px;
+  width: 180px;
+  max-width: 95vw;
   height: auto;
   display: block;
-  filter: brightness(0) invert(1);
-  margin: 0;
+  margin-bottom: 12px;
+  filter: none;
 }
 
-/* Hide language list */
+/* Hide language selector */
 .columns.columns5 > div:first-child ul {
   display: none;
 }
 
-/* --- Social box: third grid cell, top-aligned --- */
+/* Social box - absolute at top right, compact */
 .columns.columns5 > div:first-child > div:last-child {
   position: absolute;
-  right: 32px;
-  top: 48px;
+  top: 56px;
+  right: 64px;
+  left: auto;
   background: #ededed;
-  padding: 16px 28px 10px;
-  border-radius: 0;
-  min-width: 180px;
-  max-width: 210px;
-  min-height: 0;
-  box-sizing: border-box;
+  padding: 16px 28px;
+  width: auto;
+  min-width: unset;
+  max-width: 460px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  box-shadow: none;
-  margin: 0;
+  gap: 24px;
   z-index: 10;
+  box-shadow: none;
+  box-sizing: border-box;
+  justify-content: flex-start;
 }
 
-@media (width <= 900px) {
-  .columns.columns5 > div:first-child > div:last-child {
-    position: static;
-    right: auto;
-    top: auto;
-    margin: 24px 0 0;
+/* Make social box compact and prevent stretching */
+.columns.columns5 > div:first-child > div:last-child > * {
+  flex-shrink: 0;
+}
+
+/* Right column: description/text area */
+.columns.columns5 > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+  max-width: 900px;
+  flex: 1 1 0;
+
+  /* Padding top to clear social box */
+  padding-top: 70px;
+}
+
+@media (width <= 1050px) {
+  .columns.columns5 > div:last-child {
+    padding-top: 90px;
   }
 }
 
-/* Social Label */
+@media (width <= 900px) {
+  .columns.columns5 > div:last-child {
+    padding-top: 0;
+  }
+}
+
+/* "FOLLOW US" label */
 .columns.columns5 > div:first-child > div:last-child h4 {
-  color: #232221;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  color: #222221;
+  font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
-  margin: 0 0 8px;
-  text-align: center;
+  margin: 0 18px 0 0;
+  flex-shrink: 0;
+  letter-spacing: 0.06em;
   line-height: 1.2;
 }
 
-/* Social "icons": horizontal, compact! */
+/* Social links - horizontal arrangement & icon style */
 .columns.columns5 > div:first-child > div:last-child .button-container {
-  display: inline-block;
   margin: 0 8px 0 0;
   padding: 0;
+  display: inline-block;
   vertical-align: middle;
-  margin-bottom: 0;
 }
 
 .columns.columns5 > div:first-child > div:last-child .button-container:last-child {
   margin-right: 0;
 }
 
-.columns.columns5 > div:first-child > div:last-child p.button-container {
-  margin-bottom: 0;
-}
-
-/* Social link look */
-.columns.columns5 .button {
+.columns.columns5 > div:first-child > div:last-child .button {
   background: none;
   border: none;
-  color: #232221;
-  font-size: 22px;
-  padding: 0;
-  margin: 0 2px;
-  border-radius: 0;
+  color: #222221;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+  padding: 0 4px;
+  margin: 0;
   min-width: 0;
   min-height: 0;
   box-shadow: none;
   text-decoration: none;
-  font-weight: 700;
-  display: inline-block;
-  text-align: center;
-  transition: color 0.2s;
-  line-height: 1.2;
+  transition: color 0.18s;
 }
 
-.columns.columns5 .button:hover,
-.columns.columns5 .button:focus {
+.columns.columns5 > div:first-child > div:last-child .button:hover,
+.columns.columns5 > div:first-child > div:last-child .button:focus {
   color: #4b4b4b;
-  text-decoration: none;
-  background: none;
 }
 
-/* Arrange icons horizontally */
-
-/* --- Text Column --- */
-.columns.columns5 > div:last-child {
-  grid-column: 2;
-  grid-row: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-width: 0;
-  padding-right: 0;
-  z-index: 1;
-}
-
+/* Description text styling */
 .columns.columns5 > div:last-child p {
-  color: #ebebeb;
-  font-size: 15px;
-  line-height: 1.7;
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.columns.columns5 > div:last-child p:first-child {
-  margin-top: 0;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 0 16px;
 }
 
 .columns.columns5 > div:last-child a {
-  color: #fff;
+  color: #f3f3f3;
   text-decoration: underline;
   font-weight: 400;
   transition: color 0.15s;
 }
 
-.columns.columns5 > div:last-child a:hover {
-  color: #dedede;
+.columns.columns5 > div:last-child a:hover,
+.columns.columns5 > div:last-child a:focus {
+  color: #fff;
+  text-decoration: underline;
 }
 
-/* Responsive adjustments */
+/* Further small screen improvements */
 @media (width <= 900px) {
   .columns.columns5 {
-    grid-template-columns: 1fr;
-    gap: 24px 0;
-    padding: 32px 12px 24px;
+    flex-direction: column;
+    gap: 32px;
+    padding: 36px 16px 24px;
   }
 
-  .columns.columns5 > div:first-child {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 24px;
+  .columns.columns5 > div:first-child > div:last-child {
+    position: static;
+    top: auto;
+    right: auto;
+    margin: 18px 0 0;
+    width: 100%;
+    max-width: none;
+    justify-content: flex-start;
+    z-index: auto;
+  }
+}
+
+@media (width <= 600px) {
+  .columns.columns5 {
+    gap: 20px 0;
+    padding: 20px 0 14px;
+  }
+
+  .columns.columns5 > div:first-child > div:last-child {
+    padding: 12px 10px;
+    min-width: 0;
+    gap: 10px;
   }
 
   .columns.columns5 .columns-img-col img {
-    margin-bottom: 20px;
+    width: 110px;
   }
 
-  .columns.columns5 > div:last-child {
-    padding-right: 0;
+  .columns.columns5 > div:last-child p {
+    font-size: 15px;
+    line-height: 22px;
   }
-}
-
-/* Ensure block's links override global link styles */
-.columns.columns5 a.button {
-  color: #232221;
-  background: transparent;
 }
