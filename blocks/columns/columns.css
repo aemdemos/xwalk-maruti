@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -30,4 +31,206 @@
     flex: 1;
     order: unset;
   }
+}
+
+
+.columns.columns5 {
+  background: #232221;
+  color: #ebebeb;
+  font-family: Montserrat, 'Arial Black', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 32px 36px 64px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  gap: 0 48px;
+  align-items: start;
+  position: relative;
+}
+
+/* --- Left Column: Logo --- */
+.columns.columns5 > div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 0;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+}
+
+/* Logo */
+.columns.columns5 .columns-img-col {
+  margin-bottom: 0;
+  margin-right: 0;
+  align-self: flex-start;
+}
+
+.columns.columns5 .columns-img-col img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  margin: 0;
+}
+
+/* Hide language list */
+.columns.columns5 > div:first-child ul {
+  display: none;
+}
+
+/* --- Social box: third grid cell, top-aligned --- */
+.columns.columns5 > div:first-child > div:last-child {
+  position: absolute;
+  right: 32px;
+  top: 48px;
+  background: #ededed;
+  padding: 16px 28px 10px;
+  border-radius: 0;
+  min-width: 180px;
+  max-width: 210px;
+  min-height: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: none;
+  margin: 0;
+  z-index: 10;
+}
+
+@media (width <= 900px) {
+  .columns.columns5 > div:first-child > div:last-child {
+    position: static;
+    right: auto;
+    top: auto;
+    margin: 24px 0 0;
+  }
+}
+
+/* Social Label */
+.columns.columns5 > div:first-child > div:last-child h4 {
+  color: #232221;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Social "icons": horizontal, compact! */
+.columns.columns5 > div:first-child > div:last-child .button-container {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  padding: 0;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.columns.columns5 > div:first-child > div:last-child .button-container:last-child {
+  margin-right: 0;
+}
+
+.columns.columns5 > div:first-child > div:last-child p.button-container {
+  margin-bottom: 0;
+}
+
+/* Social link look */
+.columns.columns5 .button {
+  background: none;
+  border: none;
+  color: #232221;
+  font-size: 22px;
+  padding: 0;
+  margin: 0 2px;
+  border-radius: 0;
+  min-width: 0;
+  min-height: 0;
+  box-shadow: none;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  transition: color 0.2s;
+  line-height: 1.2;
+}
+
+.columns.columns5 .button:hover,
+.columns.columns5 .button:focus {
+  color: #4b4b4b;
+  text-decoration: none;
+  background: none;
+}
+
+/* Arrange icons horizontally */
+
+/* --- Text Column --- */
+.columns.columns5 > div:last-child {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+  padding-right: 0;
+  z-index: 1;
+}
+
+.columns.columns5 > div:last-child p {
+  color: #ebebeb;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.columns.columns5 > div:last-child p:first-child {
+  margin-top: 0;
+}
+
+.columns.columns5 > div:last-child a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
+  transition: color 0.15s;
+}
+
+.columns.columns5 > div:last-child a:hover {
+  color: #dedede;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .columns.columns5 {
+    grid-template-columns: 1fr;
+    gap: 24px 0;
+    padding: 32px 12px 24px;
+  }
+
+  .columns.columns5 > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+
+  .columns.columns5 .columns-img-col img {
+    margin-bottom: 20px;
+  }
+
+  .columns.columns5 > div:last-child {
+    padding-right: 0;
+  }
+}
+
+/* Ensure block's links override global link styles */
+.columns.columns5 a.button {
+  color: #232221;
+  background: transparent;
 }
