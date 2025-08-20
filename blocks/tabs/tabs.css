@@ -1,0 +1,245 @@
+/* stylelint-disable no-descending-specificity */
+
+
+.tabs.tabs3 {
+  display: flex;
+  flex-direction: row;
+  max-width: 1164px;
+  margin: 40px auto 0;
+  background: #fff;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+}
+
+/* Sidebar adjustments */
+.tabs.tabs3 > div:first-child {
+  flex: 0 0 340px;
+  max-width: 340px;
+  min-width: 300px;
+  padding: 56px 40px 48px 56px;
+  background: #fff;
+  border-right: 1px solid #ececec;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs3 {
+    flex-direction: column;
+    max-width: 100%;
+    border: none;
+  }
+
+  .tabs.tabs3 > div:first-child {
+    max-width: 100%;
+    min-width: unset;
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+    padding: 32px 16px 24px;
+  }
+}
+
+/* Sidebar title/heading */
+.tabs.tabs3 > div:first-child h3 {
+  font-size: 1.52rem;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  font-family: serif;
+  color: #232323;
+  letter-spacing: 0;
+  line-height: 1.13;
+  position: relative;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #ffe145;
+  width: fit-content;
+}
+
+/* Sidebar subtitle */
+.tabs.tabs3 > div:first-child p:first-of-type {
+  font-size: 13.5px;
+  color: #232323;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 0.9px;
+  line-height: 1.32;
+}
+
+/* Sidebar image (centered, smaller, more margin) */
+.tabs.tabs3 > div:first-child picture img {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+  border-radius: 8px;
+  margin: 0 auto 30px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
+}
+
+/* Sidebar "card" description block */
+.tabs.tabs3 > div:first-child p:nth-of-type(2) {
+  font-size: 14px;
+  color: #565656;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.66;
+  background: #f8f8f8;
+  border-radius: 13px;
+  padding: 26px 20px;
+  margin-bottom: 40px;
+  margin-top: 4px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 1%);
+  max-width: 238px;
+}
+
+/* Related trips in sidebar */
+.tabs.tabs3 > div:first-child ul {
+  margin-top: 36px;
+  margin-bottom: 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: #888;
+}
+
+.tabs.tabs3 > div:first-child ul li {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+  list-style-type: disc;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Related trips heading, if present */
+.tabs.tabs3 > div:first-child ul::before {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Sidebar: ensure last item at bottom */
+.tabs.tabs3 > div:first-child > *:last-child {
+  margin-top: auto;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  font-family: inherit;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  padding-top: 32px;
+}
+
+/* Hide non-active tab panels (show only 2nd column for default "Overview") */
+.tabs.tabs3 > div:not(:first-child) {
+  display: none;
+  flex: 1 1 0;
+  min-width: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  padding: 56px 72px 56px 56px;
+}
+
+.tabs.tabs3 > div:nth-child(2) {
+  display: flex;
+}
+
+/* Main content headings and spacing */
+.tabs.tabs3 > div:nth-child(2) h2 {
+  font-family: serif;
+  font-size: 2.06rem;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 26px;
+  margin-top: 44px;
+  line-height: 1.13;
+}
+
+.tabs.tabs3 > div:nth-child(2) h3 {
+  font-family: serif;
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+/* Main image: max width and margin */
+.tabs.tabs3 > div:nth-child(2) picture img {
+  display: block;
+  width: 780px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 11px;
+  margin-bottom: 36px;
+  margin-top: 0;
+  background: #eee;
+}
+
+@media (width <= 1100px) {
+  .tabs.tabs3 > div:nth-child(2) picture img {
+    width: 100%;
+    min-width: unset;
+    min-height: 200px;
+    margin-bottom: 28px;
+  }
+}
+
+/* Main description paragraphs */
+.tabs.tabs3 > div:nth-child(2) p {
+  font-size: 15.5px;
+  line-height: 1.64;
+  color: #232323;
+  font-family: inherit;
+  margin-bottom: 34px;
+  margin-top: 0;
+  max-width: 650px;
+}
+
+/* Tabs navigation (first child div p in overview tab) */
+.tabs.tabs3 > div:nth-child(2) > div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 22px;
+  margin-bottom: 38px;
+  margin-top: 4px;
+}
+
+.tabs.tabs3 > div:nth-child(2) > div:first-child p {
+  padding: 11px 32px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 1;
+}
+
+/* Responsive adjustment for main content */
+@media (width <= 900px) {
+  .tabs.tabs3 > div:not(:first-child) {
+    padding: 24px 10px;
+  }
+
+  .tabs.tabs3 > div:nth-child(2) picture img {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+    margin-bottom: 18px;
+  }
+}
+
+/* Remove overlays and unrelated overlays if present */
+.tabs.tabs3 ul.country-language-overlay,
+.tabs.tabs3 .country-language-overlay {
+  display: none;
+}
