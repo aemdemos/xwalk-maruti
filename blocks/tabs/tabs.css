@@ -1019,7 +1019,6 @@
   gap: 0;
 }
 
-/* SIDEBAR (first direct child) */
 .tabs.tabs19 > div:first-child {
   flex: 0 0 291px;
   min-width: 291px;
@@ -1036,7 +1035,6 @@
   z-index: 1;
 }
 
-/* Visually separate sidebar sections, use subtle division for trip details */
 .tabs.tabs19 > div:first-child > *:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -1063,7 +1061,6 @@
   letter-spacing: 0.02em;
 }
 
-/* Sidebar last item as call-to-action if present */
 .tabs.tabs19 > div:first-child > *:last-child {
   margin-top: auto;
   margin-bottom: 0;
@@ -1074,7 +1071,6 @@
   color: #333;
 }
 
-/* MAIN CONTENT COLUMN (all but first child) */
 .tabs.tabs19 > div:not(:first-child) {
   flex: 1 1 0;
   display: flex;
@@ -1087,14 +1083,12 @@
   background: #fff;
 }
 
-/* Show only the first tab's content on desktop */
 @media (width >= 900px) {
   .tabs.tabs19 > div:not(:first-child, :nth-child(2)) {
     display: none;
   }
 }
 
-/* Tab navigation bar (first child row in main area) */
 .tabs.tabs19 > div:not(:first-child) > div:first-child {
   display: flex;
   flex-direction: row;
@@ -1127,7 +1121,6 @@
   border-bottom: 2px solid transparent;
 }
 
-/* Main headings inside main content */
 .tabs.tabs19 > div:not(:first-child) h3,
 .tabs.tabs19 > div:not(:first-child) h2 {
   font-family: Georgia, serif;
@@ -1149,7 +1142,6 @@
   font-family: inherit;
 }
 
-/* Images in main content: wide, rounded, spaced */
 .tabs.tabs19 > div:not(:first-child) picture img {
   display: block;
   width: 845px;
@@ -1161,7 +1153,6 @@
   margin: 0 auto 28px;
 }
 
-/* Other images: consistent style */
 .tabs.tabs19 > div:not(:first-child) picture:not(:first-of-type) img {
   width: 700px;
   max-width: 100%;
@@ -1172,7 +1163,6 @@
   margin: 0 auto 28px;
 }
 
-/* Packing list styles */
 .tabs.tabs19 ul {
   font-size: 16px;
   line-height: 24px;
@@ -1182,7 +1172,6 @@
   max-width: 700px;
 }
 
-/* Responsiveness: stack columns on mobile, show all tab panes */
 @media (width <= 900px) {
   .tabs.tabs19 {
     flex-direction: column;
@@ -1207,7 +1196,6 @@
     display: flex;
   }
 
-  /* Show all tab panes stacked on mobile */
   .tabs.tabs19 > div:not(:first-child, :nth-child(2)) {
     display: flex;
   }
@@ -1220,8 +1208,270 @@
   }
 }
 
-/* Remove overlays or selectors on image corner if present in HTML */
 .tabs.tabs19 .locale-selector,
 .tabs.tabs19 .image-overlay-text {
+  display: none;
+}
+
+
+.tabs.tabs22 {
+  /* Main container: use grid to enforce two columns, align items top */
+  display: grid;
+  grid-template-columns: 330px 1fr;
+  gap: 64px;
+  max-width: 1120px;
+  margin: 60px auto 0;
+  padding: 0 32px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background: none;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs22 {
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0 0 40px;
+  }
+}
+
+/* SIDEBAR: first child as left column */
+.tabs.tabs22 > div:first-of-type {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 7%);
+  padding: 46px 28px 36px 36px;
+  box-sizing: border-box;
+  min-width: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs22 > div:first-of-type {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 30px 12px 18px;
+    min-height: unset;
+    align-self: auto;
+  }
+}
+
+/* Sidebar heading label */
+.tabs.tabs22 > div:first-of-type > div:first-child p,
+.tabs.tabs22 > div:first-of-type > p:first-child {
+  font-size: 1rem;
+  color: #bcbcbc;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+
+/* Sidebar main heading */
+.tabs.tabs22 > div:first-of-type h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 2.13rem;
+  color: #222;
+  line-height: 1.17;
+  margin: 0 0 16px;
+  letter-spacing: 0.01em;
+}
+
+/* Sidebar description */
+.tabs.tabs22 > div:first-of-type p:not(:first-child) {
+  font-size: 1.02rem;
+  color: #bcbcbc;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 18px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+/* Sidebar image: small, rounded, only in sidebar */
+.tabs.tabs22 > div:first-of-type img {
+  width: 100%;
+  max-width: 230px;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 14px 0 0;
+  display: block;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
+
+/* MAIN CONTENT: second child as right column */
+.tabs.tabs22 > div:nth-of-type(2) {
+  box-sizing: border-box;
+  min-width: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 670px;
+  padding: 40px 0 0;
+  background: none;
+  border-radius: 0;
+}
+
+@media (width >= 1200px) {
+  .tabs.tabs22 > div:nth-of-type(2) {
+    max-width: 740px;
+  }
+}
+
+@media (width <= 900px) {
+  .tabs.tabs22 > div:nth-of-type(2) {
+    padding: 12px 8px 0;
+    max-width: 100vw;
+    align-self: auto;
+  }
+}
+
+/* Tab bar: horizontal row at top of main content */
+.tabs.tabs22 > div:nth-of-type(2) > div:first-child {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+.tabs.tabs22 > div:nth-of-type(2) > div:first-child p {
+  padding: 12px 32px 12px 22px;
+  margin: 0;
+  background: #222;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  text-transform: uppercase;
+  font-size: 1.06rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 2%);
+}
+
+/* Main content heading */
+.tabs.tabs22 > div:nth-of-type(2) h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.32rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.1;
+  margin: 0 0 8px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  position: relative;
+}
+
+.tabs.tabs22 > div:nth-of-type(2) h3::after {
+  display: block;
+  width: 52px;
+  height: 4px;
+  background: #ffe44a;
+  border-radius: 2px;
+  margin-top: 10px;
+  content: "";
+}
+
+/* Main image: should be in main content, large and wide */
+.tabs.tabs22 > div:nth-of-type(2) img {
+  display: block;
+  width: 100%;
+  max-width: 670px;
+  aspect-ratio: 16/9;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  margin: 36px 0 34px;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 6%);
+}
+
+/* Responsive: main image smaller */
+@media (width <= 900px) {
+  .tabs.tabs22 > div:nth-of-type(2) img {
+    max-width: 100vw;
+    border-radius: 8px;
+    margin: 16px 0 22px;
+  }
+}
+
+/* Paragraphs and lists: bigger, airier */
+.tabs.tabs22 > div:nth-of-type(2) p,
+.tabs.tabs22 > div:nth-of-type(2) li {
+  font-size: 1.19rem;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  margin-bottom: 17px;
+}
+
+.tabs.tabs22 > div:nth-of-type(2) ul {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.tabs.tabs22 > div:nth-of-type(2) li {
+  margin-bottom: 12px;
+}
+
+.tabs.tabs22 > div:nth-of-type(2) strong {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111;
+  margin-top: 18px;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+
+/* Remove background and box styles from inner main content */
+.tabs.tabs22 > div:nth-of-type(2) > div:not(:first-child) {
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hide overlays and extra content not in the original */
+.tabs.tabs22 .image-overlay,
+.tabs.tabs22 .extra-content,
+.tabs.tabs22 .itinerary-heading,
+.tabs.tabs22 .location-descriptions,
+.tabs.tabs22 .bulleted-list {
+  display: none;
+}
+
+/* Responsive: stack columns, reduce padding/margins on small screens */
+@media (width <= 600px) {
+  .tabs.tabs22 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .tabs.tabs22 > div:first-of-type,
+  .tabs.tabs22 > div:nth-of-type(2) {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 0;
+  }
+}
+
+/* Ensure all tab content stays in main column, never floats right */
+.tabs.tabs22 > div:nth-of-type(2) > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Prevent third/floating columns by enforcing grid layout only for two columns */
+.tabs.tabs22 > div:nth-of-type(n+3) {
   display: none;
 }
