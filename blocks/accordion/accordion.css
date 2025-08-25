@@ -78,10 +78,7 @@
 .accordion details[open] .accordion-item-body {
   border-top: none;
   background: #fff;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-radius: 0 0 16px 16px;
   margin-top: 0;
   padding-top: 0;
 }
@@ -110,139 +107,127 @@
 
 
 .accordion.accordion7 {
-  box-sizing: border-box;
-  max-width: 800px;
-  width: 100%;
-
-  /* Center in parent container while maintaining content gutter/padding */
-  margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
-  background: none;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-}
-
-/* Accordion items: flat, minimalist, border-separated, full width */
-.accordion.accordion7 details {
-  border: none;
-  background: none;
-  border-radius: 0;
+  max-width: 750px;
+  margin: 0 auto 56px;
+  padding: 0 40px;
+  background: #fff;
   box-shadow: none;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
   width: 100%;
 }
 
-.accordion.accordion7 details:last-of-type {
+.accordion.accordion7 > details {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.accordion.accordion7 > details:last-of-type {
   border-bottom: none;
 }
 
-/* Summary row: left-aligned, uppercase, bold, generous vertical rhythm */
 .accordion.accordion7 summary,
 .accordion.accordion7 .accordion-item-label {
-  width: 100%;
-  padding: 22px 0;
-  margin: 0;
-  min-height: unset;
-  background: none;
-  border-radius: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: 17px;
   font-weight: bold;
-  letter-spacing: 1px;
   color: #222;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  border: none;
+  border-radius: 0;
+  width: 100%;
   cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-height: unset;
+  margin: 0;
+  padding: 20px 0;
   box-sizing: border-box;
 }
 
-/* FAQ question text uniformity */
+.accordion.accordion7 summary::-webkit-details-marker {
+  display: none;
+}
+
 .accordion.accordion7 .privacy-policy-title,
 .accordion.accordion7 summary h2,
 .accordion.accordion7 summary p {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: #222;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
   display: inline;
 }
 
-/* Plus/minus icon: minimalist, black, perfectly centered */
 .accordion.accordion7 .accordion-icon,
 .accordion.accordion7 .icon-plus,
 .accordion.accordion7 .icon-minus {
   width: 20px;
   height: 20px;
-  color: #000;
+  color: #222;
   background: none;
   border-radius: 0;
   border: none;
-  font-weight: normal;
   font-size: 20px;
   line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 18px;
-  position: relative;
-  top: 0;
 }
 
-/* Remove default marker for details/summary */
-.accordion.accordion7 summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Body text: standard paragraph, compact, left-aligned */
 .accordion.accordion7 .accordion-item-body {
-  padding: 0 0 16px;
+  padding: 0 0 18px;
   font-size: 16px;
   color: #222;
   line-height: 1.6;
   text-align: left;
   width: 100%;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Remove spacing between expanded/collapsed states */
-.accordion.accordion7 details[open] {
-  margin-bottom: 0;
-}
-
-.accordion.accordion7 details[open] summary {
+.accordion.accordion7 > div {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
   border-radius: 0;
-  margin-bottom: 0;
+  background: none;
 }
 
-/* Responsive: reduce horizontal padding for small screens */
+.accordion.accordion7 > details + details {
+  margin-top: 0;
+}
+
 @media (width <= 900px) {
   .accordion.accordion7 {
-    padding-left: 12px;
-    padding-right: 12px;
     max-width: 100%;
+    padding: 0 8px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .accordion.accordion7 summary,
   .accordion.accordion7 .accordion-item-label {
     font-size: 16px;
-    padding: 16px 0;
+    padding: 14px 0;
   }
-}
-
-/* Accessibility: keyboard highlight for summary */
-.accordion.accordion7 summary:focus {
-  outline: 2px solid #1976d2;
-  outline-offset: 2px;
 }
