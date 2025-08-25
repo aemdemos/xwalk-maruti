@@ -89,8 +89,6 @@
   }
 }
 
-
-/* Ensure outer carousel is full-bleed and image is visible */
 .carousel.carousel17 {
   width: 100vw;
   max-width: 100vw;
@@ -104,7 +102,6 @@
   overflow: visible;
 }
 
-/* Remove overly constraining widths from inner wrappers */
 .carousel.carousel17 > div,
 .carousel.carousel17 > div > div {
   width: auto;
@@ -118,7 +115,6 @@
   display: block;
 }
 
-/* Image setup (banner aspect) */
 .carousel.carousel17 picture,
 .carousel.carousel17 picture img {
   display: block;
@@ -133,4 +129,162 @@
   box-shadow: none;
   position: relative;
   z-index: 1;
+}
+
+
+/* Ensure the carousel fills the viewport width and removes top spacing */
+.carousel.carousel21 {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: #fff;
+  min-height: 600px;
+  overflow: visible;
+  padding-top: 0;
+}
+
+/* Make the image fill the block and sit behind overlay */
+.carousel.carousel21 > div {
+  position: relative;
+  min-height: 600px;
+  padding: 0;
+  width: 100%;
+}
+
+.carousel.carousel21 picture,
+.carousel.carousel21 img {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Overlay the white content box on the image, at bottom left */
+.carousel.carousel21 > div > div:nth-child(2) {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 3.5rem;
+  width: 440px;
+  background: #fff;
+  box-shadow: 0 10px 32px 0 rgb(0 0 0 / 13%);
+  border-radius: 0;
+  padding: 2.2rem 2.5rem 2.2rem 2.2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+/* Headline and paragraph font updates for impact */
+.carousel.carousel21 > div > div:nth-child(2) h2 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #202020;
+  margin: 0 0 0.7rem;
+  line-height: 1.14;
+}
+
+.carousel.carousel21 > div > div:nth-child(2) p {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  color: #242424;
+  margin: 0 0 0.6rem;
+  line-height: 1.6;
+}
+
+/* Large yellow rectangle button style, left-aligned */
+.carousel.carousel21 .button-container .button {
+  background-color: #ffe600;
+  color: #000;
+  border-radius: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border: none;
+  box-shadow: none;
+  margin: 0.9rem 0 0;
+  min-width: 170px;
+  transition: background-color 0.3s;
+  text-align: left;
+  letter-spacing: 0.01em;
+  outline: none;
+}
+
+.carousel.carousel21 .button-container .button:hover,
+.carousel.carousel21 .button-container .button:focus {
+  background-color: #ffef53;
+  color: #222;
+}
+
+/* Dots: absolute below overlay, visible and matching original */
+.carousel.carousel21 .carousel-slide-indicators {
+  position: absolute;
+  left: 3.8rem;
+  bottom: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  z-index: 3;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel.carousel21 .carousel-slide-indicators button,
+.carousel.carousel21 .carousel-slide-indicators [role="tab"] {
+  width: 13px;
+  height: 13px;
+  background: #fff;
+  border: 2px solid #ffe600;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.18s, background 0.18s;
+}
+
+.carousel.carousel21 .carousel-slide-indicators button[aria-selected="true"],
+.carousel.carousel21 .carousel-slide-indicators [aria-selected="true"] {
+  background: #ffe600;
+  border-color: #ffe600;
+}
+
+/* Navigation arrows: absolute bottom right, visible, large, matching screenshot */
+.carousel.carousel21 .carousel-navigation-buttons {
+  position: absolute;
+  right: 3.8rem;
+  bottom: 1.3rem;
+  display: flex;
+  gap: 26px;
+  z-index: 3;
+}
+
+.carousel.carousel21 .carousel-navigation-buttons button,
+.carousel.carousel21 .carousel-navigation-buttons [role="button"] {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #202020;
+  font-size: 2.2rem;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.carousel.carousel21 .carousel-navigation-buttons button:hover,
+.carousel.carousel21 .carousel-navigation-buttons [role="button"]:hover {
+  background: #f9f9f9;
 }
