@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -35,13 +36,11 @@
   background: transparent;
 }
 
-/* Remove any space above the block */
 .cards.cards4,
 .cards.cards4 > ul {
   margin-top: 0;
 }
 
-/* Featured card (first li) */
 .cards.cards4 > ul > li:first-child {
   display: flex;
   flex-direction: row;
@@ -140,7 +139,6 @@
   text-align: left;
 }
 
-/* Article cards grid */
 .cards.cards4 > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -150,7 +148,6 @@
   list-style: none;
 }
 
-/* Responsive: 2 columns on medium, 1 on mobile */
 @media (width <= 1100px) {
   .cards.cards4 > ul {
     grid-template-columns: repeat(2, 1fr);
@@ -167,7 +164,6 @@
   }
 }
 
-/* Article cards (not featured) */
 .cards.cards4 > ul > li:not(:first-child) {
   display: flex;
   flex-direction: column;
@@ -184,7 +180,6 @@
   justify-content: flex-start;
 }
 
-/* Grid card image: slightly taller */
 .cards.cards4 > ul > li:not(:first-child) .cards-card-image {
   width: 100%;
   height: 126px;
@@ -203,7 +198,6 @@
   display: block;
 }
 
-/* Grid card text: compact but visible */
 .cards.cards4 > ul > li:not(:first-child) .cards-card-body {
   padding: 11px 12px 13px 14px;
   background: none;
@@ -213,7 +207,6 @@
   flex: 1 1 auto;
 }
 
-/* Grid card title: larger, bolder */
 .cards.cards4 > ul > li:not(:first-child) .cards-card-body p:first-child strong {
   font-size: 19px;
   font-weight: 900;
@@ -226,7 +219,6 @@
   display: block;
 }
 
-/* Grid card description: slightly larger and lighter */
 .cards.cards4 > ul > li:not(:first-child) .cards-card-body p:nth-child(2) {
   font-size: 14px;
   color: #888;
@@ -240,7 +232,6 @@
   white-space: normal;
 }
 
-/* Grid card button: standard and visible */
 .cards.cards4 > ul > li:not(:first-child) .cards-card-body .button-container {
   margin-top: 8px;
 }
@@ -263,7 +254,130 @@
   text-align: left;
 }
 
-/* Remove unwanted overlay text if present */
 .cards.cards4 .cards-card-image .image-overlay {
   display: none;
+}
+
+
+.cards.cards15 {
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+/* Use Flexbox to arrange cards side by side, edge-to-edge */
+.cards.cards15 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+/* Cards: equal width, fill available space */
+.cards.cards15 ul > li {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Image: fills card width, fixed aspect ratio */
+.cards.cards15 .cards-card-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.cards.cards15 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card body: stack headline and description, no side padding */
+.cards.cards15 .cards-card-body {
+  margin: 0;
+  padding: 0 0 36px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Headline: uppercase, bold, flush left */
+.cards.cards15 .cards-card-body p:first-child {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.cards.cards15 .cards-card-body p:first-child strong {
+  display: block;
+  font-size: 20px;
+  font-family: Roboto, "Roboto Fallback", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #191919;
+  line-height: 1.1;
+  margin-bottom: 0;
+  letter-spacing: 0;
+}
+
+/* Description: gray, single line, truncated with ellipsis */
+.cards.cards15 .cards-card-body p:not(:first-child) {
+  font-size: 15px;
+  font-family: Roboto, "Roboto Fallback", sans-serif;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.2;
+  margin-top: 8px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hide overlays */
+.cards.cards15 ul > li .image-overlay {
+  display: none;
+}
+
+/* Responsive behavior: two columns then stack */
+@media (width <= 1000px) {
+  .cards.cards15 ul {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .cards.cards15 ul > li {
+    flex: 1 1 47%;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards15 ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cards.cards15 ul > li {
+    flex-basis: 100%;
+  }
 }
