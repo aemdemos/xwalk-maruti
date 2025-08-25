@@ -2,33 +2,99 @@
 
 
 .carousel.carousel9 {
-  /* Remove extra background and minimize vertical padding for a more immersive feel */
-  padding-top: 0;
-  padding-bottom: 0;
-  background: transparent;
+  position: relative;
+  width: 100%;
+  max-width: 1160px; /* Slightly reduced for a snugger fit */
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 16px;  /* Slightly reduced horizontal padding for closer alignment */
+  padding-right: 16px;
 }
 
-/* Tighten spacing between carousel slides */
-.carousel.carousel9 > div {
+/* Hide overlay text */
+.carousel.carousel9 .image-overlay-text,
+.carousel.carousel9 .carousel-image-overlay-text {
+  display: none;
+}
+
+/* Responsive image sizing with aspect-ratio for exact crop */
+.carousel.carousel9 picture > img {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1280 / 421;
+  height: auto;
+  min-height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background: #fff;
+  padding: 0;
   margin-bottom: 12px;
 }
 
-/* Return to a cinematic, immersive crop: full width, fixed aspect ratio, edge-to-edge feel */
-.carousel.carousel9 picture > img {
-  width: 100vw;
-  max-width: 100%;
-  min-width: 0;
-  height: 440px;
-  object-fit: cover;
-  display: block;
-  margin: 0;
-  border: none;
-  box-shadow: none;
-  background: #fff;
-  border-radius: 0;
+/* Tighten vertical stacking */
+.carousel.carousel9 > div {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* Remove any overlay text */
-.carousel.carousel9 .carousel-image-overlay-text {
-  display: none;
+/* Remove extra gap between slides */
+.carousel.carousel9 > div + div {
+  margin-top: 0;
+}
+
+/* Subtle margin below image for visual relief */
+
+/* Slide indicators: refine position */
+.carousel.carousel9 .carousel-slide-indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 8px; /* Move closer to image edge */
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  z-index: 2;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Indicator dot styles */
+.carousel.carousel9 .carousel-slide-indicators button,
+.carousel.carousel9 .carousel-slide-indicators .carousel-slide-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #d1d1d1;
+  margin: 0;
+  padding: 0;
+  transition: background 0.2s;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel.carousel9 .carousel-slide-indicators .active,
+.carousel.carousel9 .carousel-slide-indicators button.active {
+  background: #303030;
+}
+
+@media (width <= 900px) {
+  .carousel.carousel9 {
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .carousel.carousel9 picture > img {
+    aspect-ratio: 16 / 9;
+    min-height: 160px;
+  }
 }
