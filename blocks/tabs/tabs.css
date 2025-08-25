@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .tabs.tabs3 {
   display: flex;
   flex-direction: row;
@@ -337,7 +336,6 @@
 
 
 .tabs.tabs13 {
-  /* Use flex for top-level layout: sidebar + main content */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -348,8 +346,6 @@
   box-shadow: none;
   padding: 0;
 }
-
-/* Responsive: stack vertically */
 @media (width <= 900px) {
   .tabs.tabs13 {
     flex-direction: column;
@@ -357,8 +353,6 @@
     margin: 22px 0 0;
   }
 }
-
-/* Sidebar: first child is the sidebar card (Overview) */
 .tabs.tabs13 > div:first-child {
   flex: 0 0 295px;
   max-width: 295px;
@@ -384,8 +378,6 @@
     padding-bottom: 24px;
   }
 }
-
-/* Sidebar content layout (card style) */
 .tabs.tabs13 > div:first-child > div {
   padding: 50px 32px 32px 0;
   margin: 0;
@@ -431,8 +423,6 @@
   box-shadow: none;
   display: block;
 }
-
-/* Sidebar paragraph below image */
 .tabs.tabs13 > div:first-child > div > p:last-of-type {
   font-family: Georgia, serif;
   font-size: 15px;
@@ -444,7 +434,6 @@
 }
 
 .tabs.tabs13 > div:not(:first-child) {
-  /* Main content area */
   flex: 1 1 0%;
   min-width: 0;
   max-width: none;
@@ -469,8 +458,6 @@
     margin: 0;
   }
 }
-
-/* Tab navigation row: horizontal tabs */
 .tabs.tabs13 > div:not(:first-child) > div {
   display: flex;
   flex-direction: row;
@@ -478,8 +465,6 @@
   margin-bottom: 35px;
   align-items: center;
 }
-
-/* Tab navigation: style tabs as buttons */
 .tabs.tabs13 > div:not(:first-child) > div > p {
   font-family: Roboto, "Roboto Fallback", sans-serif;
   font-size: 15px;
@@ -503,8 +488,6 @@
   padding-left: 22px;
   padding-right: 22px;
 }
-
-/* Heading: main trip title with underline accent */
 .tabs.tabs13 > div:not(:first-child) h3 {
   font-family: Georgia, serif;
   font-size: 2.7rem;
@@ -519,8 +502,6 @@
   width: 100%;
   max-width: 780px;
 }
-
-/* Accent underline for heading */
 .tabs.tabs13 > div:not(:first-child) h3::after {
   display: block;
   width: 68px;
@@ -530,8 +511,6 @@
   margin-top: 8px;
   content: "";
 }
-
-/* Large main scenic image */
 .tabs.tabs13 > div:not(:first-child) picture,
 .tabs.tabs13 > div:not(:first-child) img {
   width: 98%;
@@ -543,8 +522,6 @@
   box-shadow: none;
   display: block;
 }
-
-/* Section heading below image */
 .tabs.tabs13 > div:not(:first-child) strong,
 .tabs.tabs13 > div:not(:first-child) p:first-of-type {
   font-family: Roboto, "Roboto Fallback", sans-serif;
@@ -556,8 +533,6 @@
   display: block;
   letter-spacing: 0.05em;
 }
-
-/* Main description paragraphs */
 .tabs.tabs13 > div:not(:first-child) p {
   font-family: Georgia, serif;
   font-size: 16px;
@@ -570,8 +545,6 @@
   white-space: normal;
   word-break: normal;
 }
-
-/* Responsive images and text */
 @media (width <= 900px) {
   .tabs.tabs13 > div:not(:first-child) picture,
   .tabs.tabs13 > div:not(:first-child) img {
@@ -591,8 +564,6 @@
     max-width: 100%;
   }
 }
-
-/* Fix overly narrow text columns: let paragraphs use max available width */
 .tabs.tabs13 > div:not(:first-child) > div,
 .tabs.tabs13 > div:not(:first-child) > p,
 .tabs.tabs13 > div:not(:first-child) > div > p,
@@ -601,9 +572,212 @@
   max-width: 800px;
   width: 100%;
 }
-
-/* Remove grid from previous attempt if present */
 .tabs.tabs13[style*="grid"] {
   display: flex;
   flex-direction: row;
+}
+
+
+.tabs.tabs14 {
+  display: flex;
+  flex-direction: row;
+  max-width: 1164px;
+  min-height: 1056px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(60,72,88,0.06);
+  overflow: hidden;
+}
+
+/* SIDEBAR: stack all content at the top, remove empty space between blocks */
+.tabs.tabs14 > div:first-child {
+  flex: 0 0 320px;
+  max-width: 320px;
+  min-width: 260px;
+  background: #fff;
+  padding: 48px 32px 48px 32px;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 0; /* No artificial space between children */
+}
+
+/* Sidebar "Overview" label and summary: no margin above, small margin below for rhythm */
+.tabs.tabs14 > div:first-child > p {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+/* Sidebar trip summary card: keep directly below label, then space below summary for CTA */
+.tabs.tabs14 > div:first-child > div {
+  margin-top: 0;
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+/* Sidebar CTA: always flush to bottom */
+.tabs.tabs14 > div:first-child > *:last-child {
+  margin-top: auto;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  color: #0066cc;
+  text-transform: uppercase;
+  border-top: 1px solid #eaeaea;
+  padding-top: 36px;
+  text-align: left;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+/* Sidebar label styling */
+.tabs.tabs14 > div:first-child p,
+.tabs.tabs14 > div:first-child h3,
+.tabs.tabs14 > div:first-child h4,
+.tabs.tabs14 > div:first-child h5 {
+  font-size: 12px;
+  color: #888;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Sidebar value styling */
+.tabs.tabs14 > div:first-child strong,
+.tabs.tabs14 > div:first-child b {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  display: block;
+}
+
+/* Sidebar summary paragraph styling */
+.tabs.tabs14 > div:first-child > div p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.6;
+  margin: 0 0 0 0;
+}
+
+/* Sidebar summary image styling */
+.tabs.tabs14 > div:first-child img {
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+/* Only show first main tab panel (simulate tab behavior) */
+.tabs.tabs14 > div:not(:first-child):not(:nth-child(2)) {
+  display: none;
+}
+
+/* MAIN PANEL: align with sidebar summary block, not label */
+.tabs.tabs14 > div:not(:first-child) {
+  flex: 1 1 0;
+  padding: 72px 56px 56px 56px; /* More top padding to match sidebar's first content block */
+  background: #fff;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Main panel headings & accent line */
+.tabs.tabs14 > div:not(:first-child) h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 22px 0;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 3px solid #FFD900;
+  line-height: 1.2;
+}
+
+/* Main panel subheading */
+.tabs.tabs14 > div:not(:first-child) h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin: 36px 0 18px 0;
+  line-height: 1.2;
+}
+
+/* Main panel paragraphs */
+.tabs.tabs14 > div:not(:first-child) p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #222;
+  margin: 0 0 22px 0;
+}
+
+/* Main panel image styling */
+.tabs.tabs14 > div:not(:first-child) picture,
+.tabs.tabs14 > div:not(:first-child) img {
+  display: block;
+  width: 845px;
+  max-width: 100%;
+  border-radius: 14px;
+  margin: 0 0 32px 0;
+  box-shadow: 0 2px 12px rgba(60,72,88,0.08);
+  background: #f8f8f8;
+}
+.tabs.tabs14 > div:not(:first-child) picture img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(60,72,88,0.08);
+}
+
+/* Only set min-height if there is an image to avoid empty containers */
+.tabs.tabs14 > div:not(:first-child) picture img[src] {
+  min-height: 300px;
+  object-fit: cover;
+}
+
+/* Main panel list styling */
+.tabs.tabs14 > div:not(:first-child) ul {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 24px 20px;
+  padding-left: 20px;
+}
+.tabs.tabs14 > div:not(:first-child) li {
+  margin-bottom: 10px;
+}
+
+/* Responsive: stack columns, adjust padding and sidebar space */
+@media (max-width: 900px) {
+  .tabs.tabs14 {
+    flex-direction: column;
+    min-height: unset;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .tabs.tabs14 > div:first-child {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 32px 16px 24px 16px;
+  }
+  .tabs.tabs14 > div:not(:first-child) {
+    padding: 32px 16px 32px 16px;
+  }
+  .tabs.tabs14 > div:not(:first-child) picture,
+  .tabs.tabs14 > div:not(:first-child) img,
+  .tabs.tabs14 > div:not(:first-child) picture img {
+    width: 100%;
+    min-height: 180px;
+    height: auto;
+    min-width: 0;
+  }
 }
