@@ -1,236 +1,4 @@
 /* stylelint-disable no-descending-specificity */
-.tabs.tabs13 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 1100px;
-  margin: 32px auto 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  background: none;
-  border-radius: 0;
-  box-shadow: none;
-  min-height: 0;
-  position: relative;
-}
-
-.tabs.tabs13 > div:first-child {
-  flex: 0 0 235px;
-  max-width: 235px;
-  min-width: 200px;
-  background: #f6f6f6;
-  border-radius: 18px 0 0 18px;
-  border-right: 2px solid #ececec;
-  padding: 20px 16px 24px 22px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  box-shadow: 0 2px 10px rgb(0 0 0 / 4%);
-  align-items: flex-start;
-  font-size: 14px;
-  margin-top: 0;
-}
-
-.tabs.tabs13 > div:first-child img,
-.tabs.tabs13 > div:first-child picture {
-  width: 100%;
-  max-width: 180px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  margin-top: 0;
-}
-
-.tabs.tabs13 > div:first-child h3,
-.tabs.tabs13 > div:first-child h4 {
-  font-size: 1.08rem;
-  color: #232323;
-  font-weight: 700;
-  margin-bottom: 8px;
-  margin-top: 0;
-}
-
-.tabs.tabs13 > div:first-child p {
-  font-size: 13px;
-  color: #444;
-  margin: 0 0 10px;
-  line-height: 1.5;
-  display: -webkit-box;
-  -webkit-line-clamp: 8;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-height: unset;
-  font-family: Georgia, serif;
-}
-
-.tabs.tabs13 > div:first-child ul,
-.tabs.tabs13 > div:first-child ol {
-  margin-bottom: 6px;
-  padding-left: 18px;
-}
-
-.tabs.tabs13 > div:first-child li {
-  font-size: 13px;
-  color: #666;
-  margin-bottom: 2px;
-  font-family: Georgia, serif;
-}
-
-.tabs.tabs13 > div:not(:first-child) {
-  flex: 1 1 0;
-  min-width: 0;
-  max-width: 900px;
-  background: #fff;
-  border-radius: 0 18px 18px 0;
-  padding: 32px 56px;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0;
-  box-sizing: border-box;
-  box-shadow: 0 2px 10px rgb(0 0 0 / 2%);
-  margin-top: 0;
-}
-
-.tabs.tabs13 > div.active,
-.tabs.tabs13 > div:nth-child(2):not(.active, .inactive) {
-  display: flex;
-}
-
-.tabs.tabs13 > div:not(:first-child) > div:first-child {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-  align-items: center;
-  margin-bottom: 38px;
-  margin-top: 0;
-}
-
-.tabs.tabs13 > div:not(:first-child) > div:first-child p {
-  margin: 0;
-  padding: 11px 28px 10px 0;
-  font-size: 17px;
-  font-weight: 700;
-  color: #363636;
-  cursor: pointer;
-  background: none;
-  border: none;
-  border-radius: 0;
-  letter-spacing: 0.015em;
-  transition: color 0.15s, background 0.15s;
-}
-
-.tabs.tabs13 > div:not(:first-child) > div:first-child p.active {
-  color: #fff;
-  background: #222;
-  border-radius: 6px 6px 0 0;
-  padding-right: 28px;
-  padding-left: 28px;
-}
-
-.tabs.tabs13 > div:not(:first-child) h3 {
-  font-family: Georgia, serif;
-  font-size: 2.05rem;
-  font-weight: 700;
-  color: #222;
-  margin-top: 0;
-  margin-bottom: 22px;
-  line-height: 1.11;
-  padding-bottom: 7px;
-  border-bottom: 4px solid #FFED6A;
-  display: inline-block;
-}
-
-.tabs.tabs13 > div:not(:first-child) picture,
-.tabs.tabs13 > div:not(:first-child) img {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 17px;
-  margin-top: 7px;
-  box-shadow: 0 4px 22px rgb(0 0 0 / 5%);
-}
-
-.tabs.tabs13 > div:not(:first-child) > p,
-.tabs.tabs13 > div:not(:first-child) > div > p:first-of-type {
-  font-size: 17px;
-  color: #232323;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 9px;
-  margin-bottom: 16px;
-  letter-spacing: 0.02em;
-  font-family: Georgia, serif;
-}
-
-.tabs.tabs13 > div:not(:first-child) > div > p:not(:first-of-type),
-.tabs.tabs13 > div:not(:first-child) > div > p + p {
-  font-size: 1.06rem;
-  color: #333;
-  line-height: 1.77;
-  font-family: Georgia, serif;
-  margin-bottom: 30px;
-  font-weight: 400;
-  text-transform: none;
-}
-
-.tabs.tabs13 > div:not(:first-child) strong {
-  display: block;
-  font-size: 1.02rem;
-  font-weight: 700;
-  margin: 22px 0 8px;
-  color: #212121;
-  letter-spacing: 0.01em;
-}
-
-@media (width <= 900px) {
-  .tabs.tabs13 {
-    flex-direction: column;
-    border-radius: 0;
-    box-shadow: none;
-    margin: 12px 0 0;
-  }
-
-  .tabs.tabs13 > div:first-child {
-    border-radius: 14px 14px 0 0;
-    border-right: none;
-    border-bottom: 2px solid #ececec;
-    min-width: 0;
-    max-width: 100%;
-    width: 100%;
-    box-shadow: none;
-    padding: 18px 8px 12px 12px;
-    margin-top: 0;
-    font-size: 13px;
-  }
-
-  .tabs.tabs13 > div:not(:first-child) {
-    border-radius: 0 0 14px 14px;
-    padding: 18px 6px;
-    max-width: 100%;
-    margin-top: 0;
-  }
-
-  .tabs.tabs13 > div:not(:first-child) picture,
-  .tabs.tabs13 > div:not(:first-child) img {
-    max-width: 100%;
-    height: 140px;
-    border-radius: 6px;
-  }
-}
-
-.tabs.tabs13 .locale-overlay {
-  display: none;
-}
-
-
 .tabs.tabs3 {
   display: flex;
   flex-direction: row;
@@ -416,7 +184,6 @@
   padding: 0;
 }
 
-/* Only show the first tab section by default, hide others */
 .tabs.tabs11 > div {
   display: none;
 }
@@ -432,9 +199,6 @@
   background: #fff;
 }
 
-/* Tab row: sidebar and content side by side */
-
-/* Left column: tab label styled as sidebar */
 .tabs.tabs11 > div:first-child > div:first-child {
   flex: 0 0 170px;
   max-width: 180px;
@@ -451,7 +215,6 @@
   height: 100%;
 }
 
-/* Label style */
 .tabs.tabs11 > div:first-child > div:first-child p {
   font-size: 16px;
   font-family: inherit;
@@ -469,7 +232,6 @@
   align-items: center;
 }
 
-/* Right column: main panel */
 .tabs.tabs11 > div:first-child > div:nth-child(2) {
   flex: 1 1 0%;
   min-width: 0;
@@ -483,7 +245,6 @@
   max-width: 900px;
 }
 
-/* Responsive tweaks */
 @media (width <= 1200px) {
   .tabs.tabs11 > div:first-child > div:nth-child(2) {
     padding: 32px 16px;
@@ -517,7 +278,6 @@
   }
 }
 
-/* Main heading */
 .tabs.tabs11 > div:first-child > div:nth-child(2) h3 {
   font-size: 2.25rem;
   font-family: Georgia, serif;
@@ -529,12 +289,10 @@
   line-height: 1.12;
 }
 
-/* Remove underline from heading */
 .tabs.tabs11 > div:first-child > div:nth-child(2) h3::after {
   display: none;
 }
 
-/* Big image, compact spacing */
 .tabs.tabs11 > div:first-child > div:nth-child(2) picture,
 .tabs.tabs11 > div:first-child > div:nth-child(2) img {
   display: block;
@@ -548,7 +306,6 @@
   margin-top: 0;
 }
 
-/* Caption below image: uppercase, bold, larger, more margin */
 .tabs.tabs11 > div:first-child > div:nth-child(2) picture + *,
 .tabs.tabs11 > div:first-child > div:nth-child(2) img + * {
   display: block;
@@ -563,7 +320,6 @@
   text-align: left;
 }
 
-/* Body text: compact paragraph spacing */
 .tabs.tabs11 > div:first-child > div:nth-child(2) p {
   font-family: inherit;
   font-size: 1.09rem;
@@ -574,8 +330,280 @@
   text-align: left;
 }
 
-/* Remove extra space between sections */
 .tabs.tabs11 > div:not(:first-child) {
   margin-top: 0;
   border-top: none;
+}
+
+
+.tabs.tabs13 {
+  /* Use flex for top-level layout: sidebar + main content */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1164px;
+  margin: 54px auto 0;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Responsive: stack vertically */
+@media (width <= 900px) {
+  .tabs.tabs13 {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 22px 0 0;
+  }
+}
+
+/* Sidebar: first child is the sidebar card (Overview) */
+.tabs.tabs13 > div:first-child {
+  flex: 0 0 295px;
+  max-width: 295px;
+  min-width: 220px;
+  padding: 0;
+  margin: 0;
+  border-right: 2px solid #eee;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs13 > div:first-child {
+    max-width: 100%;
+    min-width: 0;
+    border-right: none;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 24px;
+  }
+}
+
+/* Sidebar content layout (card style) */
+.tabs.tabs13 > div:first-child > div {
+  padding: 50px 32px 32px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs13 > div:first-child > div {
+    padding: 18px 0 12px;
+    gap: 12px;
+  }
+}
+
+.tabs.tabs13 > div:first-child p {
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  font-family: Roboto, "Roboto Fallback", sans-serif;
+}
+
+.tabs.tabs13 > div:first-child h3,
+.tabs.tabs13 > div:first-child h4 {
+  font-size: 2rem;
+  color: #222;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  margin: 0 0 10px;
+  line-height: 1.17;
+}
+
+.tabs.tabs13 > div:first-child picture,
+.tabs.tabs13 > div:first-child img {
+  width: 100%;
+  max-width: 265px;
+  height: auto;
+  margin: 18px 0 10px;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+}
+
+/* Sidebar paragraph below image */
+.tabs.tabs13 > div:first-child > div > p:last-of-type {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: #444;
+  margin: 0;
+  line-height: 1.6;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.tabs.tabs13 > div:not(:first-child) {
+  /* Main content area */
+  flex: 1 1 0%;
+  min-width: 0;
+  max-width: none;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 58px 60px 48px 48px;
+  gap: 0;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.67;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs13 > div:not(:first-child) {
+    padding: 24px 10px 18px;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+/* Tab navigation row: horizontal tabs */
+.tabs.tabs13 > div:not(:first-child) > div {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-bottom: 35px;
+  align-items: center;
+}
+
+/* Tab navigation: style tabs as buttons */
+.tabs.tabs13 > div:not(:first-child) > div > p {
+  font-family: Roboto, "Roboto Fallback", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222;
+  background: none;
+  padding: 12px 22px 10px 0;
+  border-radius: 0;
+  cursor: pointer;
+  margin: 0 24px 0 0;
+  transition: background 0.15s, color 0.15s;
+  border: none;
+  letter-spacing: 0.02em;
+}
+
+.tabs.tabs13 > div:not(:first-child) > div > p.active {
+  background: #222;
+  color: #fff;
+  border-radius: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+/* Heading: main trip title with underline accent */
+.tabs.tabs13 > div:not(:first-child) h3 {
+  font-family: Georgia, serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0;
+  margin-bottom: 22px;
+  display: block;
+  position: relative;
+  line-height: 1.13;
+  letter-spacing: 0.01em;
+  width: 100%;
+  max-width: 780px;
+}
+
+/* Accent underline for heading */
+.tabs.tabs13 > div:not(:first-child) h3::after {
+  display: block;
+  width: 68px;
+  height: 4px;
+  background: #fd4;
+  border-radius: 2px;
+  margin-top: 8px;
+  content: "";
+}
+
+/* Large main scenic image */
+.tabs.tabs13 > div:not(:first-child) picture,
+.tabs.tabs13 > div:not(:first-child) img {
+  width: 98%;
+  max-width: 800px;
+  min-width: 340px;
+  height: auto;
+  margin: 18px 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+}
+
+/* Section heading below image */
+.tabs.tabs13 > div:not(:first-child) strong,
+.tabs.tabs13 > div:not(:first-child) p:first-of-type {
+  font-family: Roboto, "Roboto Fallback", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  display: block;
+  letter-spacing: 0.05em;
+}
+
+/* Main description paragraphs */
+.tabs.tabs13 > div:not(:first-child) p {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.67;
+  margin-bottom: 18px;
+  font-weight: 400;
+  text-transform: none;
+  max-width: 800px;
+  white-space: normal;
+  word-break: normal;
+}
+
+/* Responsive images and text */
+@media (width <= 900px) {
+  .tabs.tabs13 > div:not(:first-child) picture,
+  .tabs.tabs13 > div:not(:first-child) img {
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 14px;
+    border-radius: 0;
+  }
+
+  .tabs.tabs13 > div:not(:first-child) h3 {
+    font-size: 2.1rem;
+    max-width: 100%;
+  }
+
+  .tabs.tabs13 > div:not(:first-child) p {
+    max-width: 100%;
+  }
+}
+
+/* Fix overly narrow text columns: let paragraphs use max available width */
+.tabs.tabs13 > div:not(:first-child) > div,
+.tabs.tabs13 > div:not(:first-child) > p,
+.tabs.tabs13 > div:not(:first-child) > div > p,
+.tabs.tabs13 > div:not(:first-child) > div > picture,
+.tabs.tabs13 > div:not(:first-child) > div > img {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Remove grid from previous attempt if present */
+.tabs.tabs13[style*="grid"] {
+  display: flex;
+  flex-direction: row;
 }
