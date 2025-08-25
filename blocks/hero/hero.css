@@ -38,113 +38,104 @@
 
 
 .hero.hero6 {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   margin: 0;
   padding: 0;
-  overflow: visible;
   box-sizing: border-box;
+  background: transparent;
 }
 
-/* Hero image container */
+/* IMAGE SECTION -- ensures image is first visually */
 .hero.hero6 > div:first-child {
-  position: relative;
   width: 100vw;
-  height: 48vw;
-  max-height: 770px;
-  min-height: 340px;
+  min-height: 490px;
+  max-height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background: transparent;
+
+  /* removes any unwanted margin */
   margin: 0;
   padding: 0;
-  display: block;
-  overflow: hidden;
 }
 
-/* Make the image inside the hero fill the area and be covered */
 .hero.hero6 > div:first-child picture,
 .hero.hero6 > div:first-child img {
   width: 100vw;
   height: 100%;
-  max-height: 770px;
-  min-height: 340px;
+  min-height: 490px;
+  max-height: 70vh;
   object-fit: cover;
   display: block;
 }
 
-/* Overlay white banner at the bottom, overlapping the image */
+/* CARD SECTION -- headline follows image, with balanced spacing */
 .hero.hero6 > div:last-child {
-  position: absolute;
-  left: 50%;
-
-  /* Overlap the lower part of the image by pulling the banner up */
-  bottom: -40px;
-  transform: translateX(-50%);
-  width: 90vw;
-  max-width: 1200px;
   background: #fff;
+  margin: 0 56px;         /* NO margin-top so card touches image directly */
+  padding: 64px 56px;  /* Generous vertical padding */
+  max-width: calc(100vw - 112px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-height: 220px;
   border-radius: 0;
   box-shadow: none;
-
-  /* Less top padding to keep text near the top, more bottom for weight */
-  padding: 20px 48px 36px;
-  box-sizing: border-box;
-  z-index: 2;
-  display: block;
 }
 
-/* Make the inner container block level for proper padding */
 .hero.hero6 > div:last-child > div {
-  display: block;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
-/* Headline styles */
-.hero.hero6 h2, .hero.hero6 h1 {
+.hero.hero6 h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2.8rem;
   font-weight: 400;
   color: #222;
   text-align: left;
   margin: 0;
-  padding: 0;
   line-height: 1.15;
   letter-spacing: 0.01em;
   width: 100%;
 }
 
-/* Responsive adjustments for mobile */
+/* MOBILE ADJUSTMENTS */
 @media (width <= 900px) {
   .hero.hero6 > div:first-child {
-    height: 340px;
-    max-height: 340px;
     min-height: 200px;
+    max-height: 340px;
   }
 
   .hero.hero6 > div:first-child picture,
   .hero.hero6 > div:first-child img {
-    height: 340px;
-    max-height: 340px;
     min-height: 200px;
+    max-height: 340px;
   }
 
   .hero.hero6 > div:last-child {
-    width: 98vw;
-    max-width: 98vw;
-    padding: 10px 10px 18px;
-    bottom: -16px;
+    margin: 0 8px;
+    padding: 32px 8px;
+    max-width: calc(100vw - 16px);
+    min-height: 120px;
   }
 
-  .hero.hero6 h2, .hero.hero6 h1 {
+  .hero.hero6 h2 {
     font-size: 1.5rem;
   }
 }
 
-/* Hide extraneous overlays */
+/* Hide any locale/country overlay lists that might appear inside the hero */
 .hero.hero6 ul,
 .hero.hero6 ol,
 .hero.hero6 .locale-list,
 .hero.hero6 .language-options,
-.hero.hero6 .country-names {
+.hero.hero6 .country-names,
+.hero.hero6 .country-locale-overlay {
   display: none;
 }
