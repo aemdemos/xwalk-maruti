@@ -1,43 +1,34 @@
 
 
+
 .carousel.carousel9 {
-  /* Minimal, flush styling */
+  /* Remove extra background and minimize vertical padding for a more immersive feel */
+  padding-top: 0;
+  padding-bottom: 0;
   background: transparent;
-  box-shadow: none;
-  border-radius: 0;
-  margin: 0 auto;
-  max-width: 100vw;
-  overflow: visible;
-  position: relative;
 }
 
-/* Show only one slide at a time */
+/* Tighten spacing between carousel slides */
 .carousel.carousel9 > div {
-  display: none;
+  margin-bottom: 12px;
 }
 
-.carousel.carousel9 > div.active,
-.carousel.carousel9 > div:first-child {
-  display: block;
-}
-
-/* Edge-to-edge image, no border radius */
-.carousel.carousel9 picture img {
-  display: block;
-  width: 100%;
+/* Return to a cinematic, immersive crop: full width, fixed aspect ratio, edge-to-edge feel */
+.carousel.carousel9 picture > img {
+  width: 100vw;
+  max-width: 100%;
+  min-width: 0;
   height: 440px;
   object-fit: cover;
-  border-radius: 0;
+  display: block;
   margin: 0;
-  padding: 0;
+  border: none;
   box-shadow: none;
+  background: #fff;
+  border-radius: 0;
 }
 
-/* Remove any accidental overlays */
-.carousel.carousel9 .main-image-header,
-.carousel.carousel9 .main-image-vertical-nav {
+/* Remove any overlay text */
+.carousel.carousel9 .carousel-image-overlay-text {
   display: none;
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
 }
