@@ -394,11 +394,10 @@
   margin-top: 0;
 }
 
-/* Grid: tighter vertical gap for a more compact block */
 .cards.cards20 > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px 20px; /* vertical, horizontal */
+  gap: 8px 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -431,7 +430,6 @@
   padding-top: 0;
 }
 
-/* Card wrapper: equal heights, no extra spacing */
 .cards.cards20 ul > li {
   background: none;
   border: none;
@@ -447,7 +445,6 @@
   padding: 0;
 }
 
-/* Image container and images */
 .cards.cards20 .cards-card-image {
   width: 100%;
   aspect-ratio: 4/3;
@@ -466,21 +463,19 @@
   display: block;
 }
 
-/* Card body text container */
 .cards.cards20 .cards-card-body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 16px 16px 10px; /* reduced bottom padding for tight layout */
+  padding: 16px 16px 10px;
   background: none;
   margin: 0;
   min-height: 88px;
   box-sizing: border-box;
 }
 
-/* Typography: left-aligned, compact */
 .cards.cards20 .cards-card-body p {
   margin: 0;
   padding: 0;
@@ -513,7 +508,6 @@
   text-align: left;
 }
 
-/* Remove overlays or extra UI if present */
 .cards.cards20 .card-overlay,
 .cards.cards20 .overlay-list,
 .cards.cards20 .overlay-buttons,
@@ -521,10 +515,215 @@
   display: none;
 }
 
-/* Remove visible list bullets and left padding */
 .cards.cards20 ul,
 .cards.cards20 ul li {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
+}
+
+
+.cards.cards23 {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Merriweather, serif;
+  padding: 0 16px;
+}
+
+.cards.cards23 ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+
+  /* Ensures columns on desktop, wraps on mobile */
+}
+
+/* Contributors (left column) */
+.cards.cards23 ul > li:nth-child(1),
+.cards.cards23 ul > li:nth-child(n+3):nth-child(-n+6) {
+  /* All contributor group items */
+  width: 48%;
+  min-width: 320px;
+  max-width: 560px;
+  display: block;
+}
+
+.cards.cards23 ul > li:nth-child(1) {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #444;
+  margin-top: 20px;
+}
+
+.cards.cards23 ul > li:nth-child(2),
+.cards.cards23 ul > li:nth-child(n+7):nth-child(-n+9) {
+  /* All guide group items */
+  width: 48%;
+  min-width: 320px;
+  max-width: 560px;
+  display: block;
+}
+
+/* Guides intro (right column) */
+.cards.cards23 ul > li:nth-child(2) {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Card containers for each group: contributors (3-6), guides (7-9) */
+.cards.cards23 .cards23-contrib-row,
+.cards.cards23 .cards23-guide-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-bottom: 32px;
+}
+
+/* Contributors cards (li 3-6), visually row inside left column */
+.cards.cards23 ul > li:nth-child(n+3):nth-child(-n+6) {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  width: 210px;
+  min-width: 170px;
+  max-width: 230px;
+  margin: 0 10px 32px;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Guides cards (li 7-9), visually row inside right column */
+.cards.cards23 ul > li:nth-child(n+7):nth-child(-n+9) {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  width: 210px;
+  min-width: 170px;
+  max-width: 230px;
+  margin: 0 10px 32px;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Card image styling */
+.cards.cards23 .cards-card-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+  margin-bottom: 18px;
+  background: #eaeaea;
+}
+
+.cards.cards23 .cards-card-body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cards.cards23 .cards-card-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0.25em 0 0.32em;
+  letter-spacing: 0.01em;
+  color: #222;
+  text-align: center;
+  font-family: Merriweather, serif;
+}
+
+.cards.cards23 .cards-card-body h5 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #757575;
+  margin: 0 0 0.7em;
+  text-align: center;
+  font-family: Merriweather, serif;
+}
+
+.cards.cards23 .cards-card-body p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.cards.cards23 .cards-card-body p a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 7px;
+  background: #222;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cards.cards23 .cards-card-body p a:hover,
+.cards.cards23 .cards-card-body p a:focus {
+  background: #FFD54F;
+  color: #222;
+}
+
+.cards.cards23 .cards-card-body p a:visited {
+  color: #fff;
+}
+
+/* Remove default li background/border/padding */
+.cards.cards23 ul > li {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .cards.cards23 ul {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+
+  .cards.cards23 ul > li {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cards.cards23 ul > li:nth-child(n+3):nth-child(-n+6),
+  .cards.cards23 ul > li:nth-child(n+7):nth-child(-n+9) {
+    width: 90vw;
+    min-width: 0;
+    max-width: 340px;
+    margin: 0 auto 24px;
+  }
 }
