@@ -807,7 +807,6 @@
   }
 }
 
-/* ---- SIDEBAR / CARD COLUMN ---- */
 .tabs.tabs18 > div:first-child {
   background: #fff;
   border-radius: 18px;
@@ -834,7 +833,6 @@
   }
 }
 
-/* Center the "active" tab nav pill (simulate) */
 .tabs.tabs18 > div:first-child > div:first-child > p {
   display: block;
   background: #222;
@@ -851,7 +849,6 @@
   box-shadow: 0 1px 3px rgb(0 0 0 / 8%);
 }
 
-/* Sidebar heading styling, yellow underline accent for h3 */
 .tabs.tabs18 > div:first-child > div:last-child > h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2.1rem;
@@ -874,7 +871,6 @@
   content: "";
 }
 
-/* Image in sidebar: round corners, bigger, well-spaced */
 .tabs.tabs18 > div:first-child > div:last-child picture,
 .tabs.tabs18 > div:first-child > div:last-child img {
   width: 100%;
@@ -887,7 +883,6 @@
   display: block;
 }
 
-/* Description below image, clearly readable */
 .tabs.tabs18 > div:first-child > div:last-child > p {
   font-size: 1.13rem;
   color: #444;
@@ -897,7 +892,6 @@
   text-align: left;
 }
 
-/* Divider line below image and above trip description */
 .tabs.tabs18 > div:first-child > div:last-child picture + p,
 .tabs.tabs18 > div:first-child > div:last-child img + p {
   border-top: 1px solid #ebebeb;
@@ -905,7 +899,6 @@
   margin-top: 0;
 }
 
-/* ---- MAIN/TAB PANEL COLUMN ---- */
 .tabs.tabs18 > div:last-child {
   flex: 1 1 0%;
   min-width: 0;
@@ -925,7 +918,6 @@
   }
 }
 
-/* --- Simulate horizontal tab nav bar at the top of right column --- */
 .tabs.tabs18 > div:last-child > div:first-child {
   display: flex;
   flex-direction: row;
@@ -956,7 +948,6 @@
   color: #fff;
 }
 
-/* Panel section - main heading */
 .tabs.tabs18 > div:last-child h3,
 .tabs.tabs18 > div:last-child h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -967,7 +958,6 @@
   font-size: 1.4rem;
 }
 
-/* Itinerary subheadings */
 .tabs.tabs18 > div:last-child h2 {
   font-size: 1.13rem;
   color: #1976d2;
@@ -993,14 +983,10 @@
   list-style: disc outside;
 }
 
-/* Hide all but the last main tab panel (simulate a single tab showing) */
 .tabs.tabs18 > div:not(:first-child, :last-child) {
   display: none;
 }
 
-/* Ensure the columns are not too far apart */
-
-/* Responsive: vertical stacking on mobile */
 @media (width <= 900px) {
   .tabs.tabs18 {
     flex-direction: column;
@@ -1017,4 +1003,225 @@
   .tabs.tabs18 > div:last-child {
     padding-left: 0;
   }
+}
+
+
+.tabs.tabs19 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 48px auto 0;
+  background: #fff;
+  min-height: 742px;
+  box-sizing: border-box;
+  padding: 0;
+  gap: 0;
+}
+
+/* SIDEBAR (first direct child) */
+.tabs.tabs19 > div:first-child {
+  flex: 0 0 291px;
+  min-width: 291px;
+  max-width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
+  padding: 32px 24px;
+  border-radius: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Visually separate sidebar sections, use subtle division for trip details */
+.tabs.tabs19 > div:first-child > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.tabs.tabs19 > div:first-child h3,
+.tabs.tabs19 > div:first-child h2 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #232323;
+  margin: 0 0 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.tabs.tabs19 > div:first-child p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #232323;
+  margin: 0 0 16px;
+  font-family: inherit;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+/* Sidebar last item as call-to-action if present */
+.tabs.tabs19 > div:first-child > *:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+/* MAIN CONTENT COLUMN (all but first child) */
+.tabs.tabs19 > div:not(:first-child) {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 845px;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0 32px;
+  margin: 0;
+  background: #fff;
+}
+
+/* Show only the first tab's content on desktop */
+@media (width >= 900px) {
+  .tabs.tabs19 > div:not(:first-child, :nth-child(2)) {
+    display: none;
+  }
+}
+
+/* Tab navigation bar (first child row in main area) */
+.tabs.tabs19 > div:not(:first-child) > div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 24px;
+  padding-bottom: 0;
+}
+
+.tabs.tabs19 > div:not(:first-child) > div:first-child p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #232323;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  background: none;
+}
+
+.tabs.tabs19 > div:not(:first-child):first-of-type > div:first-child p {
+  border-bottom: 2px solid #222;
+  color: #222;
+}
+
+.tabs.tabs19 > div:not(:first-child) > div:first-child p:not(:first-child) {
+  color: #888;
+  border-bottom: 2px solid transparent;
+}
+
+/* Main headings inside main content */
+.tabs.tabs19 > div:not(:first-child) h3,
+.tabs.tabs19 > div:not(:first-child) h2 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.tabs.tabs19 > div:not(:first-child) p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #232323;
+  margin-bottom: 20px;
+  max-width: 800px;
+  font-family: inherit;
+}
+
+/* Images in main content: wide, rounded, spaced */
+.tabs.tabs19 > div:not(:first-child) picture img {
+  display: block;
+  width: 845px;
+  max-width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
+  margin: 0 auto 28px;
+}
+
+/* Other images: consistent style */
+.tabs.tabs19 > div:not(:first-child) picture:not(:first-of-type) img {
+  width: 700px;
+  max-width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+  margin: 0 auto 28px;
+}
+
+/* Packing list styles */
+.tabs.tabs19 ul {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  padding-left: 24px;
+  color: #232323;
+  max-width: 700px;
+}
+
+/* Responsiveness: stack columns on mobile, show all tab panes */
+@media (width <= 900px) {
+  .tabs.tabs19 {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 0;
+    padding: 0;
+  }
+
+  .tabs.tabs19 > div:first-child {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+    padding: 24px 12px;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 32px;
+  }
+
+  .tabs.tabs19 > div:not(:first-child) {
+    max-width: 100%;
+    padding: 0 8px;
+    display: flex;
+  }
+
+  /* Show all tab panes stacked on mobile */
+  .tabs.tabs19 > div:not(:first-child, :nth-child(2)) {
+    display: flex;
+  }
+
+  .tabs.tabs19 > div:not(:first-child) picture img,
+  .tabs.tabs19 > div:not(:first-child) picture:not(:first-of-type) img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Remove overlays or selectors on image corner if present in HTML */
+.tabs.tabs19 .locale-selector,
+.tabs.tabs19 .image-overlay-text {
+  display: none;
 }
