@@ -1,24 +1,23 @@
+/* stylelint-disable no-descending-specificity */
 
 
 
 .carousel.carousel9 {
   position: relative;
   width: 100%;
-  max-width: 1160px; /* Slightly reduced for a snugger fit */
+  max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-  padding-left: 16px;  /* Slightly reduced horizontal padding for closer alignment */
+  padding-left: 16px;
   padding-right: 16px;
 }
 
-/* Hide overlay text */
 .carousel.carousel9 .image-overlay-text,
 .carousel.carousel9 .carousel-image-overlay-text {
   display: none;
 }
 
-/* Responsive image sizing with aspect-ratio for exact crop */
 .carousel.carousel9 picture > img {
   width: 100%;
   max-width: 100%;
@@ -37,24 +36,19 @@
   margin-bottom: 12px;
 }
 
-/* Tighten vertical stacking */
 .carousel.carousel9 > div {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* Remove extra gap between slides */
 .carousel.carousel9 > div + div {
   margin-top: 0;
 }
 
-/* Subtle margin below image for visual relief */
-
-/* Slide indicators: refine position */
 .carousel.carousel9 .carousel-slide-indicators {
   position: absolute;
   left: 50%;
-  bottom: 8px; /* Move closer to image edge */
+  bottom: 8px;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -65,7 +59,6 @@
   padding: 0;
 }
 
-/* Indicator dot styles */
 .carousel.carousel9 .carousel-slide-indicators button,
 .carousel.carousel9 .carousel-slide-indicators .carousel-slide-indicator {
   width: 10px;
@@ -96,5 +89,177 @@
   .carousel.carousel9 picture > img {
     aspect-ratio: 16 / 9;
     min-height: 160px;
+  }
+}
+
+
+.carousel.carousel17 {
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.carousel.carousel17 > div,
+.carousel.carousel17 > div > div {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-width: 100vw;
+  box-sizing: border-box;
+  background: none;
+}
+
+/* Force image true edge-to-edge and correct aspect */
+.carousel.carousel17 picture,
+.carousel.carousel17 picture img {
+  display: block;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 448px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff;
+}
+
+/* === Controls: always visible, below the image, full-width overlay === */
+.carousel.carousel17 .carousel-controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 448px;
+  left: 0;
+  width: 100vw;
+  padding: 0 32px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.carousel.carousel17 .carousel-slide-indicators {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.carousel.carousel17 .carousel-slide-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #d4d4d4;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  transition: background 0.2s;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+}
+
+.carousel.carousel17 .carousel-slide-indicators button.active {
+  background: #222;
+}
+
+.carousel.carousel17 .carousel-navigation-buttons {
+  position: relative;
+  display: flex;
+  gap: 24px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.carousel.carousel17 .carousel-navigation-buttons button {
+  background: none;
+  border: none;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.carousel.carousel17 .carousel-navigation-buttons button:hover,
+.carousel.carousel17 .carousel-navigation-buttons button:focus {
+  background: #f0f0f0;
+}
+
+/* Remove overlays/captions */
+.carousel.carousel17 .overlay-text,
+.carousel.carousel17 .carousel-overlay,
+.carousel.carousel17 .carousel-caption,
+.carousel.carousel17 .carousel-slide-caption,
+.carousel.carousel17 .carousel-slide .slide-caption,
+.carousel.carousel17 .carousel-slide .carousel-text,
+.carousel.carousel17 .carousel-text,
+.carousel.carousel17 .carousel-slide .overlay,
+.carousel.carousel17 .carousel-slide .slide-overlay {
+  display: none;
+}
+
+/* For responsive: keep edge-to-edge, position controls below image if needed */
+@media (width <= 900px) {
+  .carousel.carousel17,
+  .carousel.carousel17 > div,
+  .carousel.carousel17 > div > div,
+  .carousel.carousel17 picture,
+  .carousel.carousel17 picture img,
+  .carousel.carousel17 .carousel-controls-row {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    left: 0;
+    transform: none;
+  }
+
+  .carousel.carousel17 picture,
+  .carousel.carousel17 picture img {
+    height: 38vw;
+    min-height: 210px;
+    max-height: 290px;
+  }
+
+  .carousel.carousel17 .carousel-controls-row {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12px;
+    height: auto;
+    top: auto;
+    z-index: 10;
+  }
+
+  .carousel.carousel17 .carousel-slide-indicators,
+  .carousel.carousel17 .carousel-navigation-buttons {
+    margin-top: 8px;
+    margin-bottom: 4px;
   }
 }
