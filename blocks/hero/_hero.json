@@ -21,25 +21,43 @@
       "id": "hero",
       "fields": [
         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Cards Layout Options",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "hero3",
+              "value": "hero3"
+            }
+          ]
+        },
+        {
           "component": "reference",
           "valueType": "string",
           "name": "image",
-          "label": "Image",
-          "multi": false
+          "label": "Image"
         },
         {
           "component": "text",
           "valueType": "string",
           "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
+          "value": "",
+          "label": "Alt"
         },
         {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
+          "component": "text",
+          "valueType": "string",
+          "name": "hero_title",
+          "label": "Title"
+        },
+        {
+          "component": "select",
+          "valueType": "string",
+          "name": "hero_titleType",
+          "value": "h1",
+          "label": "Title Type"
         }
       ]
     }
