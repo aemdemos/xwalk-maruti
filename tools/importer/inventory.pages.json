@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Profile and Content Grid'",
+      "name": "'Content Directory'",
       "cluster": 1,
       "pages": [
         {
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "name": "\"Travel Blog Homepage\"",
+      "name": "'Travel Blog Listing'",
       "cluster": 2,
       "pages": [
         {
