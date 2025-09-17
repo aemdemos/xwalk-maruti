@@ -17,98 +17,77 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --body-font-family: "Roboto", "Roboto Fallback", "sans-serif";
-  --heading-font-family: "Roboto", "Roboto Fallback", "sans-serif";
-  --body-font-size-m: 10px;
-  --body-font-size-s: 30px;
+  --body-font-family: "Source Sans Pro", "Source Sans Pro Fallback", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --heading-font-family: "Asar", "Asar Fallback", "Georgia", "Times New Roman", "Times", "serif";
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
   --body-font-size-xs: 10px;
-  --heading-font-size-xxl: 10px;
-  --heading-font-size-xl: 20px;
-  --heading-font-size-l: 30px;
-  --heading-font-size-m: 10px;
-  --heading-font-size-s: 30px;
+  --heading-font-size-xxl: 40px;
+  --heading-font-size-xl: 36px;
+  --heading-font-size-l: 24px;
+  --heading-font-size-m: 16px;
+  --heading-font-size-s: 14px;
   --heading-font-size-xs: 10px;
-  --nav-height: 64px;
+  --nav-height: 120px;
 }
 
 /* fallback fonts */
 @font-face {
-  font-family:"slick Fallback";
+  font-family:"wknd-icon-font Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
-  ascent-override:92.77%;
-  descent-override:0.00%;
-  line-gap-override:8.98%;
+  ascent-override:93.75%;
+  descent-override:6.25%;
+  line-gap-override:0.00%;
   size-adjust:100.00%;
 }
 
 @font-face {
-  font-family:"Roboto Fallback";
+  font-family:"Asar Fallback";
   font-style:normal;
-  font-weight:700;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:126.30%;
+  descent-override:58.82%;
+  line-gap-override:0.00%;
+  size-adjust:94.69%;
+}
+
+@font-face {
+  font-family:"Source Sans Pro Fallback";
+  font-style:normal;
+  font-weight:600;
   src:local("Arial Bold");
-  ascent-override:92.77%;
-  descent-override:24.41%;
+  ascent-override:109.50%;
+  descent-override:30.38%;
   line-gap-override:0.00%;
-  size-adjust:100.00%;
+  size-adjust:89.87%;
 }
 
 @font-face {
-  font-family:"Roboto Fallback";
+  font-family:"Source Sans Pro Fallback";
   font-style:normal;
   font-weight:400;
   src:local("Arial");
-  ascent-override:92.77%;
-  descent-override:24.41%;
+  ascent-override:104.47%;
+  descent-override:28.98%;
   line-gap-override:0.00%;
-  size-adjust:100.00%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
-  font-weight:500;
-  src:local("Arial");
-  ascent-override:92.77%;
-  descent-override:24.41%;
-  line-gap-override:0.00%;
-  size-adjust:100.00%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:92.43%;
-  descent-override:24.32%;
-  line-gap-override:0.00%;
-  size-adjust:100.37%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
-  font-weight:700;
-  src:local("Arial Bold");
-  ascent-override:98.56%;
-  descent-override:25.94%;
-  line-gap-override:0.00%;
-  size-adjust:94.13%;
+  size-adjust:94.19%;
 }
 
 @media (width>=900px) {
   :root {
-    --body-font-size-m: 10px;
-    --body-font-size-s: 30px;
+    --body-font-size-m: 16px;
+    --body-font-size-s: 14px;
     --body-font-size-xs: 10px;
-    --heading-font-size-xxl: 10px;
-    --heading-font-size-xl: 20px;
-    --heading-font-size-l: 30px;
-    --heading-font-size-m: 10px;
-    --heading-font-size-s: 30px;
+    --heading-font-size-xxl: 40px;
+    --heading-font-size-xl: 36px;
+    --heading-font-size-l: 24px;
+    --heading-font-size-m: 16px;
+    --heading-font-size-s: 14px;
     --heading-font-size-xs: 10px;
+    --nav-height: 120px;
   }
 }
 
@@ -290,4 +269,20 @@ main .section.light, main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+.section.section-1 {
+  background: rgb(242, 242, 242) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.section.section-2 {
+  background: rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.section.section-3 {
+  background: rgb(32, 32, 32) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.section.section-4 {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right top, rgb(190, 190, 190), rgb(247, 247, 247)) repeat scroll 0% 0% / auto padding-box border-box;
 }
