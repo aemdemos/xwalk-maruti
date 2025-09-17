@@ -1,0 +1,2161 @@
+{
+  "link": [
+    {
+      "element_type": "link",
+      "target": "align-items",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1136px"
+          },
+          "then": {
+            "align-items": "flex-start"
+          },
+          "support": 0.031,
+          "samples": 5,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1136px"
+          },
+          "then": {
+            "align-items": "normal"
+          },
+          "support": 0.969,
+          "samples": 154,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "background-color",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "uppercase"
+          },
+          "then": {
+            "background-color": "rgb(32,32,32)"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT uppercase"
+          },
+          "then": {
+            "background-color": "rgba(0,0,0,0)"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "box-sizing",
+      "based_on": "line-height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "line-height": "20px"
+          },
+          "then": {
+            "box-sizing": "border-box"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "line-height": "NOT 20px"
+          },
+          "then": {
+            "box-sizing": "content-box"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "color",
+      "based_on": "outline-color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "outline-color": "rgb(235,235,235)"
+          },
+          "then": {
+            "color": "rgb(235,235,235)"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "outline-color": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "color": "rgb(32,32,32)"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "cursor",
+      "based_on": "color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "color": "rgb(32,32,32)"
+          },
+          "then": {
+            "cursor": "auto"
+          },
+          "support": 0.566,
+          "samples": 90,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "color": "NOT rgb(32,32,32)"
+          },
+          "then": {
+            "cursor": "pointer"
+          },
+          "support": 0.434,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "display",
+      "based_on": "margin-bottom",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-bottom": "0px"
+          },
+          "then": {
+            "display": "flex"
+          },
+          "support": 0.849,
+          "samples": 135,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-bottom": "NOT 0px"
+          },
+          "then": {
+            "display": "list-item"
+          },
+          "support": 0.151,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "flex-wrap",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1136px"
+          },
+          "then": {
+            "flex-wrap": "wrap"
+          },
+          "support": 0.031,
+          "samples": 5,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1136px"
+          },
+          "then": {
+            "flex-wrap": "nowrap"
+          },
+          "support": 0.969,
+          "samples": 154,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "font-family",
+      "based_on": "font-size",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-size": "18px"
+          },
+          "then": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "support": 0.736,
+          "samples": 117,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "font-size": "NOT 18px"
+          },
+          "then": {
+            "font-family": "wknd-icon-font"
+          },
+          "support": 0.264,
+          "samples": 42,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "font-size",
+      "based_on": "outline-color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "outline-color": "rgb(235,235,235)"
+          },
+          "then": {
+            "font-size": "14px"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "outline-color": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "font-weight",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "none"
+          },
+          "then": {
+            "font-weight": "400"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT none"
+          },
+          "then": {
+            "font-weight": "600"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "height",
+      "based_on": "outline-color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "outline-color": "rgb(0,69,255)"
+          },
+          "then": {
+            "height": "auto"
+          },
+          "support": 0.302,
+          "samples": 48,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "outline-color": "NOT rgb(0,69,255)"
+          },
+          "then": {
+            "height": "48px"
+          },
+          "support": 0.698,
+          "samples": 111,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "justify-content",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "235px"
+          },
+          "then": {
+            "justify-content": "center"
+          },
+          "support": 0.088,
+          "samples": 14,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 235px"
+          },
+          "then": {
+            "justify-content": "normal"
+          },
+          "support": 0.912,
+          "samples": 145,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "line-height",
+      "based_on": "outline-color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "outline-color": "rgb(235,235,235)"
+          },
+          "then": {
+            "line-height": "14px"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "outline-color": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "line-height": "27px"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "margin-bottom",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "list-item"
+          },
+          "then": {
+            "margin-bottom": "32px"
+          },
+          "support": 0.151,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT list-item"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.849,
+          "samples": 135,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "min-height",
+      "based_on": "min-width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "min-width": "auto"
+          },
+          "then": {
+            "min-height": "auto"
+          },
+          "support": 0.283,
+          "samples": 45,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "min-width": "NOT auto"
+          },
+          "then": {
+            "min-height": "0px"
+          },
+          "support": 0.717,
+          "samples": 114,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "min-width",
+      "based_on": "font-weight",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-weight": "600"
+          },
+          "then": {
+            "min-width": "48px"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "font-weight": "NOT 600"
+          },
+          "then": {
+            "min-width": "0px"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "outline-color",
+      "based_on": "min-width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "min-width": "48px"
+          },
+          "then": {
+            "outline-color": "rgb(235,235,235)"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "min-width": "NOT 48px"
+          },
+          "then": {
+            "outline-color": "rgb(32,32,32)"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "text-align",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "48px"
+          },
+          "then": {
+            "text-align": "center"
+          },
+          "support": 0.352,
+          "samples": 56,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 48px"
+          },
+          "then": {
+            "text-align": "left"
+          },
+          "support": 0.648,
+          "samples": 103,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "text-decoration",
+      "based_on": "outline-color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "outline-color": "rgb(235,235,235)"
+          },
+          "then": {
+            "text-decoration": "rgb(235,235,235)"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "outline-color": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "text-decoration": "rgb(32,32,32)"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "text-transform",
+      "based_on": "text-decoration",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-decoration": "rgb(235,235,235)"
+          },
+          "then": {
+            "text-transform": "uppercase"
+          },
+          "support": 0.132,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-decoration": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "text-transform": "none"
+          },
+          "support": 0.868,
+          "samples": 138,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "width",
+      "based_on": "font-family",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-family": "wknd-icon-font"
+          },
+          "then": {
+            "width": "48px"
+          },
+          "support": 0.264,
+          "samples": 42,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "font-family": "NOT wknd-icon-font"
+          },
+          "then": {
+            "width": "1136px"
+          },
+          "support": 0.736,
+          "samples": 117,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "element_type": "text",
+      "target": "color",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "260px"
+          },
+          "then": {
+            "color": "rgb(105,105,105)"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 260px"
+          },
+          "then": {
+            "color": "rgb(32,32,32)"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "cursor",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "21px"
+          },
+          "then": {
+            "cursor": "auto"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 21px"
+          },
+          "then": {
+            "cursor": "pointer"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "display",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "display": "none"
+          },
+          "support": 0.495,
+          "samples": 46,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "display": "block"
+          },
+          "support": 0.505,
+          "samples": 47,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "font-family",
+      "based_on": "color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "color": "rgb(235,235,235)"
+          },
+          "then": {
+            "font-family": "wknd-icon-font"
+          },
+          "support": 0.452,
+          "samples": 42,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "color": "NOT rgb(235,235,235)"
+          },
+          "then": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "support": 0.548,
+          "samples": 51,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "font-size",
+      "based_on": "line-height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "line-height": "27px"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.269,
+          "samples": 25,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "line-height": "NOT 27px"
+          },
+          "then": {
+            "font-size": "14px"
+          },
+          "support": 0.731,
+          "samples": 68,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "font-weight",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "font-weight": "400"
+          },
+          "support": 0.505,
+          "samples": 47,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "font-weight": "600"
+          },
+          "support": 0.495,
+          "samples": 46,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "height",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "height": "17.5px"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "height": "21px"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "line-height",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "line-height": "14px"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "line-height": "21px"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "margin-bottom",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "none"
+          },
+          "then": {
+            "margin-bottom": "13.5px"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT none"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "margin-top",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "21px"
+          },
+          "then": {
+            "margin-top": "16px"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 21px"
+          },
+          "then": {
+            "margin-top": "0px"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "outline-color",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "16px"
+          },
+          "then": {
+            "outline-color": "rgb(105,105,105)"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 16px"
+          },
+          "then": {
+            "outline-color": "rgb(32,32,32)"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "text-align",
+      "based_on": "font-family",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "then": {
+            "text-align": "justify"
+          },
+          "support": 0.548,
+          "samples": 51,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "font-family": "NOT \"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "then": {
+            "text-align": "center"
+          },
+          "support": 0.452,
+          "samples": 42,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "text-decoration",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "16px"
+          },
+          "then": {
+            "text-decoration": "rgb(105,105,105)"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 16px"
+          },
+          "then": {
+            "text-decoration": "rgb(32,32,32)"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "text-transform",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "17.5px"
+          },
+          "then": {
+            "text-transform": "none"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 17.5px"
+          },
+          "then": {
+            "text-transform": "uppercase"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "text",
+      "target": "width",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "width": "auto"
+          },
+          "support": 0.495,
+          "samples": 46,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "width": "260px"
+          },
+          "support": 0.505,
+          "samples": 47,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    }
+  ],
+  "image": [
+    {
+      "element_type": "image",
+      "target": "color",
+      "based_on": "cursor",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "cursor": "pointer"
+          },
+          "then": {
+            "color": "rgb(0,69,255)"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "cursor": "NOT pointer"
+          },
+          "then": {
+            "color": "rgb(32,32,32)"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "cursor",
+      "based_on": "text-decoration",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-decoration": "rgb(0,69,255)"
+          },
+          "then": {
+            "cursor": "pointer"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "text-decoration": "NOT rgb(0,69,255)"
+          },
+          "then": {
+            "cursor": "auto"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "display",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "200px"
+          },
+          "then": {
+            "display": "inline"
+          },
+          "support": 0.258,
+          "samples": 24,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 200px"
+          },
+          "then": {
+            "display": "block"
+          },
+          "support": 0.742,
+          "samples": 69,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "height",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "164px"
+          },
+          "then": {
+            "height": "164px"
+          },
+          "support": 0.075,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 164px"
+          },
+          "then": {
+            "height": "185px"
+          },
+          "support": 0.925,
+          "samples": 86,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "margin-bottom",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.925,
+          "samples": 86,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "margin-bottom": "7px"
+          },
+          "support": 0.075,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "margin-top",
+      "based_on": "margin-bottom",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-bottom": "0px"
+          },
+          "then": {
+            "margin-top": "0px"
+          },
+          "support": 0.925,
+          "samples": 86,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "margin-bottom": "NOT 0px"
+          },
+          "then": {
+            "margin-top": "7px"
+          },
+          "support": 0.075,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "outline-color",
+      "based_on": "color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "color": "rgb(0,69,255)"
+          },
+          "then": {
+            "outline-color": "rgb(0,69,255)"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "color": "NOT rgb(0,69,255)"
+          },
+          "then": {
+            "outline-color": "rgb(32,32,32)"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "text-align",
+      "based_on": "color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "color": "rgb(0,69,255)"
+          },
+          "then": {
+            "text-align": "left"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "color": "NOT rgb(0,69,255)"
+          },
+          "then": {
+            "text-align": "center"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "text-decoration",
+      "based_on": "color",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "color": "rgb(0,69,255)"
+          },
+          "then": {
+            "text-decoration": "rgb(0,69,255)"
+          },
+          "support": 0.774,
+          "samples": 72,
+          "variants": [
+            "cards4",
+            "cards9"
+          ]
+        },
+        {
+          "if": {
+            "color": "NOT rgb(0,69,255)"
+          },
+          "then": {
+            "text-decoration": "rgb(32,32,32)"
+          },
+          "support": 0.226,
+          "samples": 21,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "image",
+      "target": "width",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "185px"
+          },
+          "then": {
+            "width": "235px"
+          },
+          "support": 0.151,
+          "samples": 14,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 185px"
+          },
+          "then": {
+            "width": "260px"
+          },
+          "support": 0.849,
+          "samples": 79,
+          "variants": [
+            "cards4",
+            "cards6",
+            "cards9"
+          ]
+        }
+      ]
+    }
+  ],
+  "heading": [
+    {
+      "element_type": "heading",
+      "target": "align-items",
+      "based_on": "justify-content",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "justify-content": "normal"
+          },
+          "then": {
+            "align-items": "normal"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "justify-content": "NOT normal"
+          },
+          "then": {
+            "align-items": "center"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "box-sizing",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "235px"
+          },
+          "then": {
+            "box-sizing": "content-box"
+          },
+          "support": 0.583,
+          "samples": 56,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 235px"
+          },
+          "then": {
+            "box-sizing": "border-box"
+          },
+          "support": 0.417,
+          "samples": 40,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "font-family",
+      "based_on": "font-size",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-size": "18px"
+          },
+          "then": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "support": 0.823,
+          "samples": 79,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "font-size": "NOT 18px"
+          },
+          "then": {
+            "font-family": "asar, georgia, \"times new roman\", times, serif"
+          },
+          "support": 0.177,
+          "samples": 17,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "font-size",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "none"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT none"
+          },
+          "then": {
+            "font-size": "14px"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "font-weight",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "uppercase"
+          },
+          "then": {
+            "font-weight": "600"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT uppercase"
+          },
+          "then": {
+            "font-weight": "400"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "height",
+      "based_on": "justify-content",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "justify-content": "center"
+          },
+          "then": {
+            "height": "344.5px"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "justify-content": "NOT center"
+          },
+          "then": {
+            "height": "317.5px"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "justify-content",
+      "based_on": "align-items",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "align-items": "normal"
+          },
+          "then": {
+            "justify-content": "normal"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "align-items": "NOT normal"
+          },
+          "then": {
+            "justify-content": "center"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "line-height",
+      "based_on": "font-weight",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-weight": "400"
+          },
+          "then": {
+            "line-height": "27px"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "font-weight": "NOT 400"
+          },
+          "then": {
+            "line-height": "21px"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "margin-bottom",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "none"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT none"
+          },
+          "then": {
+            "margin-bottom": "3.5px"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "margin-top",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1136px"
+          },
+          "then": {
+            "margin-top": "27px"
+          },
+          "support": 0.062,
+          "samples": 6,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1136px"
+          },
+          "then": {
+            "margin-top": "0px"
+          },
+          "support": 0.938,
+          "samples": 90,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "max-width",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "317.5px"
+          },
+          "then": {
+            "max-width": "1164px"
+          },
+          "support": 0.365,
+          "samples": 35,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 317.5px"
+          },
+          "then": {
+            "max-width": "none"
+          },
+          "support": 0.635,
+          "samples": 61,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "text-align",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "235px"
+          },
+          "then": {
+            "text-align": "center"
+          },
+          "support": 0.583,
+          "samples": 56,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 235px"
+          },
+          "then": {
+            "text-align": "left"
+          },
+          "support": 0.417,
+          "samples": 40,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "text-transform",
+      "based_on": "font-size",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-size": "14px"
+          },
+          "then": {
+            "text-transform": "uppercase"
+          },
+          "support": 0.073,
+          "samples": 7,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "font-size": "NOT 14px"
+          },
+          "then": {
+            "text-transform": "none"
+          },
+          "support": 0.927,
+          "samples": 89,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "width",
+      "based_on": "text-align",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-align": "center"
+          },
+          "then": {
+            "width": "263px"
+          },
+          "support": 0.875,
+          "samples": 84,
+          "variants": [
+            "cards6"
+          ]
+        },
+        {
+          "if": {
+            "text-align": "NOT center"
+          },
+          "then": {
+            "width": "1136px"
+          },
+          "support": 0.125,
+          "samples": 12,
+          "variants": [
+            "cards6"
+          ]
+        }
+      ]
+    }
+  ]
+}
