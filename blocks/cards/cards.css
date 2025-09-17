@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -740,8 +739,6 @@
   box-shadow: none;
   height: auto;
 }
-
-/* Tighter square image + fix whitespace by clipping image overflow precisely */
 .cards.cards25 .cards-card-image {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -772,8 +769,6 @@
   min-height: 0;
   justify-content: flex-start;
 }
-
-/* Headline styling, with slightly more space below */
 .cards.cards25 .cards-card-body .button-container {
   margin-top: 18px;
   margin-bottom: 0;
@@ -796,8 +791,6 @@
   padding: 0;
   line-height: 1.18;
 }
-
-/* Description below the headline, lighter and smaller, with subtle padding for perfect alignment */
 .cards.cards25 .cards-card-body p:not(.button-container) {
   font-size: 13px;
   color: #888;
@@ -815,16 +808,12 @@
   z-index: 2;
   text-align: left;
 }
-
-/* Remove list-style on nested lists if present */
 .cards.cards25 ul,
 .cards.cards25 li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-/* Responsive: stack vertically on small screens */
 @media (width <= 750px) {
   .cards.cards25 > ul {
     flex-direction: column;
@@ -834,4 +823,130 @@
   .cards.cards25 > ul > li {
     width: 100%;
   }
+}
+
+
+.cards {
+  background: #fff;
+  padding: 0 28px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Grid layout for cards: 4 columns desktop, responsive below */
+.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cards > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards > ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Each card stacks image above text. Fill vertical space. */
+.cards > ul > li {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  align-items: stretch;
+}
+
+/* Image container: maintain 4:3 aspect, fill width, no extra margin */
+.cards .cards-card-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  min-height: 180px;
+  max-height: 210px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Remove vertical gap above image */
+.cards .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card body: flush to image, no excess padding */
+.cards .cards-card-body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+}
+
+/* Title: bold, uppercase, tight to image */
+.cards .cards-card-body p:first-child strong {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0; /* flush to image */
+  margin-bottom: 0;
+  display: block;
+  text-align: left;
+}
+
+/* Description: slightly smaller, lighter, subtle gap to title, flush left */
+.cards .cards-card-body p:not(:first-child) {
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+  font-weight: 400;
+  margin-top: 2px;  /* subtle gap below title */
+  margin-bottom: 0;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  text-align: left;
+}
+
+/* Yellow underline: sits just below description, no overlap */
+.cards > ul > li:first-child .cards-card-body {
+  position: relative;
+}
+
+.cards > ul > li:first-child .cards-card-body p:not(:first-child)::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 1px;  /* just below descender, does not touch */
+  width: 40px;
+  height: 3px;
+  background: #eed400;
+  border-radius: 1.5px;
 }
