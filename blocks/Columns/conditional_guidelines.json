@@ -1,0 +1,1354 @@
+{
+  "button": [
+    {
+      "element_type": "button",
+      "target": "background-color",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "background-color": "rgb(255,255,255)"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "background-color": "rgba(0,0,0,0)"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "bottom",
+      "based_on": "right",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "right": "auto"
+          },
+          "then": {
+            "bottom": "auto"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "right": "NOT auto"
+          },
+          "then": {
+            "bottom": "0px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "box-sizing",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "32px"
+          },
+          "then": {
+            "box-sizing": "content-box"
+          },
+          "support": 0.375,
+          "samples": 9,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 32px"
+          },
+          "then": {
+            "box-sizing": "border-box"
+          },
+          "support": 0.625,
+          "samples": 15,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "color",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "color": "rgb(0,0,0)"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "color": "rgb(32,32,32)"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "cursor",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "content-box"
+          },
+          "then": {
+            "cursor": "auto"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT content-box"
+          },
+          "then": {
+            "cursor": "default"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "display",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "content-box"
+          },
+          "then": {
+            "display": "block"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT content-box"
+          },
+          "then": {
+            "display": "none"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "font-family",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "content-box"
+          },
+          "then": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT content-box"
+          },
+          "then": {
+            "font-family": "arial"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "font-size",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "font-size": "13.3333px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "height",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "height": "42px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "height": "32px"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "left",
+      "based_on": "bottom",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "bottom": "0px"
+          },
+          "then": {
+            "left": "0px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "bottom": "NOT 0px"
+          },
+          "then": {
+            "left": "auto"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "line-height",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "content-box"
+          },
+          "then": {
+            "line-height": "27px"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT content-box"
+          },
+          "then": {
+            "line-height": "normal"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "max-width",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "68.6406px"
+          },
+          "then": {
+            "max-width": "1164px"
+          },
+          "support": 0.375,
+          "samples": 9,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT 68.6406px"
+          },
+          "then": {
+            "max-width": "none"
+          },
+          "support": 0.625,
+          "samples": 15,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "outline-color",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "outline-color": "rgb(0,0,0)"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "outline-color": "rgb(32,32,32)"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "position",
+      "based_on": "left",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "left": "0px"
+          },
+          "then": {
+            "position": "relative"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "left": "NOT 0px"
+          },
+          "then": {
+            "position": "static"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "right",
+      "based_on": "left",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "left": "0px"
+          },
+          "then": {
+            "right": "0px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "left": "NOT 0px"
+          },
+          "then": {
+            "right": "auto"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "text-align",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "text-align": "center"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "text-align": "left"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "text-decoration",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "text-decoration": "rgb(0,0,0)"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "text-decoration": "rgb(32,32,32)"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "top",
+      "based_on": "right",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "right": "0px"
+          },
+          "then": {
+            "top": "0px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "right": "NOT 0px"
+          },
+          "then": {
+            "top": "auto"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "transition-duration",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "transition-duration": "0s, 0s"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "transition-duration": "0s"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "transition-property",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "transition-property": "padding-bottom, padding-top"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "transition-property": "all"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "transition-timing-function",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "transition-timing-function": "ease, ease"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "transition-timing-function": "ease"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "button",
+      "target": "width",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "width": "194px"
+          },
+          "support": 0.25,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "width": "1164px"
+          },
+          "support": 0.75,
+          "samples": 18,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "element_type": "link",
+      "target": "background-color",
+      "based_on": "font-size",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "font-size": "14px"
+          },
+          "then": {
+            "background-color": "rgb(255,234,0)"
+          },
+          "support": 0.286,
+          "samples": 16,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "font-size": "NOT 14px"
+          },
+          "then": {
+            "background-color": "rgba(0,0,0,0)"
+          },
+          "support": 0.714,
+          "samples": 40,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "box-sizing",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "box-sizing": "border-box"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "box-sizing": "content-box"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "color",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "inline"
+          },
+          "then": {
+            "color": "rgb(0,69,255)"
+          },
+          "support": 0.268,
+          "samples": 15,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT inline"
+          },
+          "then": {
+            "color": "rgb(32,32,32)"
+          },
+          "support": 0.732,
+          "samples": 41,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "cursor",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "cursor": "auto"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "cursor": "pointer"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "display",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "display": "none"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "display": "block"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "font-size",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "uppercase"
+          },
+          "then": {
+            "font-size": "14px"
+          },
+          "support": 0.286,
+          "samples": 16,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT uppercase"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.714,
+          "samples": 40,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "font-weight",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "uppercase"
+          },
+          "then": {
+            "font-weight": "600"
+          },
+          "support": 0.286,
+          "samples": 16,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT uppercase"
+          },
+          "then": {
+            "font-weight": "400"
+          },
+          "support": 0.714,
+          "samples": 40,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "height",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "auto"
+          },
+          "then": {
+            "height": "auto"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT auto"
+          },
+          "then": {
+            "height": "27px"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "line-height",
+      "based_on": "text-transform",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "text-transform": "none"
+          },
+          "then": {
+            "line-height": "27px"
+          },
+          "support": 0.714,
+          "samples": 40,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "text-transform": "NOT none"
+          },
+          "then": {
+            "line-height": "21px"
+          },
+          "support": 0.286,
+          "samples": 16,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "margin-bottom",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "margin-bottom": "18px"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "margin-top",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "margin-top": "18px"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "margin-top": "0px"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "min-height",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "min-height": "auto"
+          },
+          "support": 0.625,
+          "samples": 35,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "min-height": "0px"
+          },
+          "support": 0.375,
+          "samples": 21,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "min-width",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "content-box"
+          },
+          "then": {
+            "min-width": "auto"
+          },
+          "support": 0.893,
+          "samples": 50,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT content-box"
+          },
+          "then": {
+            "min-width": "100px"
+          },
+          "support": 0.107,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "outline-color",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "inline"
+          },
+          "then": {
+            "outline-color": "rgb(0,69,255)"
+          },
+          "support": 0.268,
+          "samples": 15,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT inline"
+          },
+          "then": {
+            "outline-color": "rgb(32,32,32)"
+          },
+          "support": 0.732,
+          "samples": 41,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "text-decoration",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "inline"
+          },
+          "then": {
+            "text-decoration": "rgb(0,69,255)"
+          },
+          "support": 0.268,
+          "samples": 15,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT inline"
+          },
+          "then": {
+            "text-decoration": "rgb(32,32,32)"
+          },
+          "support": 0.732,
+          "samples": 41,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "text-transform",
+      "based_on": "line-height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "line-height": "27px"
+          },
+          "then": {
+            "text-transform": "none"
+          },
+          "support": 0.714,
+          "samples": 40,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        },
+        {
+          "if": {
+            "line-height": "NOT 27px"
+          },
+          "then": {
+            "text-transform": "uppercase"
+          },
+          "support": 0.286,
+          "samples": 16,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "link",
+      "target": "width",
+      "based_on": "box-sizing",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "box-sizing": "border-box"
+          },
+          "then": {
+            "width": "194px"
+          },
+          "support": 0.107,
+          "samples": 6,
+          "variants": [
+            "columns1"
+          ]
+        },
+        {
+          "if": {
+            "box-sizing": "NOT border-box"
+          },
+          "then": {
+            "width": "113.094px"
+          },
+          "support": 0.893,
+          "samples": 50,
+          "variants": [
+            "columns1",
+            "columns3"
+          ]
+        }
+      ]
+    }
+  ]
+}
