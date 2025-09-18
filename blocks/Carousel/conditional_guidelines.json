@@ -1,0 +1,786 @@
+{
+  "heading": [
+    {
+      "element_type": "heading",
+      "target": "align-items",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "align-items": "normal"
+          },
+          "support": 0.722,
+          "samples": 13,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "align-items": "center"
+          },
+          "support": 0.278,
+          "samples": 5,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "animation-duration",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "animation-duration": "0.5s"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "animation-duration": "0s"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "animation-name",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "animation-name": "fadein"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "animation-name": "none"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "background-color",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "background-color": "rgba(0,0,0,0)"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "background-color": "rgb(255,255,255)"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "bottom",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "bottom": "auto"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "bottom": "0px"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "box-sizing",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "box-sizing": "border-box"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "box-sizing": "content-box"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "display",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "display": "flex"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "display": "block"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "flex-direction",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "flex-direction": "row"
+          },
+          "support": 0.722,
+          "samples": 13,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "flex-direction": "column-reverse"
+          },
+          "support": 0.278,
+          "samples": 5,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "flex-grow",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "flex-grow": "0"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "flex-grow": "1"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "font-family",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "font-family": "\"source sans pro\", \"helvetica neue\", helvetica, arial, sans-serif"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "font-family": "asar, georgia, \"times new roman\", times, serif"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "font-size",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "font-size": "18px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "font-size": "36px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "height",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "height": "667.5px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "height": "180px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "justify-content",
+      "based_on": "display",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "display": "block"
+          },
+          "then": {
+            "justify-content": "normal"
+          },
+          "support": 0.722,
+          "samples": 13,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "display": "NOT block"
+          },
+          "then": {
+            "justify-content": "center"
+          },
+          "support": 0.278,
+          "samples": 5,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "left",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "left": "auto"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "left": "0px"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "line-height",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "line-height": "27px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "line-height": "54px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "margin-bottom",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "margin-bottom": "72px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "margin-bottom": "0px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "margin-top",
+      "based_on": "width",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "width": "1280px"
+          },
+          "then": {
+            "margin-top": "0px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "width": "NOT 1280px"
+          },
+          "then": {
+            "margin-top": "-180px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "min-height",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "min-height": "0px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "min-height": "180px"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "min-width",
+      "based_on": "margin-top",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "margin-top": "0px"
+          },
+          "then": {
+            "min-width": "0px"
+          },
+          "support": 0.667,
+          "samples": 12,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "margin-top": "NOT 0px"
+          },
+          "then": {
+            "min-width": "auto"
+          },
+          "support": 0.333,
+          "samples": 6,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "position",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "position": "static"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "position": "relative"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "right",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "right": "auto"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "right": "0px"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "top",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "top": "auto"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "top": "0px"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    },
+    {
+      "element_type": "heading",
+      "target": "width",
+      "based_on": "height",
+      "strategy": "tree",
+      "rules": [
+        {
+          "if": {
+            "height": "auto"
+          },
+          "then": {
+            "width": "auto"
+          },
+          "support": 0.444,
+          "samples": 8,
+          "variants": [
+            "carousel2"
+          ]
+        },
+        {
+          "if": {
+            "height": "NOT auto"
+          },
+          "then": {
+            "width": "1136px"
+          },
+          "support": 0.556,
+          "samples": 10,
+          "variants": [
+            "carousel2"
+          ]
+        }
+      ]
+    }
+  ]
+}
