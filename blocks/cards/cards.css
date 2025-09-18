@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -740,8 +739,6 @@
   box-shadow: none;
   height: auto;
 }
-
-/* Tighter square image + fix whitespace by clipping image overflow precisely */
 .cards.cards25 .cards-card-image {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -772,8 +769,6 @@
   min-height: 0;
   justify-content: flex-start;
 }
-
-/* Headline styling, with slightly more space below */
 .cards.cards25 .cards-card-body .button-container {
   margin-top: 18px;
   margin-bottom: 0;
@@ -796,8 +791,6 @@
   padding: 0;
   line-height: 1.18;
 }
-
-/* Description below the headline, lighter and smaller, with subtle padding for perfect alignment */
 .cards.cards25 .cards-card-body p:not(.button-container) {
   font-size: 13px;
   color: #888;
@@ -815,16 +808,12 @@
   z-index: 2;
   text-align: left;
 }
-
-/* Remove list-style on nested lists if present */
 .cards.cards25 ul,
 .cards.cards25 li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-/* Responsive: stack vertically on small screens */
 @media (width <= 750px) {
   .cards.cards25 > ul {
     flex-direction: column;
@@ -833,5 +822,140 @@
 
   .cards.cards25 > ul > li {
     width: 100%;
+  }
+}
+
+
+.cards.cards15 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.cards.cards15 ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 260px;
+  min-width: 0;
+  background: #fff;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  flex: 0 0 260px;
+}
+
+.cards.cards15 .cards-card-image {
+  width: 100%;
+  height: 185px;
+  min-height: 185px;
+  max-height: 185px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: transparent;
+  flex: none;
+}
+
+.cards.cards15 .cards-card-image picture,
+.cards.cards15 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.cards.cards15 .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  flex: none;
+}
+
+.cards.cards15 .cards-card-body p:first-child strong {
+  font-size: 18px;
+  line-height: 27px;
+  color: #202020;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-bottom: 0;
+  display: block;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+}
+
+.cards.cards15 .cards-card-body p:not(:first-child) {
+  font-size: 14px;
+  line-height: 21px;
+  color: #696969;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 4px;
+  margin-bottom: 0;
+  text-transform: none;
+  text-align: left;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.cards.cards15 .cards-card-body p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive: stack cards vertically on small screens */
+@media (max-width: 900px) {
+  .cards.cards15 ul {
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: flex-start;
+  }
+  .cards.cards15 ul > li {
+    flex: 1 1 260px;
+    width: 260px;
+    min-width: 200px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .cards.cards15 ul {
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+  }
+  .cards.cards15 ul > li {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .cards.cards15 .cards-card-image {
+    height: 160px;
+    min-height: 160px;
+    max-height: 160px;
   }
 }
