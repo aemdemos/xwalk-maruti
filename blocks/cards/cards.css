@@ -926,8 +926,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* Responsive: stack cards vertically on small screens */
 @media (max-width: 900px) {
   .cards.cards15 ul {
     flex-wrap: wrap;
@@ -958,4 +956,60 @@
     min-height: 160px;
     max-height: 160px;
   }
+}
+
+
+.cards-wrapper {
+  max-width: 1200px;
+  margin: 48px auto 0 auto;
+  padding: 0 16px;
+}
+
+/* Set up two columns (sections) side by side */
+.cards > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 48px; /* space between sections */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Each section (contributor/guides) takes up a column */
+.cards-section {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* allow shrinking */
+}
+
+/* Hide bullets and spacing from ul/li since we use grid/flex */
+.cards > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Map li elements to sections using :nth-child */
+.cards-section--contributors {
+  /* Will be mapped with :nth-child selectors below */
+}
+
+.cards-section--guides {
+  /* Will be mapped with :nth-child selectors below */
+}
+
+/* Use :nth-child to assign the first section to left column */
+.cards > ul > li:nth-child(-n+5) {
+  /* First 5 li elements: header + 4 contributor cards */
+  /* Place in left column */
+  width: 100%;
+  /* Place them inside a flex column container */
+  display: block;
+}
+
+/* Use :nth-child for the right column */
+.cards > ul > li:nth-child(n+6) {
+  /* 6th li and after: guides header + 3 guide cards */
+  width: 100%;
+  display: block;
 }
