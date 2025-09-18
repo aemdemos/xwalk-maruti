@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -740,8 +739,6 @@
   box-shadow: none;
   height: auto;
 }
-
-/* Tighter square image + fix whitespace by clipping image overflow precisely */
 .cards.cards25 .cards-card-image {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -772,8 +769,6 @@
   min-height: 0;
   justify-content: flex-start;
 }
-
-/* Headline styling, with slightly more space below */
 .cards.cards25 .cards-card-body .button-container {
   margin-top: 18px;
   margin-bottom: 0;
@@ -796,8 +791,6 @@
   padding: 0;
   line-height: 1.18;
 }
-
-/* Description below the headline, lighter and smaller, with subtle padding for perfect alignment */
 .cards.cards25 .cards-card-body p:not(.button-container) {
   font-size: 13px;
   color: #888;
@@ -815,16 +808,12 @@
   z-index: 2;
   text-align: left;
 }
-
-/* Remove list-style on nested lists if present */
 .cards.cards25 ul,
 .cards.cards25 li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-/* Responsive: stack vertically on small screens */
 @media (width <= 750px) {
   .cards.cards25 > ul {
     flex-direction: column;
@@ -834,4 +823,144 @@
   .cards.cards25 > ul > li {
     width: 100%;
   }
+}
+
+
+.cards .cards.block > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width: 900px) {
+  .cards .cards.block > ul {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards .cards.block > ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+/* Each card: vertical stack, fixed width, prevent shrink/grow merge of card bodies */
+.cards .cards.block > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  min-width: 220px;
+  max-width: 1fr;
+  flex: 0 1 25%;
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+
+/* Card image section */
+.cards .cards-card-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.cards .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card body: vertical stack always, keep text inside card */
+.cards .cards-card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17px 0 0 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 56px;
+  background: #fff;
+}
+
+/* Ensure paragraphs stack vertically in card, never row/inline */
+.cards .cards-card-body p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  line-height: 1.5;
+  max-width: 100%;
+  display: block;
+}
+
+/* Title styling: bold, uppercase, black */
+.cards .cards-card-body p:first-child strong {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  line-height: 1.2;
+  display: block;
+}
+
+/* Description styling under title */
+.cards .cards-card-body p:not(:first-child) {
+  font-size: 14px;
+  color: #888;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Add yellow underline under the first card body, visually separate */
+.cards .cards.block > ul > li:first-child .cards-card-body {
+  padding-bottom: 32px;
+}
+
+.cards .cards.block > ul > li:first-child .cards-card-body::after {
+  display: block;
+  width: 44%;
+  height: 3px;
+  background: #ffe000;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  z-index: 1;
+}
+
+/* Remove margin between card image and parent */
+.cards .cards-card-image {
+  margin-bottom: 0;
+}
+
+/* DEBUG: Add subtle border to cards to verify grouping (can remove later) */
+.cards .cards.block > ul > li {
+  border: 1px solid rgba(0,0,0,0.03);
 }
