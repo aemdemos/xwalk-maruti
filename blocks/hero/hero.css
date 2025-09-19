@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -147,8 +146,6 @@
   background: none;
   display: block;
 }
-
-/* Layout: image absolutely positioned as a background, content overlay at bottom */
 .hero.hero26 > div:first-child {
   position: absolute;
   top: 0;
@@ -168,8 +165,6 @@
   object-fit: cover;
   display: block;
 }
-
-/* Overlay content: single, unified panel at bottom, not separate boxes */
 .hero.hero26 > div:last-child {
   position: absolute;
   left: 0;
@@ -183,8 +178,6 @@
   pointer-events: none;
   height: auto;
 }
-
-/* Unified content panel: headline, description, and button stacked vertically */
 .hero.hero26 > div:last-child > div {
   background: #fff;
   box-shadow: 0 2px 16px rgb(0 0 0 / 10%);
@@ -200,8 +193,6 @@
   gap: 32px;
   pointer-events: auto;
 }
-
-/* Headline styling */
 .hero.hero26 h2 {
   font-family: Roboto, 'Roboto Fallback', sans-serif;
   font-size: 2.8rem;
@@ -211,8 +202,6 @@
   line-height: 1.15;
   text-align: left;
 }
-
-/* Description text styling */
 .hero.hero26 p {
   font-family: Roboto, 'Roboto Fallback', sans-serif;
   font-size: 1.25rem;
@@ -221,8 +210,6 @@
   line-height: 1.5;
   text-align: left;
 }
-
-/* Button styling and alignment */
 .hero.hero26 .button-container {
   margin-bottom: 0;
   width: auto;
@@ -251,8 +238,6 @@
 .hero.hero26 .button:hover {
   background: #FFEA00;
 }
-
-/* Responsive adjustments for small screens */
 @media (width <= 900px) {
   .hero.hero26 {
     min-height: 440px;
@@ -305,5 +290,150 @@
   .hero.hero26 .button {
     font-size: 1rem;
     padding: 12px 24px;
+  }
+}
+
+
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+/* Make the hero block position relative so child elements can be absolutely positioned */
+.hero-container > .hero-wrapper > .block.hero {
+  width: 1280px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: transparent;
+}
+
+/* Ensure hero image fills the block and sits below content - absolutely positioned */
+.hero-container > .hero-wrapper > .block.hero > div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.hero-container > .hero-wrapper > .block.hero > div:first-child picture,
+.hero-container > .hero-wrapper > .block.hero > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content panel overlays image at bottom left, flush with edge */
+.hero-container > .hero-wrapper > .block.hero > div:last-child {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  min-width: 340px;
+  max-width: 900px;
+  z-index: 2;
+  display: flex;
+  flex-direction: row; /* Ensure horizontal layout if needed for nested side-by-side */
+  align-items: flex-end;
+  pointer-events: auto;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+/* Content Panel styling */
+.hero-container > .hero-wrapper > .block.hero > div:last-child > div {
+  background: #fff;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 40px 32px 32px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0;
+}
+
+/* Heading */
+.hero-container > .hero-wrapper > .block.hero h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #202020;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Paragraph */
+.hero-container > .hero-wrapper > .block.hero p:not(.button-container) {
+  font-size: 18px;
+  color: #202020;
+  line-height: 27px;
+  margin: 0 0 16px 0;
+  text-align: left;
+}
+
+/* Button container */
+.hero-container > .hero-wrapper > .block.hero .button-container {
+  margin: 0;
+  text-align: left;
+}
+
+/* Button styling override */
+.hero-container > .hero-wrapper > .block.hero .button-container .button,
+.hero-container > .hero-wrapper > .block.hero .button {
+  background: #ffe300;
+  color: #202020;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 0;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  box-shadow: none;
+  margin-top: 10px;
+}
+
+/* Responsive stacking for smaller screens */
+@media (max-width: 900px) {
+  .hero-container > .hero-wrapper > .block.hero {
+    width: 100vw;
+    height: 440px;
+  }
+  .hero-container > .hero-wrapper > .block.hero > div:last-child {
+    width: 100vw;
+    min-width: 0;
+    max-width: 100vw;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    pointer-events: auto;
+  }
+  .hero-container > .hero-wrapper > .block.hero > div:last-child > div {
+    padding: 24px 16px 20px 16px;
+    gap: 10px;
+  }
+  .hero-container > .hero-wrapper > .block.hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .hero-container > .hero-wrapper > .block.hero p:not(.button-container) {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .hero-container > .hero-wrapper > .block.hero .button-container .button,
+  .hero-container > .hero-wrapper > .block.hero .button {
+    font-size: 1rem;
+    padding: 10px 16px;
   }
 }
