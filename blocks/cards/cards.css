@@ -292,7 +292,6 @@
   list-style: none;
   width: auto;
   flex-direction: row;
-  /* Removed flex-flow shorthand to avoid overriding flex-direction */
 }
 
 .cards.cards15 ul > li {
@@ -341,8 +340,7 @@
   justify-content: flex-start;
   flex: none;
   background: transparent;
-  padding: 0; 
-  /* Removed padding-bottom to prevent conflict with padding shorthand */
+  padding: 0;
 }
 
 .cards.cards15 .cards-card-body p {
@@ -916,9 +914,6 @@
   padding: 0 16px;
 }
 
-/* Two columns for sections */
-
-/* Section descriptions */
 .cards > ul > li:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
@@ -941,7 +936,6 @@
   padding: 0;
 }
 
-/* Contributors cards (li 3-6) as a flex row in column 1 */
 .cards > ul > li:nth-child(n+3):nth-child(-n+6) {
   grid-column: 1;
   grid-row: 2;
@@ -957,7 +951,6 @@
   box-shadow: none;
 }
 
-/* Guides cards (li 7-9) as a flex row in column 2 */
 .cards > ul > li:nth-child(n+7):nth-child(-n+9) {
   grid-column: 2;
   grid-row: 2;
@@ -973,7 +966,6 @@
   box-shadow: none;
 }
 
-/* Card content width and centering */
 .cards > ul > li:nth-child(n+3):nth-child(-n+9) > .cards-card-image,
 .cards > ul > li:nth-child(n+3):nth-child(-n+9) > .cards-card-body {
   max-width: 230px;
@@ -981,8 +973,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Card image as a circle */
 
 .cards .cards-card-image img {
   width: 120px;
@@ -993,8 +983,6 @@
   background: #eaeaea;
   display: block;
 }
-
-/* Card content styling */
 
 .cards .cards-card-body h3 {
   font-size: 1.15rem;
@@ -1024,7 +1012,6 @@
   padding: 0;
 }
 
-/* Social link button style */
 .cards .cards-card-body p a {
   display: flex;
   align-items: center;
@@ -1053,7 +1040,6 @@
   color: #fff;
 }
 
-/* Responsive: stack sections on small screens, cards stack in columns under their description */
 @media (width <= 900px) {
   .cards > ul {
     grid-template-columns: 1fr;
@@ -1074,5 +1060,128 @@
     gap: 32px;
     align-items: center;
     margin-bottom: 32px;
+  }
+}
+
+
+.cards.cards15.block ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: stretch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each card stacks its children vertically */
+.cards.cards15.block ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background: #fff;
+  width: 220px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  position: relative;
+}
+
+/* Card image fills width, fixed height */
+.cards.cards15.block .cards-card-image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 0;
+}
+
+.cards.cards15.block .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+/* Card body is a vertical stack: title then description */
+.cards.cards15.block .cards-card-body {
+  padding: 14px 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  margin: 0;
+}
+
+/* Title styling */
+.cards.cards15.block .cards-card-body p:first-child strong {
+  font-size: 1.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 2px;
+  display: block;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  word-break: break-word;
+}
+
+/* Description styling */
+.cards.cards15.block .cards-card-body p:last-child {
+  color: #888;
+  font-size: 0.96em;
+  margin-top: 4px;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+/* Yellow underline ONLY for the first card's description */
+.cards.cards15.block ul > li:first-child .cards-card-body p:last-child {
+  border-bottom: 3px solid #d5bc00;
+  padding-bottom: 2px;
+}
+
+/* Responsive: stack cards vertically on small screens */
+@media (width <= 900px) {
+  .cards.cards15.block ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cards.cards15.block ul > li {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive image height adjustment */
+@media (width <= 600px) {
+  .cards.cards15.block .cards-card-image {
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+  }
+
+  .cards.cards15.block ul > li {
+    width: 100%;
+    max-width: 100%;
   }
 }
