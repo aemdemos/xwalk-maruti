@@ -926,8 +926,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* Responsive: stack cards vertically on small screens */
 @media (max-width: 900px) {
   .cards.cards15 ul {
     flex-wrap: wrap;
@@ -957,5 +955,151 @@
     height: 160px;
     min-height: 160px;
     max-height: 160px;
+  }
+}
+
+
+.cards {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Multi-column grid for sections */
+.cards > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+  gap: 48px 32px; /* vertical and horizontal gaps between sections/columns */
+}
+ 
+/* Section descriptions: span both columns, centered, italic */
+.cards > ul > li:nth-child(1), .cards > ul > li:nth-child(2) {
+  grid-column: span 2;
+  margin-bottom: 32px;
+  padding-bottom: 0;
+  /* Add the actual headings with ::before pseudo-elements */
+  position: relative;
+}
+
+.cards > ul > li:nth-child(1)::before {
+  content: "Our Contributors";
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.cards > ul > li:nth-child(2)::before {
+  content: "WKND Guides";
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.cards > ul > li .cards-card-body em {
+  font-size: 1rem;
+  color: #696969;
+  font-style: italic;
+  line-height: 1.5;
+  display: block;
+}
+ 
+/* Card grouping */
+.cards > ul > li:nth-child(n+3):nth-child(-n+6) { /* Contributors */
+  grid-column: 1;
+  margin-bottom: 32px;
+}
+.cards > ul > li:nth-child(n+7) { /* Guides */
+  grid-column: 2;
+  margin-bottom: 32px;
+}
+ 
+/* Individual Card Styling */
+.cards-card-body {
+  text-align: center;
+  padding: 0 8px;
+}
+ 
+.cards-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+ 
+.cards-card-image img {
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+ 
+.cards-card-body h3 {
+  font-size: 1.25rem; /* 18px */
+  font-weight: 400;
+  color: #202020;
+  margin: 8px 0 0 0;
+  line-height: 1.2;
+}
+ 
+.cards-card-body h5 {
+  font-size: 1rem; /* 14-16px */
+  font-weight: 400;
+  color: #696969;
+  margin: 4px 0 12px 0;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+ 
+/* Social Icons Row */
+.cards-card-body p {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 0;
+}
+ 
+.cards-card-body a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #202020;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+ 
+.cards-card-body a:hover, .cards-card-body a:focus {
+  background: #0045ff;
+  color: #fff;
+}
+ 
+/* Spacing & Responsiveness */
+@media (max-width: 900px) {
+  .cards > ul {
+    grid-template-columns: 1fr;
+  }
+}
+ 
+@media (max-width: 600px) {
+  .cards-card-body {
+    padding: 0 2vw;
+  }
+  .cards-card-image img {
+    width: 120px;
+    height: 120px;
   }
 }
