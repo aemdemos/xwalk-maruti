@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -269,25 +270,30 @@
 .cards.cards15 ul {
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 0;
+  gap: 10px;
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 100%;
+  width: auto;
+  /* Removed flex-flow as it overrides flex-direction */
 }
 
 .cards.cards15 ul > li {
   display: flex;
   flex-direction: column;
-  flex: 1 1 0;
+  flex: 0 0 260px;
   min-width: 0;
   margin: 0;
   background: #fff;
   box-shadow: none;
   border: none;
   padding: 0;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 260px;
+  height: auto;
 }
 
 .cards.cards15 .cards-card-image {
@@ -297,8 +303,11 @@
   margin: 0;
   padding: 0;
   display: block;
-  flex: 0 0 auto;
-  background: #fff;
+  flex: none;
+  background: transparent;
+  height: 185px;
+  min-height: 185px;
+  max-height: 185px;
 }
 
 .cards.cards15 .cards-card-image img {
@@ -311,12 +320,14 @@
 }
 
 .cards.cards15 .cards-card-body {
-  padding-bottom: 22px;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 1 1 auto;
+  flex: none;
+  /* Removed padding-bottom as it conflicts with shorthand padding */
+  padding: 0;
+  background: transparent;
 }
 
 .cards.cards15 .cards-card-body p {
@@ -329,28 +340,34 @@
   font-size: 18px;
   line-height: 27px;
   color: #202020;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0;
   text-transform: uppercase;
-  margin-top: 16px;
+  margin-top: 14px;
   margin-bottom: 0;
   display: block;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
 }
 
 .cards.cards15 .cards-card-body p:not(:first-child) {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #222;
+  font-size: 14px;
+  line-height: 21px;
+  color: #696969;
   font-weight: 400;
   letter-spacing: 0;
-  margin-top: 10px;
+  margin-top: 4px;
   margin-bottom: 0;
   text-transform: none;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
+  text-align: left;
+  padding: 0;
 }
 
 .cards.cards15 ul > li:nth-child(3) .cards-card-body p:not(:first-child),
@@ -739,6 +756,7 @@
   box-shadow: none;
   height: auto;
 }
+
 .cards.cards25 .cards-card-image {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -769,6 +787,7 @@
   min-height: 0;
   justify-content: flex-start;
 }
+
 .cards.cards25 .cards-card-body .button-container {
   margin-top: 18px;
   margin-bottom: 0;
@@ -791,6 +810,7 @@
   padding: 0;
   line-height: 1.18;
 }
+
 .cards.cards25 .cards-card-body p:not(.button-container) {
   font-size: 13px;
   color: #888;
@@ -808,12 +828,14 @@
   z-index: 2;
   text-align: left;
 }
+
 .cards.cards25 ul,
 .cards.cards25 li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 @media (width <= 750px) {
   .cards.cards25 > ul {
     flex-direction: column;
@@ -823,49 +845,6 @@
   .cards.cards25 > ul > li {
     width: 100%;
   }
-}
-
-
-.cards.cards15 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 10px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  width: auto;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.cards.cards15 ul > li {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 260px;
-  min-width: 0;
-  background: #fff;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  margin: 0;
-  height: auto;
-  flex: 0 0 260px;
-}
-
-.cards.cards15 .cards-card-image {
-  width: 100%;
-  height: 185px;
-  min-height: 185px;
-  max-height: 185px;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: block;
-  background: transparent;
-  flex: none;
 }
 
 .cards.cards15 .cards-card-image picture,
@@ -879,61 +858,13 @@
   border-radius: 0;
 }
 
-.cards.cards15 .cards-card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 0;
-  margin: 0;
-  background: transparent;
-  flex: none;
-}
-
-.cards.cards15 .cards-card-body p:first-child strong {
-  font-size: 18px;
-  line-height: 27px;
-  color: #202020;
-  font-weight: 600;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  margin-top: 14px;
-  margin-bottom: 0;
-  display: block;
-  text-align: left;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: initial;
-}
-
-.cards.cards15 .cards-card-body p:not(:first-child) {
-  font-size: 14px;
-  line-height: 21px;
-  color: #696969;
-  font-weight: 400;
-  letter-spacing: 0;
-  margin-top: 4px;
-  margin-bottom: 0;
-  text-transform: none;
-  text-align: left;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-}
-
-.cards.cards15 .cards-card-body p {
-  margin: 0;
-  padding: 0;
-}
-
-/* Responsive: stack cards vertically on small screens */
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .cards.cards15 ul {
     flex-wrap: wrap;
     gap: 18px;
     justify-content: flex-start;
   }
+
   .cards.cards15 ul > li {
     flex: 1 1 260px;
     width: 260px;
@@ -941,21 +872,249 @@
     max-width: 100%;
   }
 }
-@media (max-width: 600px) {
+
+@media (width <= 600px) {
   .cards.cards15 ul {
     flex-direction: column;
     gap: 24px;
     align-items: stretch;
   }
+
   .cards.cards15 ul > li {
     width: 100%;
     min-width: 0;
     max-width: 100%;
     flex-basis: 100%;
   }
+
   .cards.cards15 .cards-card-image {
     height: 160px;
     min-height: 160px;
     max-height: 160px;
   }
+}
+
+
+.cards .cards-wrapper {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+/* Stack intro texts vertically, tightly with card rows */
+.cards .block.cards ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Intro text: center, minimal gap below */
+.cards .block.cards ul li:nth-child(1) {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 0 12px;
+  font-size: 1.12rem;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.cards .block.cards ul li:nth-child(2) {
+  max-width: 700px;
+  width: 100%;
+  margin: 32px 0 8px;
+  padding: 0 12px;
+  font-size: 1.12rem;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+/* Contributors (li 3-6): flex row, tightly grouped below intro 1 */
+.cards .block.cards ul .cards-contrib-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 44px;
+  margin-bottom: 24px;
+}
+
+/* Guides (li 7-9): flex row, tightly grouped below intro 2 */
+.cards .block.cards ul .cards-guide-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 44px;
+  margin-bottom: 0;
+}
+
+/* Contributors (li 3-6): inline-flex and even horizontal gap */
+.cards .block.cards ul li:nth-child(n+3):nth-child(-n+6) {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 170px;
+  max-width: 230px;
+  margin: 0 22px;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+/* Guides (li 7-9): inline-flex and even horizontal gap */
+.cards .block.cards ul li:nth-child(n+7):nth-child(-n+9) {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 170px;
+  max-width: 230px;
+  margin: 0 32px;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+/* Remove floats from previous attempts */
+.cards .block.cards ul li {
+  float: none;
+}
+
+/* Avatar styles */
+.cards .block.cards ul li .cards-card-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+  margin-bottom: 18px;
+  background: #eaeaea;
+  display: block;
+}
+
+/* Card body and text alignment */
+.cards .block.cards ul li .cards-card-body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Name styles */
+.cards .block.cards ul li .cards-card-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0.25em 0 0.32em;
+  letter-spacing: 0.01em;
+  color: #222;
+  text-align: center;
+}
+
+/* Subtitle styles */
+.cards .block.cards ul li .cards-card-body h5 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #757575;
+  margin: 0 0 0.7em;
+  text-align: center;
+}
+
+/* Social icons row */
+.cards .block.cards ul li .cards-card-body p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+/* Social icon links */
+.cards .block.cards ul li .cards-card-body p a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 7px;
+  background: #222;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Gold accent on hover */
+.cards .block.cards ul li .cards-card-body p a:hover,
+.cards .block.cards ul li .cards-card-body p a:focus {
+  background: #b7a643;
+  color: #222;
+}
+
+/* Responsive: stack cards and rows vertically on small screens */
+@media (width <= 900px) {
+  .cards .block.cards ul .cards-contrib-row,
+  .cards .block.cards ul .cards-guide-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  .cards .block.cards ul li:nth-child(n+3):nth-child(-n+6),
+  .cards .block.cards ul li:nth-child(n+7):nth-child(-n+9) {
+    max-width: 340px;
+    margin: 0 auto 14px;
+  }
+}
+
+/* Responsive: intro text padding and card row width on mobile */
+@media (width <= 650px) {
+  .cards .block.cards ul li:nth-child(1),
+  .cards .block.cards ul li:nth-child(2) {
+    padding: 0 4px;
+    max-width: 100%;
+  }
+
+  .cards .block.cards ul .cards-contrib-row,
+  .cards .block.cards ul .cards-guide-row {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .cards .block.cards ul li:nth-child(n+3):nth-child(-n+6),
+  .cards .block.cards ul li:nth-child(n+7):nth-child(-n+9) {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0 auto 8px;
+  }
+}
+
+/* Tighten top of block */
+.cards .block.cards {
+  margin-top: 0;
+  padding-top: 0;
 }
