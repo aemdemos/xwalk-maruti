@@ -44,17 +44,6 @@
 }
 
 @font-face {
-  font-family:"Asar Fallback";
-  font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:126.30%;
-  descent-override:58.82%;
-  line-gap-override:0.00%;
-  size-adjust:94.69%;
-}
-
-@font-face {
   font-family:"Source Sans Pro Fallback";
   font-style:normal;
   font-weight:400;
@@ -63,6 +52,17 @@
   descent-override:28.98%;
   line-gap-override:0.00%;
   size-adjust:94.19%;
+}
+
+@font-face {
+  font-family:"Asar Fallback";
+  font-style:normal;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:126.30%;
+  descent-override:58.82%;
+  line-gap-override:0.00%;
+  size-adjust:94.69%;
 }
 
 @font-face {
