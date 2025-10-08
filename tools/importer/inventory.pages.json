@@ -1,26 +1,154 @@
 {
   "templates": [
     {
-      "name": "'Profile and Gallery Page'",
+      "name": "Design System Documentation",
       "cluster": 1,
       "pages": [
         {
-          "url": "https://wknd.site/ca/en/adventures.html",
-          "uuid": "7a455a5e87b6e6374935a0feecfe65a676fb976d"
+          "url": "https://plank-wafer-56551407.figma.site/nobutton",
+          "uuid": "232e30ef4cb1ea6737fa6bdbeafef1f47f085842"
         },
         {
-          "url": "https://wknd.site/ca/en/about-us.html",
-          "uuid": "b9bd0d7b769a65b6c2acc1aec3e8fa14019fb683"
+          "url": "https://plank-wafer-56551407.figma.site/colors-primitives",
+          "uuid": "7c78a581df6e31eeb2b1e977775be906a9ad6afc"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/components",
+          "uuid": "72236ab35fcd2c21b1120dd5c651b89fb3cae83f"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/spacings",
+          "uuid": "d83c5fdec5a75b1da4cf5569e097606c516cf7cd"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/layouts",
+          "uuid": "7257ac57e67025e765d45f4fd2baa3460cc3ace2"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/foundations",
+          "uuid": "953799cd8740b17df1a60c7955fa6a1dbc2899c3"
         }
       ]
     },
     {
-      "name": "'Travel Blog Homepage'",
+      "name": "'Style Guide Page'",
       "cluster": 2,
       "pages": [
         {
-          "url": "https://wknd.site/ca/en.html",
-          "uuid": "75e40e45008cbfff6aeae938c62c8b9320b05b94"
+          "url": "https://plank-wafer-56551407.figma.site/notypography",
+          "uuid": "a7b7801624edc38fb03e1ed639c874791691f58b"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/nopage",
+          "uuid": "2d3ab4d59b1c66f9d907c8308e814fac8eb55b5e"
+        }
+      ]
+    },
+    {
+      "name": "\"Dashboard Template\"",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/nolayout",
+          "uuid": "277abf1991d1bad8b1a27db8ce21453f41622f59"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/noborder",
+          "uuid": "e76bbaf203bf13d79283e93ec5103a35091ecc2e"
+        }
+      ]
+    },
+    {
+      "name": "Minimalist Landing Page",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/wip",
+          "uuid": "596a674b758d04fbdc5c4e9531aa356a54c21f6a"
+        }
+      ]
+    },
+    {
+      "name": "'Design System Documentation'",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/typo",
+          "uuid": "d9ba05303025742f1e44915bd70a15712a58c415"
+        },
+        {
+          "url": "https://plank-wafer-56551407.figma.site/colors-brand",
+          "uuid": "c919ea4243de05f6162c20e6047c208ffb5bd10e"
+        }
+      ]
+    },
+    {
+      "name": "'Dashboard Overview'",
+      "cluster": 6,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/toast",
+          "uuid": "02cc1cad56d33d8ff5825fd1498bedbde77e1e1e"
+        }
+      ]
+    },
+    {
+      "name": "\"Style Guide\"",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/nocolor",
+          "uuid": "87e6f3058fc88154a5db72f222226b0208d56dca"
+        }
+      ]
+    },
+    {
+      "name": "\"Portfolio Showcase\"",
+      "cluster": 8,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/",
+          "uuid": "08b81b0f0b2000bdeba3e8957d66e202fc96f3cd"
+        }
+      ]
+    },
+    {
+      "name": "'Login Page'",
+      "cluster": 9,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/lock-example",
+          "uuid": "cd4068e759a4bfd1e5453adfc61c9b2c526cfd29"
+        }
+      ]
+    },
+    {
+      "name": "Data Table Page",
+      "cluster": 10,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/tokens",
+          "uuid": "3dd2fd6388ad429ac38bb7df66f031bcf0a7f40e"
+        }
+      ]
+    },
+    {
+      "name": "'Simple Content Listing'",
+      "cluster": 11,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/changelog",
+          "uuid": "63e65d1f9f9d90c0f64dd570a6676f3f4acf1747"
+        }
+      ]
+    },
+    {
+      "name": "'Documentation Page'",
+      "cluster": 12,
+      "pages": [
+        {
+          "url": "https://plank-wafer-56551407.figma.site/iconography",
+          "uuid": "d4b606f77b86b8bc8cb7e9528549630c0496e29e"
         }
       ]
     }
