@@ -1,31 +1,650 @@
 {
-  "originUrl": "https://wknd.site",
-  "lastCrawled": "https://wknd.site/",
+  "originUrl": "https://www.anthropic.com",
+  "aborted": false,
+  "lastCrawled": "https://www.anthropic.com/learn/build-with-claude",
   "urls": [
     {
-      "url": "https://wknd.site/ca/en.html",
+      "url": "https://www.anthropic.com/",
       "source": "CRAWL",
-      "targetPath": "/ca/en",
-      "id": "75e40e45008cbfff6aeae938c62c8b9320b05b94"
+      "targetPath": "/",
+      "id": "138dc8d965ebff4b16a4dab35ecd47086bf832ff"
     },
     {
-      "url": "https://wknd.site/ca/en/about-us.html",
+      "url": "https://www.anthropic.com/careers",
       "source": "CRAWL",
-      "targetPath": "/ca/en/about-us",
-      "id": "b9bd0d7b769a65b6c2acc1aec3e8fa14019fb683"
+      "targetPath": "/careers",
+      "id": "131d7342e9cdc7513f82c2ac142fe8f3fbd28e20"
     },
     {
-      "url": "https://wknd.site/ca/en/adventures.html",
+      "url": "https://www.anthropic.com/claude/haiku",
       "source": "CRAWL",
-      "targetPath": "/ca/en/adventures",
-      "id": "7a455a5e87b6e6374935a0feecfe65a676fb976d"
+      "targetPath": "/claude/haiku",
+      "id": "97a5cc2220646fb46db60f0e46f0be70462dafaa"
+    },
+    {
+      "url": "https://www.anthropic.com/claude/opus",
+      "source": "CRAWL",
+      "targetPath": "/claude/opus",
+      "id": "0f14dddf3c3c08b646b68e24a3a74d5ac16449e3"
+    },
+    {
+      "url": "https://www.anthropic.com/claude/sonnet",
+      "source": "CRAWL",
+      "targetPath": "/claude/sonnet",
+      "id": "50abfd837728bbaf624794c5c8cac14586005fce"
+    },
+    {
+      "url": "https://www.anthropic.com/company",
+      "source": "CRAWL",
+      "targetPath": "/company",
+      "id": "2b7efd1501599c61c7327dd7fd2a00754b18bf79"
+    },
+    {
+      "url": "https://www.anthropic.com/economic-futures",
+      "source": "CRAWL",
+      "targetPath": "/economic-futures",
+      "id": "9bb1495d09dd603719c7ba13e8a45e6fa4402e6c"
+    },
+    {
+      "url": "https://www.anthropic.com/economic-futures/program",
+      "source": "CRAWL",
+      "targetPath": "/economic-futures/program",
+      "id": "bbef30aa496a5f2f58e32ec4feb76bbc65053051"
+    },
+    {
+      "url": "https://www.anthropic.com/economic-index",
+      "source": "CRAWL",
+      "targetPath": "/economic-index",
+      "id": "be86c47fc67ad1be8d2b8c5305e49d5f03f57864"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering",
+      "source": "CRAWL",
+      "targetPath": "/engineering",
+      "id": "9bba7c6d8f31b81581b2a2be714b87a897ba35d1"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "source": "CRAWL",
+      "targetPath": "/engineering/building-effective-agents",
+      "id": "7d24e5faa28b319bf5952851dc7dd3fea3213770"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+      "source": "CRAWL",
+      "targetPath": "/engineering/contextual-retrieval",
+      "id": "02dab7c6a90cee797c131f4a8fc5ac9788a0bf31"
+    },
+    {
+      "url": "https://www.anthropic.com/events",
+      "source": "CRAWL",
+      "targetPath": "/events",
+      "id": "7aefbbe793228340b743356dfe46a4227861840d"
+    },
+    {
+      "url": "https://www.anthropic.com/jobs",
+      "source": "CRAWL",
+      "targetPath": "/jobs",
+      "id": "bf1e758b93ae9476e6dae87b870e860c95424250"
+    },
+    {
+      "url": "https://www.anthropic.com/learn",
+      "source": "CRAWL",
+      "targetPath": "/learn",
+      "id": "b1f1f173f6abd2d29b1c121cce62a4eb5ff55cef"
+    },
+    {
+      "url": "https://www.anthropic.com/learn/build-with-claude",
+      "source": "CRAWL",
+      "targetPath": "/learn/build-with-claude",
+      "id": "8bfc097ccd85563e7192c0c14e38e5e9ddd993c9"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/aup",
+      "source": "CRAWL",
+      "targetPath": "/legal/aup",
+      "id": "2ce4a75980be1ab2653c45a4bc9263dc294dc1cc"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "source": "CRAWL",
+      "targetPath": "/legal/commercial-terms",
+      "id": "a558bb2e330b54e75a6d9a2af1c3fe91506096af"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "source": "CRAWL",
+      "targetPath": "/legal/consumer-terms",
+      "id": "87cd4a89ff449d38b5c4a9f00409e17a926074d6"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/cookies",
+      "source": "CRAWL",
+      "targetPath": "/legal/cookies",
+      "id": "6ba39f64dee3c984cd37f03851cebb346ef4dc59"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/privacy",
+      "source": "CRAWL",
+      "targetPath": "/legal/privacy",
+      "id": "470d8ef03eaf18b6e40a82b2806962ffb69af206"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "source": "CRAWL",
+      "targetPath": "/news",
+      "id": "cfba690417039783ad01223f3b1979905c7961b5"
+    },
+    {
+      "url": "https://www.anthropic.com/news/1m-context",
+      "source": "CRAWL",
+      "targetPath": "/news/1m-context",
+      "id": "e59d33f25da5bd562b356687066d3229c07bec7c"
+    },
+    {
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source": "CRAWL",
+      "targetPath": "/news/3-5-models-and-computer-use",
+      "id": "03af66389e97461a2778ca5ed6cc8af734d85676"
+    },
+    {
+      "url": "https://www.anthropic.com/news/activating-asl3-protections",
+      "source": "CRAWL",
+      "targetPath": "/news/activating-asl3-protections",
+      "id": "3774cdbe8f5a8ab5f27243510e7a56de3aaa5e32"
+    },
+    {
+      "url": "https://www.anthropic.com/news/advancing-claude-for-education",
+      "source": "CRAWL",
+      "targetPath": "/news/advancing-claude-for-education",
+      "id": "8b2f0f4a8adcc93f06cd72e06b098d3f9ee39dda"
+    },
+    {
+      "url": "https://www.anthropic.com/news/agent-capabilities-api",
+      "source": "CRAWL",
+      "targetPath": "/news/agent-capabilities-api",
+      "id": "1edae9a79cdb80eb49988e3edb2b51d896e9fd28"
+    },
+    {
+      "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "source": "CRAWL",
+      "targetPath": "/news/announcing-our-updated-responsible-scaling-policy",
+      "id": "3a0b4572422c1a8cbc95ae7fb7158fc8dc49f9d0"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+      "id": "fc59ddc0fa538e1b6ce1ee6fefa491a1f4d69d0b"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+      "id": "ec76288389b84704deabcffcda4f33661dd7296f"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-education-report-how-educators-use-claude",
+      "id": "ea391524393978fd5b16467fc2adfbac6b444c42"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+      "id": "3590332b4a65bd089e1e71b8352b764d416f7f93"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-higher-education-initiatives",
+      "id": "1a5d9c6455b7d039c045f82d88da795ecaad926b"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-is-endorsing-sb-53",
+      "id": "78554b99ee8e234063d14f6ee04bfd5d816728fb"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
+      "id": "edae89219a1180075644c26456a8743b82cf5db6"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "id": "ee7c27bbde312a1108b94ff4e18758e0d2b444ba"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability",
+      "id": "88e6a9854cbea8ac76dbec59d2fc3fcd3112362d"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+      "source": "CRAWL",
+      "targetPath": "/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+      "id": "8c1070cd2001867b0f4ce8047e0ee82c195c9609"
+    },
+    {
+      "url": "https://www.anthropic.com/news/automate-security-reviews-with-claude-code",
+      "source": "CRAWL",
+      "targetPath": "/news/automate-security-reviews-with-claude-code",
+      "id": "942f9ed230b1273df0a267503611554e373375b9"
+    },
+    {
+      "url": "https://www.anthropic.com/news/build-ai-in-america",
+      "source": "CRAWL",
+      "targetPath": "/news/build-ai-in-america",
+      "id": "af1fc64faee21e7be28f7e5c6c4d51d52e105748"
+    },
+    {
+      "url": "https://www.anthropic.com/news/build-artifacts",
+      "source": "CRAWL",
+      "targetPath": "/news/build-artifacts",
+      "id": "3483e903f816924b06475235081aae0e3fa21670"
+    },
+    {
+      "url": "https://www.anthropic.com/news/building-safeguards-for-claude",
+      "source": "CRAWL",
+      "targetPath": "/news/building-safeguards-for-claude",
+      "id": "4da7c4fa446cf148c59f9c5c019f0410b7ff2f4a"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-3-5-sonnet",
+      "id": "e6faefe9f65cd4f5ce17d333db5c0bd5d96d2dc7"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-4",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-4",
+      "id": "3c007ec8be232881498b04a69cb4f2d529ab68d4"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-and-slack",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-and-slack",
+      "id": "fc6279d0c77b70913dcd2873add4c749cd320761"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-code-on-team-and-enterprise",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-code-on-team-and-enterprise",
+      "id": "0bf9ecce9f99e31a749841afaa571c05a7b4c020"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-code-remote-mcp",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-code-remote-mcp",
+      "id": "6973645a4c0172b0cd4e2186a48c3c4dff1ca86c"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-chrome",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-for-chrome",
+      "id": "cc3bd2080ba3fbf5e248f3100bdc2752011fb33f"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-financial-services",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-for-financial-services",
+      "id": "2393a82a04adf78b848d4628c91c4a16464c271d"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-gov-models-for-u-s-national-security-customers",
+      "id": "ebd587ce3715ae2aef6c1c96032dc7387b6f7749"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-in-amazon-bedrock-fedramp-high",
+      "id": "c77b33c64df179c28971dccad3241c9a0ef3a691"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-in-xcode",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-in-xcode",
+      "id": "02a4bf4bf9892551067016744391ec7b6d76104f"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-now-available-in-microsoft-365-copilot",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-now-available-in-microsoft-365-copilot",
+      "id": "609973efb485b4448351a07b1925de1c76186a6e"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-opus-4-1",
+      "id": "b01d048ee753a62c8c47cdd881394db550af0899"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-powered-artifacts",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-powered-artifacts",
+      "id": "3ff69da76dfdb7c41e9659e07cf0800606d576c1"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "source": "CRAWL",
+      "targetPath": "/news/claude-sonnet-4-5",
+      "id": "1ccc22f7699c5edb18a37a63503b998a8e6029f3"
+    },
+    {
+      "url": "https://www.anthropic.com/news/clio",
+      "source": "CRAWL",
+      "targetPath": "/news/clio",
+      "id": "34effeadaccae4c45e64d4f147d364697ce3693f"
+    },
+    {
+      "url": "https://www.anthropic.com/news/connectors-directory",
+      "source": "CRAWL",
+      "targetPath": "/news/connectors-directory",
+      "id": "5d9d7ad27a096a971d8ca4d7eee6d50d3c593782"
+    },
+    {
+      "url": "https://www.anthropic.com/news/context-management",
+      "source": "CRAWL",
+      "targetPath": "/news/context-management",
+      "id": "7debf324fe64f1f8af7c57a7e96baf550ec2eb66"
+    },
+    {
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "source": "CRAWL",
+      "targetPath": "/news/core-views-on-ai-safety",
+      "id": "8c7fd6681555a3f03eb415f7e0e20841030ebd87"
+    },
+    {
+      "url": "https://www.anthropic.com/news/create-files",
+      "source": "CRAWL",
+      "targetPath": "/news/create-files",
+      "id": "a77a94ac6e7b83ec7ac17fabb4b326030aba6b64"
+    },
+    {
+      "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+      "source": "CRAWL",
+      "targetPath": "/news/deloitte-anthropic-partnership",
+      "id": "8f68e4ff2717e70596e8350875a761523f81aae0"
+    },
+    {
+      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+      "source": "CRAWL",
+      "targetPath": "/news/detecting-countering-misuse-aug-2025",
+      "id": "4a7bff68897a211ecb05e0b85e59d5a83d2c42bb"
+    },
+    {
+      "url": "https://www.anthropic.com/news/developing-computer-use",
+      "source": "CRAWL",
+      "targetPath": "/news/developing-computer-use",
+      "id": "368631b05d5597834784578dffd4a922bba773eb"
+    },
+    {
+      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "source": "CRAWL",
+      "targetPath": "/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "id": "8734884e2a76a3282820c458006f2e49d51ab48b"
+    },
+    {
+      "url": "https://www.anthropic.com/news/driving-ai-transformation-with-claude",
+      "source": "CRAWL",
+      "targetPath": "/news/driving-ai-transformation-with-claude",
+      "id": "05980bf6a22a5baf22c28fcbdfe45a421377d03e"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+      "source": "CRAWL",
+      "targetPath": "/news/enabling-claude-code-to-work-more-autonomously",
+      "id": "dd797aa167691a1ef20abb71979c923bb97369db"
+    },
+    {
+      "url": "https://www.anthropic.com/news/eu-code-practice",
+      "source": "CRAWL",
+      "targetPath": "/news/eu-code-practice",
+      "id": "954f39339d628667a204226382b41a41825a2d84"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+      "source": "CRAWL",
+      "targetPath": "/news/expanding-global-operations-to-india",
+      "id": "ffbf7ded6e98de1fee9df0fa3c78d7e5c7c20ff6"
+    },
+    {
+      "url": "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule",
+      "source": "CRAWL",
+      "targetPath": "/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule",
+      "id": "7f1030acc827e68bcb3d73e4da6f8445fdee7d81"
+    },
+    {
+      "url": "https://www.anthropic.com/news/head-of-japan-hiring-plans",
+      "source": "CRAWL",
+      "targetPath": "/news/head-of-japan-hiring-plans",
+      "id": "e01fc384ca9e4676cecc9fbfa4d33c995f5f0a1e"
+    },
+    {
+      "url": "https://www.anthropic.com/news/how-anthropic-teams-use-claude-code",
+      "source": "CRAWL",
+      "targetPath": "/news/how-anthropic-teams-use-claude-code",
+      "id": "ac095059447c9074639f2cb5360f6606d3ba5ce2"
+    },
+    {
+      "url": "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship",
+      "source": "CRAWL",
+      "targetPath": "/news/how-people-use-claude-for-support-advice-and-companionship",
+      "id": "f5c88aa37437000b28dff7192ee401c31a8944a2"
+    },
+    {
+      "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program",
+      "source": "CRAWL",
+      "targetPath": "/news/introducing-the-anthropic-economic-futures-program",
+      "id": "1deffbb5a95325ed1606de1e28dbc44f6e64819e"
+    },
+    {
+      "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
+      "source": "CRAWL",
+      "targetPath": "/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
+      "id": "262826d19ed0cfd9a45e44462ba59e61df54bf84"
+    },
+    {
+      "url": "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future",
+      "source": "CRAWL",
+      "targetPath": "/news/investing-in-energy-to-secure-america-s-ai-future",
+      "id": "e62f10748d74f22ddba95a97b2a753a9c187f38b"
+    },
+    {
+      "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
+      "source": "CRAWL",
+      "targetPath": "/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
+      "id": "e82d93c9e98f3e19ae7afcf719ae58077c6eae43"
+    },
+    {
+      "url": "https://www.anthropic.com/news/memory",
+      "source": "CRAWL",
+      "targetPath": "/news/memory",
+      "id": "f5b156ce436f379711e72ae9a22b74ccf60c13b0"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "source": "CRAWL",
+      "targetPath": "/news/model-context-protocol",
+      "id": "3a99f53535c94f210e88f11de680ca71c87ad084"
+    },
+    {
+      "url": "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
+      "source": "CRAWL",
+      "targetPath": "/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
+      "id": "d065966a3224bad9bd9cbc14c02ee7590abf4cbf"
+    },
+    {
+      "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+      "source": "CRAWL",
+      "targetPath": "/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+      "id": "53da77b80796dc5b50e3fee4de7124d0e0042b36"
+    },
+    {
+      "url": "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents",
+      "source": "CRAWL",
+      "targetPath": "/news/our-framework-for-developing-safe-and-trustworthy-agents",
+      "id": "785ffc71ab050d7552c20d4b32d8c3e67825b652"
+    },
+    {
+      "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
+      "source": "CRAWL",
+      "targetPath": "/news/paul-smith-to-join-anthropic",
+      "id": "48cdf3d5fc8628c67dac894858b4a6650f2ed789"
+    },
+    {
+      "url": "https://www.anthropic.com/news/prompt-caching",
+      "source": "CRAWL",
+      "targetPath": "/news/prompt-caching",
+      "id": "dbd16f7faf66fe1d143e462f0f28e748aa6c8498"
+    },
+    {
+      "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+      "source": "CRAWL",
+      "targetPath": "/news/rahul-patil-joins-anthropic",
+      "id": "850ad7026b3835bee659217a4e899661f1c5fbe3"
+    },
+    {
+      "url": "https://www.anthropic.com/news/reed-hastings",
+      "source": "CRAWL",
+      "targetPath": "/news/reed-hastings",
+      "id": "0a5eab04922b66d626a450dd6f3266b79f565dd2"
+    },
+    {
+      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+      "source": "CRAWL",
+      "targetPath": "/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+      "id": "4adf4bc4ab742c371debb3bb5c7e4fa041d2773f"
+    },
+    {
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+      "source": "CRAWL",
+      "targetPath": "/news/the-anthropic-economic-index",
+      "id": "7eaef9ef1bfffe80d7537afc0162865f67be1892"
+    },
+    {
+      "url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai",
+      "source": "CRAWL",
+      "targetPath": "/news/the-need-for-transparency-in-frontier-ai",
+      "id": "85e13dd51d9ea4247b064054b3e9444366a0fdb7"
+    },
+    {
+      "url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan",
+      "source": "CRAWL",
+      "targetPath": "/news/thoughts-on-america-s-ai-action-plan",
+      "id": "a3452fbbea7de31122e756714e38eabf627643d5"
+    },
+    {
+      "url": "https://www.anthropic.com/news/tool-use-ga",
+      "source": "CRAWL",
+      "targetPath": "/news/tool-use-ga",
+      "id": "e914d65a79252cc3dd9a1259bed28f8281e3f820"
+    },
+    {
+      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+      "source": "CRAWL",
+      "targetPath": "/news/updates-to-our-consumer-terms",
+      "id": "d3c5eb87068c442978c9fe55662e0629fcc37d47"
+    },
+    {
+      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+      "source": "CRAWL",
+      "targetPath": "/news/updating-restrictions-of-sales-to-unsupported-regions",
+      "id": "49a2b0a5f907680897ccb7d24feaeec0e4cf4a68"
+    },
+    {
+      "url": "https://www.anthropic.com/news/usage-policy-update",
+      "source": "CRAWL",
+      "targetPath": "/news/usage-policy-update",
+      "id": "bae6b2ce3d0a658ef6b4f49bb05b3229ac692a01"
+    },
+    {
+      "url": "https://www.anthropic.com/research",
+      "source": "CRAWL",
+      "targetPath": "/research",
+      "id": "7ab67efe45f0a8af1bd3885d147801c03c358285"
+    },
+    {
+      "url": "https://www.anthropic.com/research/agentic-misalignment",
+      "source": "CRAWL",
+      "targetPath": "/research/agentic-misalignment",
+      "id": "b0f943035e742d0b8d8f5be97c8308953d3841c5"
+    },
+    {
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+      "source": "CRAWL",
+      "targetPath": "/research/anthropic-economic-index-september-2025-report",
+      "id": "edfe31dccbe383017559030dd8d3f9bbc1111562"
+    },
+    {
+      "url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+      "source": "CRAWL",
+      "targetPath": "/research/building-ai-cyber-defenders",
+      "id": "7473ba7d913f4a02593c9743b37502ae80bb6fa1"
+    },
+    {
+      "url": "https://www.anthropic.com/research/economic-index-geography",
+      "source": "CRAWL",
+      "targetPath": "/research/economic-index-geography",
+      "id": "f2abf7fd2daad627a9bfa44014cfb71a4441b19e"
+    },
+    {
+      "url": "https://www.anthropic.com/research/impact-software-development",
+      "source": "CRAWL",
+      "targetPath": "/research/impact-software-development",
+      "id": "2ba24c78fb9a4e94ff736c36111eac33b7f60d8a"
+    },
+    {
+      "url": "https://www.anthropic.com/research/project-vend-1",
+      "source": "CRAWL",
+      "targetPath": "/research/project-vend-1",
+      "id": "6777f766e98a0d4ffb3ea142323d635444cff8c2"
+    },
+    {
+      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+      "source": "CRAWL",
+      "targetPath": "/research/tracing-thoughts-language-model",
+      "id": "5ac34026eaa0ff3136653d62e5b8832c9f9ab61d"
+    },
+    {
+      "url": "https://www.anthropic.com/responsible-disclosure-policy",
+      "source": "CRAWL",
+      "targetPath": "/responsible-disclosure-policy",
+      "id": "709c77de5a2c7800643c6294a46e740f7c100f5e"
+    },
+    {
+      "url": "https://www.anthropic.com/rsp-updates",
+      "source": "CRAWL",
+      "targetPath": "/rsp-updates",
+      "id": "7e83d9fcd44ded0fed93c0686a32f685183205e3"
+    },
+    {
+      "url": "https://www.anthropic.com/supported-countries",
+      "source": "CRAWL",
+      "targetPath": "/supported-countries",
+      "id": "ee541eb58836f88699fb0bafbeb820759f85ae4e"
+    },
+    {
+      "url": "https://www.anthropic.com/transparency",
+      "source": "CRAWL",
+      "targetPath": "/transparency",
+      "id": "1ef8661b2be25d49628e24623ca4df921e6bc819"
     }
   ],
   "crawlOptions": {
-    "timeout": 64800000,
+    "timeout": 10000,
     "inclusionPatterns": [],
     "exclusionPatterns": [],
-    "limit": -1,
+    "limit": 100,
     "sameDomain": true,
     "keepHash": false,
     "strategy": "crawl",
@@ -37,8 +656,58 @@
   },
   "extractionErrors": [
     {
-      "url": "https://wknd.site/",
-      "status": "301 Moved Permanently Redirect: https://wknd.site/us/en.html"
+      "url": "https://www.anthropic.com/contact-sales",
+      "status": "301 Moved Permanently Redirect: https://claude.com/contact-sales"
+    },
+    {
+      "url": "https://www.anthropic.com/claude",
+      "status": "301 Moved Permanently Redirect: https://claude.com/product/overview"
+    },
+    {
+      "url": "https://www.anthropic.com/press-kit",
+      "status": "307 Temporary Redirect Redirect: https://www-cdn.anthropic.com/3159c64c4f1693abe6d231834c9f4c961af4b6c5/press-kit.zip"
+    },
+    {
+      "url": "https://www.anthropic.com/responsible-scaling-policy",
+      "status": "307 Temporary Redirect Redirect: https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf"
+    },
+    {
+      "url": "https://www.anthropic.com/research/contextual-retrieval",
+      "status": "307 Temporary Redirect Redirect: https://www.anthropic.com/engineering/contextual-retrieval"
+    },
+    {
+      "url": "https://www.anthropic.com/news/contextual-retrieval",
+      "status": "307 Temporary Redirect Redirect: https://www.anthropic.com/research/contextual-retrieval"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/5dd0369324c6e67e-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/844eb89fa4effbb2-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/afcde17c90040887-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/c1cf232a330ed002-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/cfe503504e29ad5d-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/d7440d3c533a1aec-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
+    },
+    {
+      "url": "https://www.anthropic.com/_next/static/media/db2277a4dc542e54-s.p.woff2",
+      "status": "content type is not text/html. Content type: font/woff2"
     }
-  ]
+  ],
+  "errorCountMessage": "{\"E_301\":2,\"E_307\":4,\"others\":7}",
+  "error": null
 }
